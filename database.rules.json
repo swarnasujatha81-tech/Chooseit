@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "buses": {
+      ".read": true,
+      ".write": true,
+      ".indexOn": ["is_active", "bus_number", "route_name"]
+    },
+    "routes": {
+      ".read": true,
+      ".write": true
+    }
+  }
+}
