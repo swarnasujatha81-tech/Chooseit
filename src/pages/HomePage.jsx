@@ -1,9 +1,8 @@
 import { useEffect, useMemo, useState } from 'react';
 import toast from 'react-hot-toast';
-import { Bell, ChevronDown, Globe2, LocateFixed, Map, MapPin, Mic, Search } from 'lucide-react';
+import { Bell, ChevronDown, LocateFixed, MapPin, Mic, Search } from 'lucide-react';
 import { backend } from '@/api/firebaseBackend';
-import { haversine, languageOptions, STOPS } from '@/data';
-import { useLanguage } from '@/components/LanguageContext';
+import { haversine, STOPS } from '@/data';
 import JourneyPlanner from '@/components/JourneyPlanner';
 import LiveMap from '@/components/LiveMap';
 import RegularBusAlert from '@/components/RegularBusAlert';
@@ -17,8 +16,8 @@ export default function HomePage() {
   const [showJourney, setShowJourney] = useState(false);
   const [pinMode, setPinMode] = useState(false);
   const [destinationPin, setDestinationPin] = useState(null);
+  const [journeyDestination, setJourneyDestination] = useState(null);
   const [locateSignal, setLocateSignal] = useState(0);
-  const { language, setLanguage } = useLanguage();
 
   useEffect(() => backend.entities.Bus.subscribe(setBuses), []);
 
@@ -59,11 +58,14 @@ export default function HomePage() {
     if (!userLocation) toast.error('Enable location first');
     setShowJourney(true);
     setPinMode(true);
+    setDestinationPin(null);
+    setJourneyDestination(null);
     setShowAlerts(false);
   };
 
   const dropDestinationPin = (pin) => {
-    setDestinationPin(pin);
+    setJourneyDestination(pin);
+    setDestinationPin(null);
     setPinMode(false);
     setShowJourney(true);
   };
@@ -89,6 +91,10 @@ export default function HomePage() {
           <button onClick={() => setShowAlerts(true)}><Bell size={18} className="yellow" /> arrivalAlert <ChevronDown size={17} /></button>
           <button onClick={() => setShowAlerts(true)}><Bell size={18} className="purple" /> Bus Alerts</button>
         </div>
+        <div className="nearest-stop-card">
+          <MapPin size={16} />
+          <span>Nearest Stop<b>{nearestStop?.name || 'JNTU Kukatpally'}</b></span>
+        </div>
       </section>
 
       <section className="map-panel">
@@ -102,19 +108,6 @@ export default function HomePage() {
           pinMode={pinMode}
           onDropPin={dropDestinationPin}
         />
-        <div className="lang-pill">
-          <Globe2 size={17} />
-          {languageOptions.map((item) => (
-            <button key={item.code} className={language === item.code ? 'active' : ''} onClick={() => setLanguage(item.code)}>
-              {item.label}
-            </button>
-          ))}
-        </div>
-        <button className="map-theme-btn"><Map size={24} /></button>
-        <div className="nearest-stop-card">
-          <MapPin size={20} />
-          <span>Nearest Stop<b>{nearestStop?.name || 'JNTU Kukatpally'}</b></span>
-        </div>
         <div className="live-badge"><span /> {activeBuses.length || 9} live buses</div>
         <div className="map-fabs">
           <button className={pinMode ? 'pin-fab active' : 'pin-fab'} onClick={openJourneyPlanner}><MapPin size={30} /></button>
@@ -125,22 +118,16 @@ export default function HomePage() {
           <JourneyPlanner
             buses={buses}
             userLocation={userLocation}
-            destinationPin={destinationPin}
+            destinationPin={journeyDestination}
             pinMode={pinMode}
-            onEnablePinMode={() => setPinMode(true)}
-            onClose={() => { setShowJourney(false); setPinMode(false); }}
+            onEnablePinMode={() => { setPinMode(true); setDestinationPin(null); setJourneyDestination(null); }}
+            onClose={() => { setShowJourney(false); setPinMode(false); setDestinationPin(null); setJourneyDestination(null); }}
             onBusSelect={selectBus}
           />
         )}
         <RegularBusAlert buses={buses} open={showAlerts} onClose={() => setShowAlerts(false)} />
       </section>
 
-      <section className="active-sheet">
-        <div className="sheet-title">
-          <span><Map size={18} /> {activeBuses.length || 9} active buses</span>
-          <ChevronDown size={18} />
-        </div>
-      </section>
     </div>
   );
 }

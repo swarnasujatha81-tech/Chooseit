@@ -108,6 +108,7 @@ const entity = (path) => ({
 });
 
 const analyzeCrowdImage = httpsCallable(functions, 'analyzeCrowdImage');
+const planJourney = httpsCallable(functions, 'planJourney');
 
 export const backend = {
   entities: {
@@ -117,6 +118,10 @@ export const backend = {
   ai: {
     async analyzePassengerImage({ imageDataUrl, maxCapacity }) {
       const response = await analyzeCrowdImage({ imageDataUrl, maxCapacity });
+      return response.data;
+    },
+    async planJourney(payload) {
+      const response = await planJourney(payload);
       return response.data;
     },
   },
