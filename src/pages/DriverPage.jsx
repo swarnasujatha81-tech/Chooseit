@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import toast from 'react-hot-toast';
 import {
-  AlertTriangle, Camera, CheckCircle2, ChevronDown, Eye, EyeOff, Gauge, Hash,
+  AlertTriangle, Camera, CheckCircle2, ChevronDown, Eye, EyeOff, Gauge,
   MapPin, Navigation, Phone, Power, PowerOff, Send, TrendingUp, User, Users,
 } from 'lucide-react';
 import { backend } from '@/api/firebaseBackend';
