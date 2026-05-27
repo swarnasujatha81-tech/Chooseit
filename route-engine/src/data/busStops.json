@@ -1,111 +1,4763 @@
 [
-  { "id": "STOP_001", "name": "Kukatpally", "lat": 17.4948, "lng": 78.3996, "area": "KPHB", "is_interchange": true },
-  { "id": "STOP_002", "name": "KPHB", "lat": 17.4931, "lng": 78.3915, "area": "KPHB Colony", "is_interchange": true },
-  { "id": "STOP_003", "name": "Miyapur", "lat": 17.4964, "lng": 78.3339, "area": "Miyapur", "is_interchange": true },
-  { "id": "STOP_004", "name": "JNTU", "lat": 17.4937, "lng": 78.3934, "area": "Kukatpally", "is_interchange": true },
-  { "id": "STOP_005", "name": "Nizampet", "lat": 17.5184, "lng": 78.3826, "area": "Nizampet", "is_interchange": false },
-  { "id": "STOP_006", "name": "Bachupally", "lat": 17.5447, "lng": 78.3545, "area": "Bachupally", "is_interchange": false },
-  { "id": "STOP_007", "name": "Pragathi Nagar", "lat": 17.5189, "lng": 78.3982, "area": "Pragathi Nagar", "is_interchange": false },
-  { "id": "STOP_008", "name": "Moosapet", "lat": 17.4691, "lng": 78.4257, "area": "Moosapet", "is_interchange": false },
-  { "id": "STOP_009", "name": "Bharat Nagar", "lat": 17.4558, "lng": 78.4309, "area": "Bharat Nagar", "is_interchange": false },
-  { "id": "STOP_010", "name": "Erragadda", "lat": 17.4565, "lng": 78.4332, "area": "Erragadda", "is_interchange": false },
-  { "id": "STOP_011", "name": "ESI Hospital", "lat": 17.4448, "lng": 78.4418, "area": "Sanath Nagar", "is_interchange": false },
-  { "id": "STOP_012", "name": "SR Nagar", "lat": 17.4437, "lng": 78.4481, "area": "SR Nagar", "is_interchange": false },
-  { "id": "STOP_013", "name": "Ameerpet", "lat": 17.4375, "lng": 78.4483, "area": "Ameerpet", "is_interchange": true },
-  { "id": "STOP_014", "name": "Punjagutta", "lat": 17.4265, "lng": 78.4518, "area": "Punjagutta", "is_interchange": true },
-  { "id": "STOP_015", "name": "Khairatabad", "lat": 17.4118, "lng": 78.4622, "area": "Khairatabad", "is_interchange": false },
-  { "id": "STOP_016", "name": "Lakdikapul", "lat": 17.403, "lng": 78.4659, "area": "Lakdikapul", "is_interchange": true },
-  { "id": "STOP_017", "name": "Assembly", "lat": 17.3978, "lng": 78.4723, "area": "Nampally", "is_interchange": false },
-  { "id": "STOP_018", "name": "Nampally", "lat": 17.3897, "lng": 78.4756, "area": "Nampally", "is_interchange": true },
-  { "id": "STOP_019", "name": "Abids", "lat": 17.3891, "lng": 78.4779, "area": "Abids", "is_interchange": true },
-  { "id": "STOP_020", "name": "Koti", "lat": 17.385, "lng": 78.4867, "area": "Koti", "is_interchange": true },
-  { "id": "STOP_021", "name": "Afzalgunj", "lat": 17.3753, "lng": 78.4744, "area": "Afzalgunj", "is_interchange": true },
-  { "id": "STOP_022", "name": "Charminar", "lat": 17.3616, "lng": 78.4747, "area": "Old City", "is_interchange": true },
-  { "id": "STOP_023", "name": "Mehdipatnam", "lat": 17.3916, "lng": 78.433, "area": "Mehdipatnam", "is_interchange": true },
-  { "id": "STOP_024", "name": "Masab Tank", "lat": 17.4007, "lng": 78.4497, "area": "Masab Tank", "is_interchange": false },
-  { "id": "STOP_025", "name": "Tolichowki", "lat": 17.3984, "lng": 78.4115, "area": "Tolichowki", "is_interchange": false },
-  { "id": "STOP_026", "name": "Shaikpet", "lat": 17.4099, "lng": 78.3925, "area": "Shaikpet", "is_interchange": false },
-  { "id": "STOP_027", "name": "Gachibowli", "lat": 17.4401, "lng": 78.3489, "area": "Gachibowli", "is_interchange": true },
-  { "id": "STOP_028", "name": "Raidurg", "lat": 17.4435, "lng": 78.3772, "area": "Raidurg", "is_interchange": true },
-  { "id": "STOP_029", "name": "Hitech City", "lat": 17.4483, "lng": 78.3915, "area": "Hitech City", "is_interchange": true },
-  { "id": "STOP_030", "name": "Madhapur", "lat": 17.4486, "lng": 78.3908, "area": "Madhapur", "is_interchange": false },
-  { "id": "STOP_031", "name": "Kondapur", "lat": 17.463, "lng": 78.367, "area": "Kondapur", "is_interchange": true },
-  { "id": "STOP_032", "name": "Kothaguda", "lat": 17.4597, "lng": 78.3681, "area": "Kothaguda", "is_interchange": false },
-  { "id": "STOP_033", "name": "Lingampally", "lat": 17.4876, "lng": 78.3354, "area": "Lingampally", "is_interchange": true },
-  { "id": "STOP_034", "name": "Chandanagar", "lat": 17.493, "lng": 78.3257, "area": "Chandanagar", "is_interchange": false },
-  { "id": "STOP_035", "name": "BHEL", "lat": 17.4938, "lng": 78.2983, "area": "BHEL", "is_interchange": true },
-  { "id": "STOP_036", "name": "Patancheru", "lat": 17.5333, "lng": 78.2645, "area": "Patancheru", "is_interchange": true },
-  { "id": "STOP_037", "name": "Secunderabad", "lat": 17.4399, "lng": 78.4983, "area": "Secunderabad", "is_interchange": true },
-  { "id": "STOP_038", "name": "Paradise", "lat": 17.4417, "lng": 78.4873, "area": "Paradise", "is_interchange": true },
-  { "id": "STOP_039", "name": "Begumpet", "lat": 17.444, "lng": 78.4666, "area": "Begumpet", "is_interchange": true },
-  { "id": "STOP_040", "name": "Rasoolpura", "lat": 17.443, "lng": 78.4808, "area": "Begumpet", "is_interchange": false },
-  { "id": "STOP_041", "name": "Tarnaka", "lat": 17.4276, "lng": 78.5381, "area": "Tarnaka", "is_interchange": true },
-  { "id": "STOP_042", "name": "Habsiguda", "lat": 17.4172, "lng": 78.5535, "area": "Habsiguda", "is_interchange": true },
-  { "id": "STOP_043", "name": "Uppal", "lat": 17.4014, "lng": 78.5597, "area": "Uppal", "is_interchange": true },
-  { "id": "STOP_044", "name": "Nagole", "lat": 17.3863, "lng": 78.5648, "area": "Nagole", "is_interchange": true },
-  { "id": "STOP_045", "name": "LB Nagar", "lat": 17.3469, "lng": 78.5526, "area": "LB Nagar", "is_interchange": true },
-  { "id": "STOP_046", "name": "Dilsukhnagar", "lat": 17.3687, "lng": 78.5265, "area": "Dilsukhnagar", "is_interchange": true },
-  { "id": "STOP_047", "name": "Malakpet", "lat": 17.3734, "lng": 78.5042, "area": "Malakpet", "is_interchange": false },
-  { "id": "STOP_048", "name": "Moosarambagh", "lat": 17.3715, "lng": 78.5111, "area": "Moosarambagh", "is_interchange": false },
-  { "id": "STOP_049", "name": "Chaitanyapuri", "lat": 17.366, "lng": 78.533, "area": "Chaitanyapuri", "is_interchange": false },
-  { "id": "STOP_050", "name": "Kothapet", "lat": 17.3683, "lng": 78.5455, "area": "Kothapet", "is_interchange": false },
-  { "id": "STOP_051", "name": "Saroornagar", "lat": 17.3566, "lng": 78.5337, "area": "Saroornagar", "is_interchange": false },
-  { "id": "STOP_052", "name": "Hayathnagar", "lat": 17.3271, "lng": 78.6022, "area": "Hayathnagar", "is_interchange": true },
-  { "id": "STOP_053", "name": "Vanasthalipuram", "lat": 17.3276, "lng": 78.575, "area": "Vanasthalipuram", "is_interchange": false },
-  { "id": "STOP_054", "name": "ECIL", "lat": 17.4738, "lng": 78.5718, "area": "ECIL", "is_interchange": true },
-  { "id": "STOP_055", "name": "AS Rao Nagar", "lat": 17.4803, "lng": 78.5593, "area": "AS Rao Nagar", "is_interchange": true },
-  { "id": "STOP_056", "name": "Sainikpuri", "lat": 17.4931, "lng": 78.5496, "area": "Sainikpuri", "is_interchange": false },
-  { "id": "STOP_057", "name": "Malkajgiri", "lat": 17.4474, "lng": 78.5361, "area": "Malkajgiri", "is_interchange": true },
-  { "id": "STOP_058", "name": "Neredmet", "lat": 17.4829, "lng": 78.5373, "area": "Neredmet", "is_interchange": false },
-  { "id": "STOP_059", "name": "Alwal", "lat": 17.5048, "lng": 78.5036, "area": "Alwal", "is_interchange": true },
-  { "id": "STOP_060", "name": "Bolarum", "lat": 17.5184, "lng": 78.5126, "area": "Bolarum", "is_interchange": false },
-  { "id": "STOP_061", "name": "Kompally", "lat": 17.5436, "lng": 78.4899, "area": "Kompally", "is_interchange": true },
-  { "id": "STOP_062", "name": "Suchitra", "lat": 17.4987, "lng": 78.4768, "area": "Suchitra", "is_interchange": true },
-  { "id": "STOP_063", "name": "Bowenpally", "lat": 17.4643, "lng": 78.4761, "area": "Bowenpally", "is_interchange": false },
-  { "id": "STOP_064", "name": "Tirumalagiri", "lat": 17.4725, "lng": 78.5165, "area": "Tirumalagiri", "is_interchange": false },
-  { "id": "STOP_065", "name": "Jubilee Bus Station", "lat": 17.4445, "lng": 78.499, "area": "Secunderabad", "is_interchange": true },
-  { "id": "STOP_066", "name": "MGBS", "lat": 17.3793, "lng": 78.4837, "area": "Imlibun", "is_interchange": true },
-  { "id": "STOP_067", "name": "Imlibun", "lat": 17.3788, "lng": 78.485, "area": "Imlibun", "is_interchange": true },
-  { "id": "STOP_068", "name": "Chaderghat", "lat": 17.3746, "lng": 78.4917, "area": "Chaderghat", "is_interchange": false },
-  { "id": "STOP_069", "name": "Osmania University", "lat": 17.4145, "lng": 78.5281, "area": "OU Campus", "is_interchange": true },
-  { "id": "STOP_070", "name": "Vidyanagar", "lat": 17.4022, "lng": 78.5138, "area": "Vidyanagar", "is_interchange": false },
-  { "id": "STOP_071", "name": "RTC X Roads", "lat": 17.4072, "lng": 78.4966, "area": "RTC X Roads", "is_interchange": true },
-  { "id": "STOP_072", "name": "Musheerabad", "lat": 17.4166, "lng": 78.4983, "area": "Musheerabad", "is_interchange": false },
-  { "id": "STOP_073", "name": "Himayatnagar", "lat": 17.4014, "lng": 78.4846, "area": "Himayatnagar", "is_interchange": false },
-  { "id": "STOP_074", "name": "Narayanaguda", "lat": 17.3954, "lng": 78.489, "area": "Narayanaguda", "is_interchange": false },
-  { "id": "STOP_075", "name": "Tank Bund", "lat": 17.4208, "lng": 78.4738, "area": "Tank Bund", "is_interchange": false },
-  { "id": "STOP_076", "name": "Liberty", "lat": 17.4059, "lng": 78.4766, "area": "Liberty", "is_interchange": false },
-  { "id": "STOP_077", "name": "Jubilee Hills Check Post", "lat": 17.4307, "lng": 78.4126, "area": "Jubilee Hills", "is_interchange": true },
-  { "id": "STOP_078", "name": "Banjara Hills", "lat": 17.4156, "lng": 78.4347, "area": "Banjara Hills", "is_interchange": false },
-  { "id": "STOP_079", "name": "Film Nagar", "lat": 17.4249, "lng": 78.401, "area": "Film Nagar", "is_interchange": false },
-  { "id": "STOP_080", "name": "Manikonda", "lat": 17.4056, "lng": 78.3768, "area": "Manikonda", "is_interchange": false },
-  { "id": "STOP_081", "name": "Narsingi", "lat": 17.3916, "lng": 78.3578, "area": "Narsingi", "is_interchange": false },
-  { "id": "STOP_082", "name": "Kokapet", "lat": 17.3963, "lng": 78.3346, "area": "Kokapet", "is_interchange": false },
-  { "id": "STOP_083", "name": "Shamshabad", "lat": 17.2512, "lng": 78.4377, "area": "Shamshabad", "is_interchange": true },
-  { "id": "STOP_084", "name": "Aramghar", "lat": 17.3394, "lng": 78.452, "area": "Rajendranagar", "is_interchange": true },
-  { "id": "STOP_085", "name": "Rajendranagar", "lat": 17.3193, "lng": 78.4032, "area": "Rajendranagar", "is_interchange": false },
-  { "id": "STOP_086", "name": "Attapur", "lat": 17.3681, "lng": 78.4285, "area": "Attapur", "is_interchange": false },
-  { "id": "STOP_087", "name": "Langar Houz", "lat": 17.3815, "lng": 78.4203, "area": "Langar Houz", "is_interchange": false },
-  { "id": "STOP_088", "name": "Golconda", "lat": 17.3833, "lng": 78.4011, "area": "Golconda", "is_interchange": false },
-  { "id": "STOP_089", "name": "Falaknuma", "lat": 17.3305, "lng": 78.4678, "area": "Falaknuma", "is_interchange": true },
-  { "id": "STOP_090", "name": "Chandrayangutta", "lat": 17.3128, "lng": 78.4765, "area": "Chandrayangutta", "is_interchange": true },
-  { "id": "STOP_091", "name": "Santosh Nagar", "lat": 17.3477, "lng": 78.5075, "area": "Santosh Nagar", "is_interchange": false },
-  { "id": "STOP_092", "name": "Saidabad", "lat": 17.3588, "lng": 78.5088, "area": "Saidabad", "is_interchange": false },
-  { "id": "STOP_093", "name": "Amberpet", "lat": 17.3908, "lng": 78.5182, "area": "Amberpet", "is_interchange": false },
-  { "id": "STOP_094", "name": "Ramanthapur", "lat": 17.3972, "lng": 78.5372, "area": "Ramanthapur", "is_interchange": false },
-  { "id": "STOP_095", "name": "Boduppal", "lat": 17.4159, "lng": 78.5783, "area": "Boduppal", "is_interchange": false },
-  { "id": "STOP_096", "name": "Peerzadiguda", "lat": 17.3979, "lng": 78.6014, "area": "Peerzadiguda", "is_interchange": false },
-  { "id": "STOP_097", "name": "Medipally", "lat": 17.414, "lng": 78.5982, "area": "Medipally", "is_interchange": false },
-  { "id": "STOP_098", "name": "Ghatkesar", "lat": 17.4492, "lng": 78.6854, "area": "Ghatkesar", "is_interchange": true },
-  { "id": "STOP_099", "name": "Jeedimetla", "lat": 17.515, "lng": 78.4597, "area": "Jeedimetla", "is_interchange": false },
-  { "id": "STOP_100", "name": "Quthbullapur", "lat": 17.5019, "lng": 78.459, "area": "Quthbullapur", "is_interchange": false },
-  { "id": "STOP_101", "name": "Shapur Nagar", "lat": 17.507, "lng": 78.4418, "area": "Jeedimetla", "is_interchange": false },
-  { "id": "STOP_102", "name": "IDA Bollaram", "lat": 17.5543, "lng": 78.3471, "area": "Bollaram", "is_interchange": false },
-  { "id": "STOP_103", "name": "Madhapur Police Station", "lat": 17.4508, "lng": 78.3867, "area": "Madhapur", "is_interchange": false },
-  { "id": "STOP_104", "name": "Cyber Towers", "lat": 17.4504, "lng": 78.3816, "area": "Hitech City", "is_interchange": true },
-  { "id": "STOP_105", "name": "Financial District", "lat": 17.4141, "lng": 78.3445, "area": "Nanakramguda", "is_interchange": false },
-  { "id": "STOP_106", "name": "Nanakramguda", "lat": 17.4197, "lng": 78.3507, "area": "Nanakramguda", "is_interchange": false },
-  { "id": "STOP_107", "name": "Kachiguda", "lat": 17.3898, "lng": 78.4976, "area": "Kachiguda", "is_interchange": true },
-  { "id": "STOP_108", "name": "Waverock", "lat": 17.4204, "lng": 78.3406, "area": "Nanakramguda", "is_interchange": false },
-  { "id": "STOP_109", "name": "Medchal", "lat": 17.6297, "lng": 78.4814, "area": "Medchal", "is_interchange": true }
+  {
+    "id": "stop_abids",
+    "name": "Abids",
+    "lat": 17.3891,
+    "lng": 78.4779,
+    "area": "Abids",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_abids_local_stop",
+    "name": "Abids Local Stop",
+    "lat": 17.38955,
+    "lng": 78.47825,
+    "area": "Abids",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_abids_main_road",
+    "name": "Abids Main Road",
+    "lat": 17.38868,
+    "lng": 78.47818,
+    "area": "Abids",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_afzalgunj",
+    "name": "Afzalgunj",
+    "lat": 17.3753,
+    "lng": 78.4744,
+    "area": "Afzalgunj",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_afzalgunj_local_stop",
+    "name": "Afzalgunj Local Stop",
+    "lat": 17.37575,
+    "lng": 78.47475,
+    "area": "Afzalgunj",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_afzalgunj_main_road",
+    "name": "Afzalgunj Main Road",
+    "lat": 17.37488,
+    "lng": 78.47468,
+    "area": "Afzalgunj",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_airport",
+    "name": "Airport",
+    "lat": 17.2403,
+    "lng": 78.4294,
+    "area": "RGIA",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_airport_interchange",
+    "name": "Airport Interchange",
+    "lat": 17.24058,
+    "lng": 78.42898,
+    "area": "RGIA",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_airport_local_stop",
+    "name": "Airport Local Stop",
+    "lat": 17.24075,
+    "lng": 78.42975,
+    "area": "RGIA",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_airport_main_road",
+    "name": "Airport Main Road",
+    "lat": 17.23988,
+    "lng": 78.42968,
+    "area": "RGIA",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_allwyn_x_roads",
+    "name": "Allwyn X Roads",
+    "lat": 17.4946,
+    "lng": 78.3485,
+    "area": "Miyapur",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_allwyn_x_roads_local_stop",
+    "name": "Allwyn X Roads Local Stop",
+    "lat": 17.49505,
+    "lng": 78.34885,
+    "area": "Miyapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_allwyn_x_roads_main_road",
+    "name": "Allwyn X Roads Main Road",
+    "lat": 17.49418,
+    "lng": 78.34878,
+    "area": "Miyapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_alwal",
+    "name": "Alwal",
+    "lat": 17.5048,
+    "lng": 78.5036,
+    "area": "Alwal",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_alwal_local_stop",
+    "name": "Alwal Local Stop",
+    "lat": 17.50525,
+    "lng": 78.50395,
+    "area": "Alwal",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_alwal_main_road",
+    "name": "Alwal Main Road",
+    "lat": 17.50438,
+    "lng": 78.50388,
+    "area": "Alwal",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_amberpet",
+    "name": "Amberpet",
+    "lat": 17.3898,
+    "lng": 78.5182,
+    "area": "Amberpet",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_amberpet_local_stop",
+    "name": "Amberpet Local Stop",
+    "lat": 17.39025,
+    "lng": 78.51855,
+    "area": "Amberpet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_amberpet_main_road",
+    "name": "Amberpet Main Road",
+    "lat": 17.38938,
+    "lng": 78.51848,
+    "area": "Amberpet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_ameerpet",
+    "name": "Ameerpet",
+    "lat": 17.4375,
+    "lng": 78.4483,
+    "area": "Ameerpet",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_ameerpet_interchange",
+    "name": "Ameerpet Interchange",
+    "lat": 17.43778,
+    "lng": 78.44788,
+    "area": "Ameerpet",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_ameerpet_local_stop",
+    "name": "Ameerpet Local Stop",
+    "lat": 17.43795,
+    "lng": 78.44865,
+    "area": "Ameerpet",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_ameerpet_main_road",
+    "name": "Ameerpet Main Road",
+    "lat": 17.43708,
+    "lng": 78.44858,
+    "area": "Ameerpet",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_aramghar",
+    "name": "Aramghar",
+    "lat": 17.3203,
+    "lng": 78.4431,
+    "area": "Aramghar",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_aramghar_local_stop",
+    "name": "Aramghar Local Stop",
+    "lat": 17.32075,
+    "lng": 78.44345,
+    "area": "Aramghar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_aramghar_main_road",
+    "name": "Aramghar Main Road",
+    "lat": 17.31988,
+    "lng": 78.44338,
+    "area": "Aramghar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_as_rao_nagar",
+    "name": "AS Rao Nagar",
+    "lat": 17.4803,
+    "lng": 78.5593,
+    "area": "AS Rao Nagar",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_as_rao_nagar_local_stop",
+    "name": "AS Rao Nagar Local Stop",
+    "lat": 17.48075,
+    "lng": 78.55965,
+    "area": "AS Rao Nagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_as_rao_nagar_main_road",
+    "name": "AS Rao Nagar Main Road",
+    "lat": 17.47988,
+    "lng": 78.55958,
+    "area": "AS Rao Nagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_ashok_nagar_bhel",
+    "name": "Ashok Nagar BHEL",
+    "lat": 17.5017,
+    "lng": 78.3001,
+    "area": "BHEL",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_ashok_nagar_bhel_local_stop",
+    "name": "Ashok Nagar BHEL Local Stop",
+    "lat": 17.50215,
+    "lng": 78.30045,
+    "area": "BHEL",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_ashok_nagar_bhel_main_road",
+    "name": "Ashok Nagar BHEL Main Road",
+    "lat": 17.50128,
+    "lng": 78.30038,
+    "area": "BHEL",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_assembly",
+    "name": "Assembly",
+    "lat": 17.3978,
+    "lng": 78.4723,
+    "area": "Nampally",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_assembly_local_stop",
+    "name": "Assembly Local Stop",
+    "lat": 17.39825,
+    "lng": 78.47265,
+    "area": "Nampally",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_assembly_main_road",
+    "name": "Assembly Main Road",
+    "lat": 17.39738,
+    "lng": 78.47258,
+    "area": "Nampally",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_attapur",
+    "name": "Attapur",
+    "lat": 17.367,
+    "lng": 78.4306,
+    "area": "Attapur",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_attapur_local_stop",
+    "name": "Attapur Local Stop",
+    "lat": 17.36745,
+    "lng": 78.43095,
+    "area": "Attapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_attapur_main_road",
+    "name": "Attapur Main Road",
+    "lat": 17.36658,
+    "lng": 78.43088,
+    "area": "Attapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_auto_nagar",
+    "name": "Auto Nagar",
+    "lat": 17.3455,
+    "lng": 78.5676,
+    "area": "Auto Nagar",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_auto_nagar_local_stop",
+    "name": "Auto Nagar Local Stop",
+    "lat": 17.34595,
+    "lng": 78.56795,
+    "area": "Auto Nagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_auto_nagar_main_road",
+    "name": "Auto Nagar Main Road",
+    "lat": 17.34508,
+    "lng": 78.56788,
+    "area": "Auto Nagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_bachupally",
+    "name": "Bachupally",
+    "lat": 17.5447,
+    "lng": 78.3545,
+    "area": "Bachupally",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_bachupally_local_stop",
+    "name": "Bachupally Local Stop",
+    "lat": 17.54515,
+    "lng": 78.35485,
+    "area": "Bachupally",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_bachupally_main_road",
+    "name": "Bachupally Main Road",
+    "lat": 17.54428,
+    "lng": 78.35478,
+    "area": "Bachupally",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_balanagar",
+    "name": "Balanagar",
+    "lat": 17.4765,
+    "lng": 78.4483,
+    "area": "Balanagar",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_balanagar_local_stop",
+    "name": "Balanagar Local Stop",
+    "lat": 17.47695,
+    "lng": 78.44865,
+    "area": "Balanagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_balanagar_main_road",
+    "name": "Balanagar Main Road",
+    "lat": 17.47608,
+    "lng": 78.44858,
+    "area": "Balanagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_banjara_hills",
+    "name": "Banjara Hills",
+    "lat": 17.4156,
+    "lng": 78.4347,
+    "area": "Banjara Hills",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_banjara_hills_local_stop",
+    "name": "Banjara Hills Local Stop",
+    "lat": 17.41605,
+    "lng": 78.43505,
+    "area": "Banjara Hills",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_banjara_hills_main_road",
+    "name": "Banjara Hills Main Road",
+    "lat": 17.41518,
+    "lng": 78.43498,
+    "area": "Banjara Hills",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_banjara_hills_road_12",
+    "name": "Banjara Hills Road 12",
+    "lat": 17.4134,
+    "lng": 78.4261,
+    "area": "Banjara Hills",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_banjara_hills_road_12_local_stop",
+    "name": "Banjara Hills Road 12 Local Stop",
+    "lat": 17.41385,
+    "lng": 78.42645,
+    "area": "Banjara Hills",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_banjara_hills_road_12_main_road",
+    "name": "Banjara Hills Road 12 Main Road",
+    "lat": 17.41298,
+    "lng": 78.42638,
+    "area": "Banjara Hills",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_beeramguda",
+    "name": "Beeramguda",
+    "lat": 17.5183,
+    "lng": 78.2987,
+    "area": "Beeramguda",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_beeramguda_local_stop",
+    "name": "Beeramguda Local Stop",
+    "lat": 17.51875,
+    "lng": 78.29905,
+    "area": "Beeramguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_beeramguda_main_road",
+    "name": "Beeramguda Main Road",
+    "lat": 17.51788,
+    "lng": 78.29898,
+    "area": "Beeramguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_begumpet",
+    "name": "Begumpet",
+    "lat": 17.444,
+    "lng": 78.4666,
+    "area": "Begumpet",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_begumpet_local_stop",
+    "name": "Begumpet Local Stop",
+    "lat": 17.44445,
+    "lng": 78.46695,
+    "area": "Begumpet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_begumpet_main_road",
+    "name": "Begumpet Main Road",
+    "lat": 17.44358,
+    "lng": 78.46688,
+    "area": "Begumpet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_bharat_nagar",
+    "name": "Bharat Nagar",
+    "lat": 17.4558,
+    "lng": 78.4309,
+    "area": "Bharat Nagar",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_bharat_nagar_local_stop",
+    "name": "Bharat Nagar Local Stop",
+    "lat": 17.45625,
+    "lng": 78.43125,
+    "area": "Bharat Nagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_bharat_nagar_main_road",
+    "name": "Bharat Nagar Main Road",
+    "lat": 17.45538,
+    "lng": 78.43118,
+    "area": "Bharat Nagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_bhel",
+    "name": "BHEL",
+    "lat": 17.4938,
+    "lng": 78.2983,
+    "area": "BHEL",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_bhel_interchange",
+    "name": "BHEL Interchange",
+    "lat": 17.49408,
+    "lng": 78.29788,
+    "area": "BHEL",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_bhel_local_stop",
+    "name": "BHEL Local Stop",
+    "lat": 17.49425,
+    "lng": 78.29865,
+    "area": "BHEL",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_bhel_main_road",
+    "name": "BHEL Main Road",
+    "lat": 17.49338,
+    "lng": 78.29858,
+    "area": "BHEL",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_boduppal",
+    "name": "Boduppal",
+    "lat": 17.4148,
+    "lng": 78.5882,
+    "area": "Boduppal",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_boduppal_local_stop",
+    "name": "Boduppal Local Stop",
+    "lat": 17.41525,
+    "lng": 78.58855,
+    "area": "Boduppal",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_boduppal_main_road",
+    "name": "Boduppal Main Road",
+    "lat": 17.41438,
+    "lng": 78.58848,
+    "area": "Boduppal",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_bolarum",
+    "name": "Bolarum",
+    "lat": 17.5184,
+    "lng": 78.5126,
+    "area": "Bolarum",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_bolarum_local_stop",
+    "name": "Bolarum Local Stop",
+    "lat": 17.51885,
+    "lng": 78.51295,
+    "area": "Bolarum",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_bolarum_main_road",
+    "name": "Bolarum Main Road",
+    "lat": 17.51798,
+    "lng": 78.51288,
+    "area": "Bolarum",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_botanical_garden",
+    "name": "Botanical Garden",
+    "lat": 17.4564,
+    "lng": 78.3639,
+    "area": "Kondapur",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_botanical_garden_local_stop",
+    "name": "Botanical Garden Local Stop",
+    "lat": 17.45685,
+    "lng": 78.36425,
+    "area": "Kondapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_botanical_garden_main_road",
+    "name": "Botanical Garden Main Road",
+    "lat": 17.45598,
+    "lng": 78.36418,
+    "area": "Kondapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_bowenpally",
+    "name": "Bowenpally",
+    "lat": 17.4643,
+    "lng": 78.4761,
+    "area": "Bowenpally",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_bowenpally_local_stop",
+    "name": "Bowenpally Local Stop",
+    "lat": 17.46475,
+    "lng": 78.47645,
+    "area": "Bowenpally",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_bowenpally_main_road",
+    "name": "Bowenpally Main Road",
+    "lat": 17.46388,
+    "lng": 78.47638,
+    "area": "Bowenpally",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_care_hospital",
+    "name": "Care Hospital",
+    "lat": 17.4128,
+    "lng": 78.4503,
+    "area": "Banjara Hills",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_care_hospital_local_stop",
+    "name": "Care Hospital Local Stop",
+    "lat": 17.41325,
+    "lng": 78.45065,
+    "area": "Banjara Hills",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_care_hospital_main_road",
+    "name": "Care Hospital Main Road",
+    "lat": 17.41238,
+    "lng": 78.45058,
+    "area": "Banjara Hills",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_chaderghat",
+    "name": "Chaderghat",
+    "lat": 17.3746,
+    "lng": 78.4917,
+    "area": "Chaderghat",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_chaderghat_local_stop",
+    "name": "Chaderghat Local Stop",
+    "lat": 17.37505,
+    "lng": 78.49205,
+    "area": "Chaderghat",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_chaderghat_main_road",
+    "name": "Chaderghat Main Road",
+    "lat": 17.37418,
+    "lng": 78.49198,
+    "area": "Chaderghat",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_chaitanyapuri",
+    "name": "Chaitanyapuri",
+    "lat": 17.366,
+    "lng": 78.533,
+    "area": "Chaitanyapuri",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_chaitanyapuri_local_stop",
+    "name": "Chaitanyapuri Local Stop",
+    "lat": 17.36645,
+    "lng": 78.53335,
+    "area": "Chaitanyapuri",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_chaitanyapuri_main_road",
+    "name": "Chaitanyapuri Main Road",
+    "lat": 17.36558,
+    "lng": 78.53328,
+    "area": "Chaitanyapuri",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_chandanagar",
+    "name": "Chandanagar",
+    "lat": 17.493,
+    "lng": 78.3257,
+    "area": "Chandanagar",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_chandanagar_local_stop",
+    "name": "Chandanagar Local Stop",
+    "lat": 17.49345,
+    "lng": 78.32605,
+    "area": "Chandanagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_chandanagar_main_road",
+    "name": "Chandanagar Main Road",
+    "lat": 17.49258,
+    "lng": 78.32598,
+    "area": "Chandanagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_chandrayangutta",
+    "name": "Chandrayangutta",
+    "lat": 17.3053,
+    "lng": 78.4774,
+    "area": "Chandrayangutta",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_chandrayangutta_local_stop",
+    "name": "Chandrayangutta Local Stop",
+    "lat": 17.30575,
+    "lng": 78.47775,
+    "area": "Chandrayangutta",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_chandrayangutta_main_road",
+    "name": "Chandrayangutta Main Road",
+    "lat": 17.30488,
+    "lng": 78.47768,
+    "area": "Chandrayangutta",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_charminar",
+    "name": "Charminar",
+    "lat": 17.3616,
+    "lng": 78.4747,
+    "area": "Old City",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_charminar_interchange",
+    "name": "Charminar Interchange",
+    "lat": 17.36188,
+    "lng": 78.47428,
+    "area": "Old City",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_charminar_local_stop",
+    "name": "Charminar Local Stop",
+    "lat": 17.36205,
+    "lng": 78.47505,
+    "area": "Old City",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_charminar_main_road",
+    "name": "Charminar Main Road",
+    "lat": 17.36118,
+    "lng": 78.47498,
+    "area": "Old City",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_cherlapally",
+    "name": "Cherlapally",
+    "lat": 17.4701,
+    "lng": 78.596,
+    "area": "Cherlapally",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_cherlapally_local_stop",
+    "name": "Cherlapally Local Stop",
+    "lat": 17.47055,
+    "lng": 78.59635,
+    "area": "Cherlapally",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_cherlapally_main_road",
+    "name": "Cherlapally Main Road",
+    "lat": 17.46968,
+    "lng": 78.59628,
+    "area": "Cherlapally",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_clock_tower_secunderabad",
+    "name": "Clock Tower Secunderabad",
+    "lat": 17.4395,
+    "lng": 78.4965,
+    "area": "Secunderabad",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_clock_tower_secunderabad_local_stop",
+    "name": "Clock Tower Secunderabad Local Stop",
+    "lat": 17.43995,
+    "lng": 78.49685,
+    "area": "Secunderabad",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_clock_tower_secunderabad_main_road",
+    "name": "Clock Tower Secunderabad Main Road",
+    "lat": 17.43908,
+    "lng": 78.49678,
+    "area": "Secunderabad",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_deepthisri_nagar",
+    "name": "Deepthisri Nagar",
+    "lat": 17.4925,
+    "lng": 78.3517,
+    "area": "Madinaguda",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_deepthisri_nagar_local_stop",
+    "name": "Deepthisri Nagar Local Stop",
+    "lat": 17.49295,
+    "lng": 78.35205,
+    "area": "Madinaguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_deepthisri_nagar_main_road",
+    "name": "Deepthisri Nagar Main Road",
+    "lat": 17.49208,
+    "lng": 78.35198,
+    "area": "Madinaguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_dilsukhnagar",
+    "name": "Dilsukhnagar",
+    "lat": 17.3687,
+    "lng": 78.5265,
+    "area": "Dilsukhnagar",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_dilsukhnagar_interchange",
+    "name": "Dilsukhnagar Interchange",
+    "lat": 17.36898,
+    "lng": 78.52608,
+    "area": "Dilsukhnagar",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_dilsukhnagar_local_stop",
+    "name": "Dilsukhnagar Local Stop",
+    "lat": 17.36915,
+    "lng": 78.52685,
+    "area": "Dilsukhnagar",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_dilsukhnagar_main_road",
+    "name": "Dilsukhnagar Main Road",
+    "lat": 17.36828,
+    "lng": 78.52678,
+    "area": "Dilsukhnagar",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_ecil",
+    "name": "ECIL",
+    "lat": 17.4738,
+    "lng": 78.5718,
+    "area": "ECIL",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_ecil_interchange",
+    "name": "ECIL Interchange",
+    "lat": 17.47408,
+    "lng": 78.57138,
+    "area": "ECIL",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_ecil_local_stop",
+    "name": "ECIL Local Stop",
+    "lat": 17.47425,
+    "lng": 78.57215,
+    "area": "ECIL",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_ecil_main_road",
+    "name": "ECIL Main Road",
+    "lat": 17.47338,
+    "lng": 78.57208,
+    "area": "ECIL",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_erragadda",
+    "name": "Erragadda",
+    "lat": 17.4565,
+    "lng": 78.4332,
+    "area": "Erragadda",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_erragadda_local_stop",
+    "name": "Erragadda Local Stop",
+    "lat": 17.45695,
+    "lng": 78.43355,
+    "area": "Erragadda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_erragadda_main_road",
+    "name": "Erragadda Main Road",
+    "lat": 17.45608,
+    "lng": 78.43348,
+    "area": "Erragadda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_esi_hospital",
+    "name": "ESI Hospital",
+    "lat": 17.4448,
+    "lng": 78.4418,
+    "area": "Sanath Nagar",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_esi_hospital_local_stop",
+    "name": "ESI Hospital Local Stop",
+    "lat": 17.44525,
+    "lng": 78.44215,
+    "area": "Sanath Nagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_esi_hospital_main_road",
+    "name": "ESI Hospital Main Road",
+    "lat": 17.44438,
+    "lng": 78.44208,
+    "area": "Sanath Nagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_falaknuma",
+    "name": "Falaknuma",
+    "lat": 17.3317,
+    "lng": 78.4678,
+    "area": "Falaknuma",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_falaknuma_local_stop",
+    "name": "Falaknuma Local Stop",
+    "lat": 17.33215,
+    "lng": 78.46815,
+    "area": "Falaknuma",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_falaknuma_main_road",
+    "name": "Falaknuma Main Road",
+    "lat": 17.33128,
+    "lng": 78.46808,
+    "area": "Falaknuma",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_fatehnagar",
+    "name": "Fatehnagar",
+    "lat": 17.4573,
+    "lng": 78.4463,
+    "area": "Fatehnagar",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_fatehnagar_local_stop",
+    "name": "Fatehnagar Local Stop",
+    "lat": 17.45775,
+    "lng": 78.44665,
+    "area": "Fatehnagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_fatehnagar_main_road",
+    "name": "Fatehnagar Main Road",
+    "lat": 17.45688,
+    "lng": 78.44658,
+    "area": "Fatehnagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_film_nagar",
+    "name": "Film Nagar",
+    "lat": 17.4249,
+    "lng": 78.401,
+    "area": "Film Nagar",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_film_nagar_local_stop",
+    "name": "Film Nagar Local Stop",
+    "lat": 17.42535,
+    "lng": 78.40135,
+    "area": "Film Nagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_film_nagar_main_road",
+    "name": "Film Nagar Main Road",
+    "lat": 17.42448,
+    "lng": 78.40128,
+    "area": "Film Nagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_financial_district",
+    "name": "Financial District",
+    "lat": 17.4138,
+    "lng": 78.3428,
+    "area": "Financial District",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_financial_district_local_stop",
+    "name": "Financial District Local Stop",
+    "lat": 17.41425,
+    "lng": 78.34315,
+    "area": "Financial District",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_financial_district_main_road",
+    "name": "Financial District Main Road",
+    "lat": 17.41338,
+    "lng": 78.34308,
+    "area": "Financial District",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_gachibowli",
+    "name": "Gachibowli",
+    "lat": 17.4401,
+    "lng": 78.3489,
+    "area": "Gachibowli",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_gachibowli_interchange",
+    "name": "Gachibowli Interchange",
+    "lat": 17.44038,
+    "lng": 78.34848,
+    "area": "Gachibowli",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_gachibowli_local_stop",
+    "name": "Gachibowli Local Stop",
+    "lat": 17.44055,
+    "lng": 78.34925,
+    "area": "Gachibowli",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_gachibowli_main_road",
+    "name": "Gachibowli Main Road",
+    "lat": 17.43968,
+    "lng": 78.34918,
+    "area": "Gachibowli",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_gaganpahad",
+    "name": "Gaganpahad",
+    "lat": 17.3048,
+    "lng": 78.4225,
+    "area": "Gaganpahad",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_gaganpahad_local_stop",
+    "name": "Gaganpahad Local Stop",
+    "lat": 17.30525,
+    "lng": 78.42285,
+    "area": "Gaganpahad",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_gaganpahad_main_road",
+    "name": "Gaganpahad Main Road",
+    "lat": 17.30438,
+    "lng": 78.42278,
+    "area": "Gaganpahad",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_gandhi_hospital",
+    "name": "Gandhi Hospital",
+    "lat": 17.4245,
+    "lng": 78.504,
+    "area": "Musheerabad",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_gandhi_hospital_local_stop",
+    "name": "Gandhi Hospital Local Stop",
+    "lat": 17.42495,
+    "lng": 78.50435,
+    "area": "Musheerabad",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_gandhi_hospital_main_road",
+    "name": "Gandhi Hospital Main Road",
+    "lat": 17.42408,
+    "lng": 78.50428,
+    "area": "Musheerabad",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_ghatkesar",
+    "name": "Ghatkesar",
+    "lat": 17.4492,
+    "lng": 78.685,
+    "area": "Ghatkesar",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_ghatkesar_local_stop",
+    "name": "Ghatkesar Local Stop",
+    "lat": 17.44965,
+    "lng": 78.68535,
+    "area": "Ghatkesar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_ghatkesar_main_road",
+    "name": "Ghatkesar Main Road",
+    "lat": 17.44878,
+    "lng": 78.68528,
+    "area": "Ghatkesar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_golconda",
+    "name": "Golconda",
+    "lat": 17.3833,
+    "lng": 78.4011,
+    "area": "Golconda",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_golconda_local_stop",
+    "name": "Golconda Local Stop",
+    "lat": 17.38375,
+    "lng": 78.40145,
+    "area": "Golconda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_golconda_main_road",
+    "name": "Golconda Main Road",
+    "lat": 17.38288,
+    "lng": 78.40138,
+    "area": "Golconda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_habsiguda",
+    "name": "Habsiguda",
+    "lat": 17.4172,
+    "lng": 78.5535,
+    "area": "Habsiguda",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_habsiguda_local_stop",
+    "name": "Habsiguda Local Stop",
+    "lat": 17.41765,
+    "lng": 78.55385,
+    "area": "Habsiguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_habsiguda_main_road",
+    "name": "Habsiguda Main Road",
+    "lat": 17.41678,
+    "lng": 78.55378,
+    "area": "Habsiguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_hafeezpet",
+    "name": "Hafeezpet",
+    "lat": 17.4848,
+    "lng": 78.3581,
+    "area": "Hafeezpet",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_hafeezpet_local_stop",
+    "name": "Hafeezpet Local Stop",
+    "lat": 17.48525,
+    "lng": 78.35845,
+    "area": "Hafeezpet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_hafeezpet_main_road",
+    "name": "Hafeezpet Main Road",
+    "lat": 17.48438,
+    "lng": 78.35838,
+    "area": "Hafeezpet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_hasmathpet",
+    "name": "Hasmathpet",
+    "lat": 17.469,
+    "lng": 78.4665,
+    "area": "Hasmathpet",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_hasmathpet_local_stop",
+    "name": "Hasmathpet Local Stop",
+    "lat": 17.46945,
+    "lng": 78.46685,
+    "area": "Hasmathpet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_hasmathpet_main_road",
+    "name": "Hasmathpet Main Road",
+    "lat": 17.46858,
+    "lng": 78.46678,
+    "area": "Hasmathpet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_hayathnagar",
+    "name": "Hayathnagar",
+    "lat": 17.3271,
+    "lng": 78.6022,
+    "area": "Hayathnagar",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_hayathnagar_interchange",
+    "name": "Hayathnagar Interchange",
+    "lat": 17.32738,
+    "lng": 78.60178,
+    "area": "Hayathnagar",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_hayathnagar_local_stop",
+    "name": "Hayathnagar Local Stop",
+    "lat": 17.32755,
+    "lng": 78.60255,
+    "area": "Hayathnagar",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_hayathnagar_main_road",
+    "name": "Hayathnagar Main Road",
+    "lat": 17.32668,
+    "lng": 78.60248,
+    "area": "Hayathnagar",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_hi_tech_city",
+    "name": "Hi Tech City",
+    "lat": 17.4476,
+    "lng": 78.3902,
+    "area": "Hitech City",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_hi_tech_city_local_stop",
+    "name": "Hi Tech City Local Stop",
+    "lat": 17.44805,
+    "lng": 78.39055,
+    "area": "Hitech City",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_hi_tech_city_main_road",
+    "name": "Hi Tech City Main Road",
+    "lat": 17.44718,
+    "lng": 78.39048,
+    "area": "Hitech City",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_himayatnagar",
+    "name": "Himayatnagar",
+    "lat": 17.4014,
+    "lng": 78.4846,
+    "area": "Himayatnagar",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_himayatnagar_local_stop",
+    "name": "Himayatnagar Local Stop",
+    "lat": 17.40185,
+    "lng": 78.48495,
+    "area": "Himayatnagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_himayatnagar_main_road",
+    "name": "Himayatnagar Main Road",
+    "lat": 17.40098,
+    "lng": 78.48488,
+    "area": "Himayatnagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_hitec_city",
+    "name": "HITEC City",
+    "lat": 17.4494,
+    "lng": 78.3866,
+    "area": "Hitech City",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_hitec_city_local_stop",
+    "name": "HITEC City Local Stop",
+    "lat": 17.44985,
+    "lng": 78.38695,
+    "area": "Hitech City",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_hitec_city_main_road",
+    "name": "HITEC City Main Road",
+    "lat": 17.44898,
+    "lng": 78.38688,
+    "area": "Hitech City",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_hitech_city",
+    "name": "Hitech City",
+    "lat": 17.4483,
+    "lng": 78.3915,
+    "area": "Hitech City",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_hitech_city_interchange",
+    "name": "Hitech City Interchange",
+    "lat": 17.44858,
+    "lng": 78.39108,
+    "area": "Hitech City",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_hitech_city_local_stop",
+    "name": "Hitech City Local Stop",
+    "lat": 17.44875,
+    "lng": 78.39185,
+    "area": "Hitech City",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_hitech_city_main_road",
+    "name": "Hitech City Main Road",
+    "lat": 17.44788,
+    "lng": 78.39178,
+    "area": "Hitech City",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_image_gardens",
+    "name": "Image Gardens",
+    "lat": 17.4472,
+    "lng": 78.3835,
+    "area": "Madhapur",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_image_gardens_local_stop",
+    "name": "Image Gardens Local Stop",
+    "lat": 17.44765,
+    "lng": 78.38385,
+    "area": "Madhapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_image_gardens_main_road",
+    "name": "Image Gardens Main Road",
+    "lat": 17.44678,
+    "lng": 78.38378,
+    "area": "Madhapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_imlibun",
+    "name": "Imlibun",
+    "lat": 17.3788,
+    "lng": 78.485,
+    "area": "Imlibun",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_imlibun_local_stop",
+    "name": "Imlibun Local Stop",
+    "lat": 17.37925,
+    "lng": 78.48535,
+    "area": "Imlibun",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_imlibun_main_road",
+    "name": "Imlibun Main Road",
+    "lat": 17.37838,
+    "lng": 78.48528,
+    "area": "Imlibun",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_indira_nagar_gachibowli",
+    "name": "Indira Nagar Gachibowli",
+    "lat": 17.4451,
+    "lng": 78.3534,
+    "area": "Gachibowli",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_indira_nagar_gachibowli_local_stop",
+    "name": "Indira Nagar Gachibowli Local Stop",
+    "lat": 17.44555,
+    "lng": 78.35375,
+    "area": "Gachibowli",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_indira_nagar_gachibowli_main_road",
+    "name": "Indira Nagar Gachibowli Main Road",
+    "lat": 17.44468,
+    "lng": 78.35368,
+    "area": "Gachibowli",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_is_sadan",
+    "name": "IS Sadan",
+    "lat": 17.3485,
+    "lng": 78.5178,
+    "area": "Saidabad",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_is_sadan_local_stop",
+    "name": "IS Sadan Local Stop",
+    "lat": 17.34895,
+    "lng": 78.51815,
+    "area": "Saidabad",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_is_sadan_main_road",
+    "name": "IS Sadan Main Road",
+    "lat": 17.34808,
+    "lng": 78.51808,
+    "area": "Saidabad",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_isnapur",
+    "name": "Isnapur",
+    "lat": 17.5446,
+    "lng": 78.2186,
+    "area": "Patancheru",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_isnapur_local_stop",
+    "name": "Isnapur Local Stop",
+    "lat": 17.54505,
+    "lng": 78.21895,
+    "area": "Patancheru",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_isnapur_main_road",
+    "name": "Isnapur Main Road",
+    "lat": 17.54418,
+    "lng": 78.21888,
+    "area": "Patancheru",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_jeedimetla",
+    "name": "Jeedimetla",
+    "lat": 17.5107,
+    "lng": 78.459,
+    "area": "Jeedimetla",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_jeedimetla_local_stop",
+    "name": "Jeedimetla Local Stop",
+    "lat": 17.51115,
+    "lng": 78.45935,
+    "area": "Jeedimetla",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_jeedimetla_main_road",
+    "name": "Jeedimetla Main Road",
+    "lat": 17.51028,
+    "lng": 78.45928,
+    "area": "Jeedimetla",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_jntu",
+    "name": "JNTU",
+    "lat": 17.4937,
+    "lng": 78.3934,
+    "area": "Kukatpally",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_jntu_interchange",
+    "name": "JNTU Interchange",
+    "lat": 17.49398,
+    "lng": 78.39298,
+    "area": "Kukatpally",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_jntu_local_stop",
+    "name": "JNTU Local Stop",
+    "lat": 17.49415,
+    "lng": 78.39375,
+    "area": "Kukatpally",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_jntu_main_road",
+    "name": "JNTU Main Road",
+    "lat": 17.49328,
+    "lng": 78.39368,
+    "area": "Kukatpally",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_jubilee_bus_station",
+    "name": "Jubilee Bus Station",
+    "lat": 17.4445,
+    "lng": 78.499,
+    "area": "Secunderabad",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_jubilee_bus_station_interchange",
+    "name": "Jubilee Bus Station Interchange",
+    "lat": 17.44478,
+    "lng": 78.49858,
+    "area": "Secunderabad",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_jubilee_bus_station_local_stop",
+    "name": "Jubilee Bus Station Local Stop",
+    "lat": 17.44495,
+    "lng": 78.49935,
+    "area": "Secunderabad",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_jubilee_bus_station_main_road",
+    "name": "Jubilee Bus Station Main Road",
+    "lat": 17.44408,
+    "lng": 78.49928,
+    "area": "Secunderabad",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_jubilee_hills_check_post",
+    "name": "Jubilee Hills Check Post",
+    "lat": 17.4307,
+    "lng": 78.4126,
+    "area": "Jubilee Hills",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_jubilee_hills_check_post_local_stop",
+    "name": "Jubilee Hills Check Post Local Stop",
+    "lat": 17.43115,
+    "lng": 78.41295,
+    "area": "Jubilee Hills",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_jubilee_hills_check_post_main_road",
+    "name": "Jubilee Hills Check Post Main Road",
+    "lat": 17.43028,
+    "lng": 78.41288,
+    "area": "Jubilee Hills",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_jubilee_hills_road_36",
+    "name": "Jubilee Hills Road 36",
+    "lat": 17.431,
+    "lng": 78.4087,
+    "area": "Jubilee Hills",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_jubilee_hills_road_36_local_stop",
+    "name": "Jubilee Hills Road 36 Local Stop",
+    "lat": 17.43145,
+    "lng": 78.40905,
+    "area": "Jubilee Hills",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_jubilee_hills_road_36_main_road",
+    "name": "Jubilee Hills Road 36 Main Road",
+    "lat": 17.43058,
+    "lng": 78.40898,
+    "area": "Jubilee Hills",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_kachiguda",
+    "name": "Kachiguda",
+    "lat": 17.3893,
+    "lng": 78.4992,
+    "area": "Kachiguda",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_kachiguda_local_stop",
+    "name": "Kachiguda Local Stop",
+    "lat": 17.38975,
+    "lng": 78.49955,
+    "area": "Kachiguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_kachiguda_main_road",
+    "name": "Kachiguda Main Road",
+    "lat": 17.38888,
+    "lng": 78.49948,
+    "area": "Kachiguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_karkhana",
+    "name": "Karkhana",
+    "lat": 17.4582,
+    "lng": 78.5016,
+    "area": "Karkhana",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_karkhana_local_stop",
+    "name": "Karkhana Local Stop",
+    "lat": 17.45865,
+    "lng": 78.50195,
+    "area": "Karkhana",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_karkhana_main_road",
+    "name": "Karkhana Main Road",
+    "lat": 17.45778,
+    "lng": 78.50188,
+    "area": "Karkhana",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_khairatabad",
+    "name": "Khairatabad",
+    "lat": 17.4118,
+    "lng": 78.4622,
+    "area": "Khairatabad",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_khairatabad_local_stop",
+    "name": "Khairatabad Local Stop",
+    "lat": 17.41225,
+    "lng": 78.46255,
+    "area": "Khairatabad",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_khairatabad_main_road",
+    "name": "Khairatabad Main Road",
+    "lat": 17.41138,
+    "lng": 78.46248,
+    "area": "Khairatabad",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_kokapet",
+    "name": "Kokapet",
+    "lat": 17.3943,
+    "lng": 78.3354,
+    "area": "Kokapet",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_kokapet_local_stop",
+    "name": "Kokapet Local Stop",
+    "lat": 17.39475,
+    "lng": 78.33575,
+    "area": "Kokapet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_kokapet_main_road",
+    "name": "Kokapet Main Road",
+    "lat": 17.39388,
+    "lng": 78.33568,
+    "area": "Kokapet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_kompally",
+    "name": "Kompally",
+    "lat": 17.5436,
+    "lng": 78.4899,
+    "area": "Kompally",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_kompally_local_stop",
+    "name": "Kompally Local Stop",
+    "lat": 17.54405,
+    "lng": 78.49025,
+    "area": "Kompally",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_kompally_main_road",
+    "name": "Kompally Main Road",
+    "lat": 17.54318,
+    "lng": 78.49018,
+    "area": "Kompally",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_kondapur",
+    "name": "Kondapur",
+    "lat": 17.463,
+    "lng": 78.367,
+    "area": "Kondapur",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_kondapur_local_stop",
+    "name": "Kondapur Local Stop",
+    "lat": 17.46345,
+    "lng": 78.36735,
+    "area": "Kondapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_kondapur_main_road",
+    "name": "Kondapur Main Road",
+    "lat": 17.46258,
+    "lng": 78.36728,
+    "area": "Kondapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_kothaguda",
+    "name": "Kothaguda",
+    "lat": 17.4597,
+    "lng": 78.3681,
+    "area": "Kothaguda",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_kothaguda_local_stop",
+    "name": "Kothaguda Local Stop",
+    "lat": 17.46015,
+    "lng": 78.36845,
+    "area": "Kothaguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_kothaguda_main_road",
+    "name": "Kothaguda Main Road",
+    "lat": 17.45928,
+    "lng": 78.36838,
+    "area": "Kothaguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_kothapet",
+    "name": "Kothapet",
+    "lat": 17.3683,
+    "lng": 78.5455,
+    "area": "Kothapet",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_kothapet_local_stop",
+    "name": "Kothapet Local Stop",
+    "lat": 17.36875,
+    "lng": 78.54585,
+    "area": "Kothapet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_kothapet_main_road",
+    "name": "Kothapet Main Road",
+    "lat": 17.36788,
+    "lng": 78.54578,
+    "area": "Kothapet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_koti",
+    "name": "Koti",
+    "lat": 17.385,
+    "lng": 78.4867,
+    "area": "Koti",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_koti_interchange",
+    "name": "Koti Interchange",
+    "lat": 17.38528,
+    "lng": 78.48628,
+    "area": "Koti",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_koti_local_stop",
+    "name": "Koti Local Stop",
+    "lat": 17.38545,
+    "lng": 78.48705,
+    "area": "Koti",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_koti_main_road",
+    "name": "Koti Main Road",
+    "lat": 17.38458,
+    "lng": 78.48698,
+    "area": "Koti",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_kphb",
+    "name": "KPHB",
+    "lat": 17.4931,
+    "lng": 78.3915,
+    "area": "KPHB Colony",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_kphb_6th_phase",
+    "name": "KPHB 6th Phase",
+    "lat": 17.4886,
+    "lng": 78.3883,
+    "area": "KPHB Colony",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_kphb_6th_phase_local_stop",
+    "name": "KPHB 6th Phase Local Stop",
+    "lat": 17.48905,
+    "lng": 78.38865,
+    "area": "KPHB Colony",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_kphb_6th_phase_main_road",
+    "name": "KPHB 6th Phase Main Road",
+    "lat": 17.48818,
+    "lng": 78.38858,
+    "area": "KPHB Colony",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_kphb_interchange",
+    "name": "KPHB Interchange",
+    "lat": 17.49338,
+    "lng": 78.39108,
+    "area": "KPHB Colony",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_kphb_local_stop",
+    "name": "KPHB Local Stop",
+    "lat": 17.49355,
+    "lng": 78.39185,
+    "area": "KPHB Colony",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_kphb_main_road",
+    "name": "KPHB Main Road",
+    "lat": 17.49268,
+    "lng": 78.39178,
+    "area": "KPHB Colony",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_krishna_nagar",
+    "name": "Krishna Nagar",
+    "lat": 17.4341,
+    "lng": 78.4244,
+    "area": "Krishna Nagar",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_krishna_nagar_local_stop",
+    "name": "Krishna Nagar Local Stop",
+    "lat": 17.43455,
+    "lng": 78.42475,
+    "area": "Krishna Nagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_krishna_nagar_main_road",
+    "name": "Krishna Nagar Main Road",
+    "lat": 17.43368,
+    "lng": 78.42468,
+    "area": "Krishna Nagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_kukatpally",
+    "name": "Kukatpally",
+    "lat": 17.4948,
+    "lng": 78.3996,
+    "area": "Kukatpally",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_kukatpally_interchange",
+    "name": "Kukatpally Interchange",
+    "lat": 17.49508,
+    "lng": 78.39918,
+    "area": "Kukatpally",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_kukatpally_local_stop",
+    "name": "Kukatpally Local Stop",
+    "lat": 17.49525,
+    "lng": 78.39995,
+    "area": "Kukatpally",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_kukatpally_main_road",
+    "name": "Kukatpally Main Road",
+    "lat": 17.49438,
+    "lng": 78.39988,
+    "area": "Kukatpally",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_kukatpally_y_junction",
+    "name": "Kukatpally Y Junction",
+    "lat": 17.4866,
+    "lng": 78.4136,
+    "area": "Kukatpally",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_kukatpally_y_junction_local_stop",
+    "name": "Kukatpally Y Junction Local Stop",
+    "lat": 17.48705,
+    "lng": 78.41395,
+    "area": "Kukatpally",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_kukatpally_y_junction_main_road",
+    "name": "Kukatpally Y Junction Main Road",
+    "lat": 17.48618,
+    "lng": 78.41388,
+    "area": "Kukatpally",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_kushaiguda",
+    "name": "Kushaiguda",
+    "lat": 17.4665,
+    "lng": 78.582,
+    "area": "Kushaiguda",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_kushaiguda_local_stop",
+    "name": "Kushaiguda Local Stop",
+    "lat": 17.46695,
+    "lng": 78.58235,
+    "area": "Kushaiguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_kushaiguda_main_road",
+    "name": "Kushaiguda Main Road",
+    "lat": 17.46608,
+    "lng": 78.58228,
+    "area": "Kushaiguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_lakdikapul",
+    "name": "Lakdikapul",
+    "lat": 17.403,
+    "lng": 78.4659,
+    "area": "Lakdikapul",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_lakdikapul_local_stop",
+    "name": "Lakdikapul Local Stop",
+    "lat": 17.40345,
+    "lng": 78.46625,
+    "area": "Lakdikapul",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_lakdikapul_main_road",
+    "name": "Lakdikapul Main Road",
+    "lat": 17.40258,
+    "lng": 78.46618,
+    "area": "Lakdikapul",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_langar_houz",
+    "name": "Langar Houz",
+    "lat": 17.3827,
+    "lng": 78.4125,
+    "area": "Langar Houz",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_langar_houz_local_stop",
+    "name": "Langar Houz Local Stop",
+    "lat": 17.38315,
+    "lng": 78.41285,
+    "area": "Langar Houz",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_langar_houz_main_road",
+    "name": "Langar Houz Main Road",
+    "lat": 17.38228,
+    "lng": 78.41278,
+    "area": "Langar Houz",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_lb_nagar",
+    "name": "LB Nagar",
+    "lat": 17.3469,
+    "lng": 78.5526,
+    "area": "LB Nagar",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_lb_nagar_interchange",
+    "name": "LB Nagar Interchange",
+    "lat": 17.34718,
+    "lng": 78.55218,
+    "area": "LB Nagar",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_lb_nagar_local_stop",
+    "name": "LB Nagar Local Stop",
+    "lat": 17.34735,
+    "lng": 78.55295,
+    "area": "LB Nagar",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_lb_nagar_main_road",
+    "name": "LB Nagar Main Road",
+    "lat": 17.34648,
+    "lng": 78.55288,
+    "area": "LB Nagar",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_liberty",
+    "name": "Liberty",
+    "lat": 17.4059,
+    "lng": 78.4766,
+    "area": "Liberty",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_liberty_local_stop",
+    "name": "Liberty Local Stop",
+    "lat": 17.40635,
+    "lng": 78.47695,
+    "area": "Liberty",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_liberty_main_road",
+    "name": "Liberty Main Road",
+    "lat": 17.40548,
+    "lng": 78.47688,
+    "area": "Liberty",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_lingampally",
+    "name": "Lingampally",
+    "lat": 17.4876,
+    "lng": 78.3354,
+    "area": "Lingampally",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_lingampally_interchange",
+    "name": "Lingampally Interchange",
+    "lat": 17.48788,
+    "lng": 78.33498,
+    "area": "Lingampally",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_lingampally_local_stop",
+    "name": "Lingampally Local Stop",
+    "lat": 17.48805,
+    "lng": 78.33575,
+    "area": "Lingampally",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_lingampally_main_road",
+    "name": "Lingampally Main Road",
+    "lat": 17.48718,
+    "lng": 78.33568,
+    "area": "Lingampally",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_lothkunta",
+    "name": "Lothkunta",
+    "lat": 17.4919,
+    "lng": 78.5206,
+    "area": "Lothkunta",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_lothkunta_local_stop",
+    "name": "Lothkunta Local Stop",
+    "lat": 17.49235,
+    "lng": 78.52095,
+    "area": "Lothkunta",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_lothkunta_main_road",
+    "name": "Lothkunta Main Road",
+    "lat": 17.49148,
+    "lng": 78.52088,
+    "area": "Lothkunta",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_madhapur",
+    "name": "Madhapur",
+    "lat": 17.4486,
+    "lng": 78.3908,
+    "area": "Madhapur",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_madhapur_local_stop",
+    "name": "Madhapur Local Stop",
+    "lat": 17.44905,
+    "lng": 78.39115,
+    "area": "Madhapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_madhapur_main_road",
+    "name": "Madhapur Main Road",
+    "lat": 17.44818,
+    "lng": 78.39108,
+    "area": "Madhapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_madhura_nagar",
+    "name": "Madhura Nagar",
+    "lat": 17.4381,
+    "lng": 78.4396,
+    "area": "Madhura Nagar",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_madhura_nagar_local_stop",
+    "name": "Madhura Nagar Local Stop",
+    "lat": 17.43855,
+    "lng": 78.43995,
+    "area": "Madhura Nagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_madhura_nagar_main_road",
+    "name": "Madhura Nagar Main Road",
+    "lat": 17.43768,
+    "lng": 78.43988,
+    "area": "Madhura Nagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_madina",
+    "name": "Madina",
+    "lat": 17.3689,
+    "lng": 78.4742,
+    "area": "Old City",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_madina_local_stop",
+    "name": "Madina Local Stop",
+    "lat": 17.36935,
+    "lng": 78.47455,
+    "area": "Old City",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_madina_main_road",
+    "name": "Madina Main Road",
+    "lat": 17.36848,
+    "lng": 78.47448,
+    "area": "Old City",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_madinaguda",
+    "name": "Madinaguda",
+    "lat": 17.4932,
+    "lng": 78.3426,
+    "area": "Madinaguda",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_madinaguda_local_stop",
+    "name": "Madinaguda Local Stop",
+    "lat": 17.49365,
+    "lng": 78.34295,
+    "area": "Madinaguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_madinaguda_main_road",
+    "name": "Madinaguda Main Road",
+    "lat": 17.49278,
+    "lng": 78.34288,
+    "area": "Madinaguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_malakpet",
+    "name": "Malakpet",
+    "lat": 17.3734,
+    "lng": 78.5042,
+    "area": "Malakpet",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_malakpet_local_stop",
+    "name": "Malakpet Local Stop",
+    "lat": 17.37385,
+    "lng": 78.50455,
+    "area": "Malakpet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_malakpet_main_road",
+    "name": "Malakpet Main Road",
+    "lat": 17.37298,
+    "lng": 78.50448,
+    "area": "Malakpet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_malkajgiri",
+    "name": "Malkajgiri",
+    "lat": 17.4474,
+    "lng": 78.5361,
+    "area": "Malkajgiri",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_malkajgiri_local_stop",
+    "name": "Malkajgiri Local Stop",
+    "lat": 17.44785,
+    "lng": 78.53645,
+    "area": "Malkajgiri",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_malkajgiri_main_road",
+    "name": "Malkajgiri Main Road",
+    "lat": 17.44698,
+    "lng": 78.53638,
+    "area": "Malkajgiri",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_mallapur",
+    "name": "Mallapur",
+    "lat": 17.4404,
+    "lng": 78.5787,
+    "area": "Mallapur",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_mallapur_local_stop",
+    "name": "Mallapur Local Stop",
+    "lat": 17.44085,
+    "lng": 78.57905,
+    "area": "Mallapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_mallapur_main_road",
+    "name": "Mallapur Main Road",
+    "lat": 17.43998,
+    "lng": 78.57898,
+    "area": "Mallapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_manikonda",
+    "name": "Manikonda",
+    "lat": 17.405,
+    "lng": 78.3761,
+    "area": "Manikonda",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_manikonda_local_stop",
+    "name": "Manikonda Local Stop",
+    "lat": 17.40545,
+    "lng": 78.37645,
+    "area": "Manikonda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_manikonda_main_road",
+    "name": "Manikonda Main Road",
+    "lat": 17.40458,
+    "lng": 78.37638,
+    "area": "Manikonda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_marredpally",
+    "name": "Marredpally",
+    "lat": 17.4482,
+    "lng": 78.5155,
+    "area": "Marredpally",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_marredpally_local_stop",
+    "name": "Marredpally Local Stop",
+    "lat": 17.44865,
+    "lng": 78.51585,
+    "area": "Marredpally",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_marredpally_main_road",
+    "name": "Marredpally Main Road",
+    "lat": 17.44778,
+    "lng": 78.51578,
+    "area": "Marredpally",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_masab_tank",
+    "name": "Masab Tank",
+    "lat": 17.4007,
+    "lng": 78.4497,
+    "area": "Masab Tank",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_masab_tank_local_stop",
+    "name": "Masab Tank Local Stop",
+    "lat": 17.40115,
+    "lng": 78.45005,
+    "area": "Masab Tank",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_masab_tank_main_road",
+    "name": "Masab Tank Main Road",
+    "lat": 17.40028,
+    "lng": 78.44998,
+    "area": "Masab Tank",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_medchal",
+    "name": "Medchal",
+    "lat": 17.6319,
+    "lng": 78.4814,
+    "area": "Medchal",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_medchal_local_stop",
+    "name": "Medchal Local Stop",
+    "lat": 17.63235,
+    "lng": 78.48175,
+    "area": "Medchal",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_medchal_main_road",
+    "name": "Medchal Main Road",
+    "lat": 17.63148,
+    "lng": 78.48168,
+    "area": "Medchal",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_medipally",
+    "name": "Medipally",
+    "lat": 17.4058,
+    "lng": 78.6107,
+    "area": "Medipally",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_medipally_local_stop",
+    "name": "Medipally Local Stop",
+    "lat": 17.40625,
+    "lng": 78.61105,
+    "area": "Medipally",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_medipally_main_road",
+    "name": "Medipally Main Road",
+    "lat": 17.40538,
+    "lng": 78.61098,
+    "area": "Medipally",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_mehdipatnam",
+    "name": "Mehdipatnam",
+    "lat": 17.3916,
+    "lng": 78.433,
+    "area": "Mehdipatnam",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_mehdipatnam_interchange",
+    "name": "Mehdipatnam Interchange",
+    "lat": 17.39188,
+    "lng": 78.43258,
+    "area": "Mehdipatnam",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_mehdipatnam_local_stop",
+    "name": "Mehdipatnam Local Stop",
+    "lat": 17.39205,
+    "lng": 78.43335,
+    "area": "Mehdipatnam",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_mehdipatnam_main_road",
+    "name": "Mehdipatnam Main Road",
+    "lat": 17.39118,
+    "lng": 78.43328,
+    "area": "Mehdipatnam",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_mettuguda",
+    "name": "Mettuguda",
+    "lat": 17.4352,
+    "lng": 78.5259,
+    "area": "Mettuguda",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_mettuguda_local_stop",
+    "name": "Mettuguda Local Stop",
+    "lat": 17.43565,
+    "lng": 78.52625,
+    "area": "Mettuguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_mettuguda_main_road",
+    "name": "Mettuguda Main Road",
+    "lat": 17.43478,
+    "lng": 78.52618,
+    "area": "Mettuguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_mgbs",
+    "name": "MGBS",
+    "lat": 17.3793,
+    "lng": 78.4837,
+    "area": "Imlibun",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_mgbs_interchange",
+    "name": "MGBS Interchange",
+    "lat": 17.37958,
+    "lng": 78.48328,
+    "area": "Imlibun",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_mgbs_local_stop",
+    "name": "MGBS Local Stop",
+    "lat": 17.37975,
+    "lng": 78.48405,
+    "area": "Imlibun",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_mgbs_main_road",
+    "name": "MGBS Main Road",
+    "lat": 17.37888,
+    "lng": 78.48398,
+    "area": "Imlibun",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_mindspace",
+    "name": "Mindspace",
+    "lat": 17.4413,
+    "lng": 78.3815,
+    "area": "Madhapur",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_mindspace_local_stop",
+    "name": "Mindspace Local Stop",
+    "lat": 17.44175,
+    "lng": 78.38185,
+    "area": "Madhapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_mindspace_main_road",
+    "name": "Mindspace Main Road",
+    "lat": 17.44088,
+    "lng": 78.38178,
+    "area": "Madhapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_miyapur",
+    "name": "Miyapur",
+    "lat": 17.4964,
+    "lng": 78.3339,
+    "area": "Miyapur",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_miyapur_interchange",
+    "name": "Miyapur Interchange",
+    "lat": 17.49668,
+    "lng": 78.33348,
+    "area": "Miyapur",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_miyapur_local_stop",
+    "name": "Miyapur Local Stop",
+    "lat": 17.49685,
+    "lng": 78.33425,
+    "area": "Miyapur",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_miyapur_main_road",
+    "name": "Miyapur Main Road",
+    "lat": 17.49598,
+    "lng": 78.33418,
+    "area": "Miyapur",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_miyapur_metro_station",
+    "name": "Miyapur Metro Station",
+    "lat": 17.4961,
+    "lng": 78.3318,
+    "area": "Miyapur",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_miyapur_metro_station_local_stop",
+    "name": "Miyapur Metro Station Local Stop",
+    "lat": 17.49655,
+    "lng": 78.33215,
+    "area": "Miyapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_miyapur_metro_station_main_road",
+    "name": "Miyapur Metro Station Main Road",
+    "lat": 17.49568,
+    "lng": 78.33208,
+    "area": "Miyapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_miyapur_x_roads",
+    "name": "Miyapur X Roads",
+    "lat": 17.4982,
+    "lng": 78.3368,
+    "area": "Miyapur",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_miyapur_x_roads_local_stop",
+    "name": "Miyapur X Roads Local Stop",
+    "lat": 17.49865,
+    "lng": 78.33715,
+    "area": "Miyapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_miyapur_x_roads_main_road",
+    "name": "Miyapur X Roads Main Road",
+    "lat": 17.49778,
+    "lng": 78.33708,
+    "area": "Miyapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_moosapet",
+    "name": "Moosapet",
+    "lat": 17.4691,
+    "lng": 78.4257,
+    "area": "Moosapet",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_moosapet_local_stop",
+    "name": "Moosapet Local Stop",
+    "lat": 17.46955,
+    "lng": 78.42605,
+    "area": "Moosapet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_moosapet_main_road",
+    "name": "Moosapet Main Road",
+    "lat": 17.46868,
+    "lng": 78.42598,
+    "area": "Moosapet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_moosarambagh",
+    "name": "Moosarambagh",
+    "lat": 17.3715,
+    "lng": 78.5111,
+    "area": "Moosarambagh",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_moosarambagh_local_stop",
+    "name": "Moosarambagh Local Stop",
+    "lat": 17.37195,
+    "lng": 78.51145,
+    "area": "Moosarambagh",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_moosarambagh_main_road",
+    "name": "Moosarambagh Main Road",
+    "lat": 17.37108,
+    "lng": 78.51138,
+    "area": "Moosarambagh",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_musheerabad",
+    "name": "Musheerabad",
+    "lat": 17.4166,
+    "lng": 78.4983,
+    "area": "Musheerabad",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_musheerabad_local_stop",
+    "name": "Musheerabad Local Stop",
+    "lat": 17.41705,
+    "lng": 78.49865,
+    "area": "Musheerabad",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_musheerabad_main_road",
+    "name": "Musheerabad Main Road",
+    "lat": 17.41618,
+    "lng": 78.49858,
+    "area": "Musheerabad",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_mytrivanam",
+    "name": "Mytrivanam",
+    "lat": 17.4359,
+    "lng": 78.4459,
+    "area": "Ameerpet",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_mytrivanam_local_stop",
+    "name": "Mytrivanam Local Stop",
+    "lat": 17.43635,
+    "lng": 78.44625,
+    "area": "Ameerpet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_mytrivanam_main_road",
+    "name": "Mytrivanam Main Road",
+    "lat": 17.43548,
+    "lng": 78.44618,
+    "area": "Ameerpet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_nacharam",
+    "name": "Nacharam",
+    "lat": 17.4292,
+    "lng": 78.5584,
+    "area": "Nacharam",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_nacharam_local_stop",
+    "name": "Nacharam Local Stop",
+    "lat": 17.42965,
+    "lng": 78.55875,
+    "area": "Nacharam",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_nacharam_main_road",
+    "name": "Nacharam Main Road",
+    "lat": 17.42878,
+    "lng": 78.55868,
+    "area": "Nacharam",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_nagole",
+    "name": "Nagole",
+    "lat": 17.3863,
+    "lng": 78.5648,
+    "area": "Nagole",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_nagole_local_stop",
+    "name": "Nagole Local Stop",
+    "lat": 17.38675,
+    "lng": 78.56515,
+    "area": "Nagole",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_nagole_main_road",
+    "name": "Nagole Main Road",
+    "lat": 17.38588,
+    "lng": 78.56508,
+    "area": "Nagole",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_nampally",
+    "name": "Nampally",
+    "lat": 17.3897,
+    "lng": 78.4756,
+    "area": "Nampally",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_nampally_local_stop",
+    "name": "Nampally Local Stop",
+    "lat": 17.39015,
+    "lng": 78.47595,
+    "area": "Nampally",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_nampally_main_road",
+    "name": "Nampally Main Road",
+    "lat": 17.38928,
+    "lng": 78.47588,
+    "area": "Nampally",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_nanakramguda",
+    "name": "Nanakramguda",
+    "lat": 17.4168,
+    "lng": 78.3427,
+    "area": "Nanakramguda",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_nanakramguda_local_stop",
+    "name": "Nanakramguda Local Stop",
+    "lat": 17.41725,
+    "lng": 78.34305,
+    "area": "Nanakramguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_nanakramguda_main_road",
+    "name": "Nanakramguda Main Road",
+    "lat": 17.41638,
+    "lng": 78.34298,
+    "area": "Nanakramguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_narayanaguda",
+    "name": "Narayanaguda",
+    "lat": 17.3954,
+    "lng": 78.489,
+    "area": "Narayanaguda",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_narayanaguda_local_stop",
+    "name": "Narayanaguda Local Stop",
+    "lat": 17.39585,
+    "lng": 78.48935,
+    "area": "Narayanaguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_narayanaguda_main_road",
+    "name": "Narayanaguda Main Road",
+    "lat": 17.39498,
+    "lng": 78.48928,
+    "area": "Narayanaguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_narsingi",
+    "name": "Narsingi",
+    "lat": 17.3853,
+    "lng": 78.3578,
+    "area": "Narsingi",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_narsingi_local_stop",
+    "name": "Narsingi Local Stop",
+    "lat": 17.38575,
+    "lng": 78.35815,
+    "area": "Narsingi",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_narsingi_main_road",
+    "name": "Narsingi Main Road",
+    "lat": 17.38488,
+    "lng": 78.35808,
+    "area": "Narsingi",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_neredmet",
+    "name": "Neredmet",
+    "lat": 17.4829,
+    "lng": 78.5373,
+    "area": "Neredmet",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_neredmet_local_stop",
+    "name": "Neredmet Local Stop",
+    "lat": 17.48335,
+    "lng": 78.53765,
+    "area": "Neredmet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_neredmet_main_road",
+    "name": "Neredmet Main Road",
+    "lat": 17.48248,
+    "lng": 78.53758,
+    "area": "Neredmet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_nizampet",
+    "name": "Nizampet",
+    "lat": 17.5184,
+    "lng": 78.3826,
+    "area": "Nizampet",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_nizampet_local_stop",
+    "name": "Nizampet Local Stop",
+    "lat": 17.51885,
+    "lng": 78.38295,
+    "area": "Nizampet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_nizampet_main_road",
+    "name": "Nizampet Main Road",
+    "lat": 17.51798,
+    "lng": 78.38288,
+    "area": "Nizampet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_nmdc",
+    "name": "NMDC",
+    "lat": 17.3957,
+    "lng": 78.4439,
+    "area": "Masab Tank",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_nmdc_local_stop",
+    "name": "NMDC Local Stop",
+    "lat": 17.39615,
+    "lng": 78.44425,
+    "area": "Masab Tank",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_nmdc_main_road",
+    "name": "NMDC Main Road",
+    "lat": 17.39528,
+    "lng": 78.44418,
+    "area": "Masab Tank",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_old_bowenpally",
+    "name": "Old Bowenpally",
+    "lat": 17.4684,
+    "lng": 78.484,
+    "area": "Bowenpally",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_old_bowenpally_local_stop",
+    "name": "Old Bowenpally Local Stop",
+    "lat": 17.46885,
+    "lng": 78.48435,
+    "area": "Bowenpally",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_old_bowenpally_main_road",
+    "name": "Old Bowenpally Main Road",
+    "lat": 17.46798,
+    "lng": 78.48428,
+    "area": "Bowenpally",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_osmania_hospital",
+    "name": "Osmania Hospital",
+    "lat": 17.371,
+    "lng": 78.4756,
+    "area": "Afzalgunj",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_osmania_hospital_local_stop",
+    "name": "Osmania Hospital Local Stop",
+    "lat": 17.37145,
+    "lng": 78.47595,
+    "area": "Afzalgunj",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_osmania_hospital_main_road",
+    "name": "Osmania Hospital Main Road",
+    "lat": 17.37058,
+    "lng": 78.47588,
+    "area": "Afzalgunj",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_osmania_university",
+    "name": "Osmania University",
+    "lat": 17.4145,
+    "lng": 78.5281,
+    "area": "OU Campus",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_osmania_university_local_stop",
+    "name": "Osmania University Local Stop",
+    "lat": 17.41495,
+    "lng": 78.52845,
+    "area": "OU Campus",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_osmania_university_main_road",
+    "name": "Osmania University Main Road",
+    "lat": 17.41408,
+    "lng": 78.52838,
+    "area": "OU Campus",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_ou_colony_shaikpet",
+    "name": "OU Colony Shaikpet",
+    "lat": 17.4075,
+    "lng": 78.3879,
+    "area": "Shaikpet",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_ou_colony_shaikpet_local_stop",
+    "name": "OU Colony Shaikpet Local Stop",
+    "lat": 17.40795,
+    "lng": 78.38825,
+    "area": "Shaikpet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_ou_colony_shaikpet_main_road",
+    "name": "OU Colony Shaikpet Main Road",
+    "lat": 17.40708,
+    "lng": 78.38818,
+    "area": "Shaikpet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_paradise",
+    "name": "Paradise",
+    "lat": 17.4417,
+    "lng": 78.4873,
+    "area": "Paradise",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_paradise_interchange",
+    "name": "Paradise Interchange",
+    "lat": 17.44198,
+    "lng": 78.48688,
+    "area": "Paradise",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_paradise_local_stop",
+    "name": "Paradise Local Stop",
+    "lat": 17.44215,
+    "lng": 78.48765,
+    "area": "Paradise",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_paradise_main_road",
+    "name": "Paradise Main Road",
+    "lat": 17.44128,
+    "lng": 78.48758,
+    "area": "Paradise",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_patancheru",
+    "name": "Patancheru",
+    "lat": 17.5333,
+    "lng": 78.2645,
+    "area": "Patancheru",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_patancheru_interchange",
+    "name": "Patancheru Interchange",
+    "lat": 17.53358,
+    "lng": 78.26408,
+    "area": "Patancheru",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_patancheru_local_stop",
+    "name": "Patancheru Local Stop",
+    "lat": 17.53375,
+    "lng": 78.26485,
+    "area": "Patancheru",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_patancheru_main_road",
+    "name": "Patancheru Main Road",
+    "lat": 17.53288,
+    "lng": 78.26478,
+    "area": "Patancheru",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_pathergatti",
+    "name": "Pathergatti",
+    "lat": 17.3656,
+    "lng": 78.4765,
+    "area": "Old City",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_pathergatti_local_stop",
+    "name": "Pathergatti Local Stop",
+    "lat": 17.36605,
+    "lng": 78.47685,
+    "area": "Old City",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_pathergatti_main_road",
+    "name": "Pathergatti Main Road",
+    "lat": 17.36518,
+    "lng": 78.47678,
+    "area": "Old City",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_peddamma_temple",
+    "name": "Peddamma Temple",
+    "lat": 17.4309,
+    "lng": 78.407,
+    "area": "Jubilee Hills",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_peddamma_temple_local_stop",
+    "name": "Peddamma Temple Local Stop",
+    "lat": 17.43135,
+    "lng": 78.40735,
+    "area": "Jubilee Hills",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_peddamma_temple_main_road",
+    "name": "Peddamma Temple Main Road",
+    "lat": 17.43048,
+    "lng": 78.40728,
+    "area": "Jubilee Hills",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_peerzadiguda",
+    "name": "Peerzadiguda",
+    "lat": 17.3975,
+    "lng": 78.601,
+    "area": "Peerzadiguda",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_peerzadiguda_local_stop",
+    "name": "Peerzadiguda Local Stop",
+    "lat": 17.39795,
+    "lng": 78.60135,
+    "area": "Peerzadiguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_peerzadiguda_main_road",
+    "name": "Peerzadiguda Main Road",
+    "lat": 17.39708,
+    "lng": 78.60128,
+    "area": "Peerzadiguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_picket",
+    "name": "Picket",
+    "lat": 17.4526,
+    "lng": 78.501,
+    "area": "Secunderabad",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_picket_local_stop",
+    "name": "Picket Local Stop",
+    "lat": 17.45305,
+    "lng": 78.50135,
+    "area": "Secunderabad",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_picket_main_road",
+    "name": "Picket Main Road",
+    "lat": 17.45218,
+    "lng": 78.50128,
+    "area": "Secunderabad",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_pragathi_nagar",
+    "name": "Pragathi Nagar",
+    "lat": 17.5189,
+    "lng": 78.3982,
+    "area": "Pragathi Nagar",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_pragathi_nagar_local_stop",
+    "name": "Pragathi Nagar Local Stop",
+    "lat": 17.51935,
+    "lng": 78.39855,
+    "area": "Pragathi Nagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_pragathi_nagar_main_road",
+    "name": "Pragathi Nagar Main Road",
+    "lat": 17.51848,
+    "lng": 78.39848,
+    "area": "Pragathi Nagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_prakash_nagar",
+    "name": "Prakash Nagar",
+    "lat": 17.4442,
+    "lng": 78.4612,
+    "area": "Begumpet",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_prakash_nagar_local_stop",
+    "name": "Prakash Nagar Local Stop",
+    "lat": 17.44465,
+    "lng": 78.46155,
+    "area": "Begumpet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_prakash_nagar_main_road",
+    "name": "Prakash Nagar Main Road",
+    "lat": 17.44378,
+    "lng": 78.46148,
+    "area": "Begumpet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_punjagutta",
+    "name": "Punjagutta",
+    "lat": 17.4265,
+    "lng": 78.4518,
+    "area": "Punjagutta",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_punjagutta_local_stop",
+    "name": "Punjagutta Local Stop",
+    "lat": 17.42695,
+    "lng": 78.45215,
+    "area": "Punjagutta",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_punjagutta_main_road",
+    "name": "Punjagutta Main Road",
+    "lat": 17.42608,
+    "lng": 78.45208,
+    "area": "Punjagutta",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_puppalaguda",
+    "name": "Puppalaguda",
+    "lat": 17.4037,
+    "lng": 78.3896,
+    "area": "Puppalaguda",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_puppalaguda_local_stop",
+    "name": "Puppalaguda Local Stop",
+    "lat": 17.40415,
+    "lng": 78.38995,
+    "area": "Puppalaguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_puppalaguda_main_road",
+    "name": "Puppalaguda Main Road",
+    "lat": 17.40328,
+    "lng": 78.38988,
+    "area": "Puppalaguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_quthbullapur",
+    "name": "Quthbullapur",
+    "lat": 17.5013,
+    "lng": 78.458,
+    "area": "Quthbullapur",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_quthbullapur_local_stop",
+    "name": "Quthbullapur Local Stop",
+    "lat": 17.50175,
+    "lng": 78.45835,
+    "area": "Quthbullapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_quthbullapur_main_road",
+    "name": "Quthbullapur Main Road",
+    "lat": 17.50088,
+    "lng": 78.45828,
+    "area": "Quthbullapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_raidurg",
+    "name": "Raidurg",
+    "lat": 17.4435,
+    "lng": 78.3772,
+    "area": "Raidurg",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_raidurg_interchange",
+    "name": "Raidurg Interchange",
+    "lat": 17.44378,
+    "lng": 78.37678,
+    "area": "Raidurg",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_raidurg_local_stop",
+    "name": "Raidurg Local Stop",
+    "lat": 17.44395,
+    "lng": 78.37755,
+    "area": "Raidurg",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_raidurg_main_road",
+    "name": "Raidurg Main Road",
+    "lat": 17.44308,
+    "lng": 78.37748,
+    "area": "Raidurg",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_rajendranagar",
+    "name": "Rajendranagar",
+    "lat": 17.32,
+    "lng": 78.4021,
+    "area": "Rajendranagar",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_rajendranagar_local_stop",
+    "name": "Rajendranagar Local Stop",
+    "lat": 17.32045,
+    "lng": 78.40245,
+    "area": "Rajendranagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_rajendranagar_main_road",
+    "name": "Rajendranagar Main Road",
+    "lat": 17.31958,
+    "lng": 78.40238,
+    "area": "Rajendranagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_ramanthapur",
+    "name": "Ramanthapur",
+    "lat": 17.3912,
+    "lng": 78.5376,
+    "area": "Ramanthapur",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_ramanthapur_local_stop",
+    "name": "Ramanthapur Local Stop",
+    "lat": 17.39165,
+    "lng": 78.53795,
+    "area": "Ramanthapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_ramanthapur_main_road",
+    "name": "Ramanthapur Main Road",
+    "lat": 17.39078,
+    "lng": 78.53788,
+    "area": "Ramanthapur",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_rasoolpura",
+    "name": "Rasoolpura",
+    "lat": 17.443,
+    "lng": 78.4808,
+    "area": "Begumpet",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_rasoolpura_local_stop",
+    "name": "Rasoolpura Local Stop",
+    "lat": 17.44345,
+    "lng": 78.48115,
+    "area": "Begumpet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_rasoolpura_main_road",
+    "name": "Rasoolpura Main Road",
+    "lat": 17.44258,
+    "lng": 78.48108,
+    "area": "Begumpet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_rc_puram",
+    "name": "RC Puram",
+    "lat": 17.5196,
+    "lng": 78.3071,
+    "area": "Ramachandrapuram",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_rc_puram_local_stop",
+    "name": "RC Puram Local Stop",
+    "lat": 17.52005,
+    "lng": 78.30745,
+    "area": "Ramachandrapuram",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_rc_puram_main_road",
+    "name": "RC Puram Main Road",
+    "lat": 17.51918,
+    "lng": 78.30738,
+    "area": "Ramachandrapuram",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_rtc_x_roads",
+    "name": "RTC X Roads",
+    "lat": 17.4072,
+    "lng": 78.4966,
+    "area": "RTC X Roads",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_rtc_x_roads_local_stop",
+    "name": "RTC X Roads Local Stop",
+    "lat": 17.40765,
+    "lng": 78.49695,
+    "area": "RTC X Roads",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_rtc_x_roads_main_road",
+    "name": "RTC X Roads Main Road",
+    "lat": 17.40678,
+    "lng": 78.49688,
+    "area": "RTC X Roads",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_safilguda",
+    "name": "Safilguda",
+    "lat": 17.4661,
+    "lng": 78.5356,
+    "area": "Safilguda",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_safilguda_local_stop",
+    "name": "Safilguda Local Stop",
+    "lat": 17.46655,
+    "lng": 78.53595,
+    "area": "Safilguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_safilguda_main_road",
+    "name": "Safilguda Main Road",
+    "lat": 17.46568,
+    "lng": 78.53588,
+    "area": "Safilguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_saidabad",
+    "name": "Saidabad",
+    "lat": 17.3582,
+    "lng": 78.5149,
+    "area": "Saidabad",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_saidabad_local_stop",
+    "name": "Saidabad Local Stop",
+    "lat": 17.35865,
+    "lng": 78.51525,
+    "area": "Saidabad",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_saidabad_main_road",
+    "name": "Saidabad Main Road",
+    "lat": 17.35778,
+    "lng": 78.51518,
+    "area": "Saidabad",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_sainikpuri",
+    "name": "Sainikpuri",
+    "lat": 17.4931,
+    "lng": 78.5496,
+    "area": "Sainikpuri",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_sainikpuri_local_stop",
+    "name": "Sainikpuri Local Stop",
+    "lat": 17.49355,
+    "lng": 78.54995,
+    "area": "Sainikpuri",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_sainikpuri_main_road",
+    "name": "Sainikpuri Main Road",
+    "lat": 17.49268,
+    "lng": 78.54988,
+    "area": "Sainikpuri",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_salarjung_colony",
+    "name": "Salarjung Colony",
+    "lat": 17.4001,
+    "lng": 78.4218,
+    "area": "Tolichowki",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_salarjung_colony_local_stop",
+    "name": "Salarjung Colony Local Stop",
+    "lat": 17.40055,
+    "lng": 78.42215,
+    "area": "Tolichowki",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_salarjung_colony_main_road",
+    "name": "Salarjung Colony Main Road",
+    "lat": 17.39968,
+    "lng": 78.42208,
+    "area": "Tolichowki",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_santosh_nagar",
+    "name": "Santosh Nagar",
+    "lat": 17.347,
+    "lng": 78.5086,
+    "area": "Santosh Nagar",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_santosh_nagar_local_stop",
+    "name": "Santosh Nagar Local Stop",
+    "lat": 17.34745,
+    "lng": 78.50895,
+    "area": "Santosh Nagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_santosh_nagar_main_road",
+    "name": "Santosh Nagar Main Road",
+    "lat": 17.34658,
+    "lng": 78.50888,
+    "area": "Santosh Nagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_saroornagar",
+    "name": "Saroornagar",
+    "lat": 17.3566,
+    "lng": 78.5337,
+    "area": "Saroornagar",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_saroornagar_local_stop",
+    "name": "Saroornagar Local Stop",
+    "lat": 17.35705,
+    "lng": 78.53405,
+    "area": "Saroornagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_saroornagar_main_road",
+    "name": "Saroornagar Main Road",
+    "lat": 17.35618,
+    "lng": 78.53398,
+    "area": "Saroornagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_secunderabad",
+    "name": "Secunderabad",
+    "lat": 17.4399,
+    "lng": 78.4983,
+    "area": "Secunderabad",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_secunderabad_interchange",
+    "name": "Secunderabad Interchange",
+    "lat": 17.44018,
+    "lng": 78.49788,
+    "area": "Secunderabad",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_secunderabad_local_stop",
+    "name": "Secunderabad Local Stop",
+    "lat": 17.44035,
+    "lng": 78.49865,
+    "area": "Secunderabad",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_secunderabad_main_road",
+    "name": "Secunderabad Main Road",
+    "lat": 17.43948,
+    "lng": 78.49858,
+    "area": "Secunderabad",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_shah_ali_banda",
+    "name": "Shah Ali Banda",
+    "lat": 17.3537,
+    "lng": 78.4728,
+    "area": "Old City",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_shah_ali_banda_local_stop",
+    "name": "Shah Ali Banda Local Stop",
+    "lat": 17.35415,
+    "lng": 78.47315,
+    "area": "Old City",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_shah_ali_banda_main_road",
+    "name": "Shah Ali Banda Main Road",
+    "lat": 17.35328,
+    "lng": 78.47308,
+    "area": "Old City",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_shaikpet",
+    "name": "Shaikpet",
+    "lat": 17.4099,
+    "lng": 78.3925,
+    "area": "Shaikpet",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_shaikpet_local_stop",
+    "name": "Shaikpet Local Stop",
+    "lat": 17.41035,
+    "lng": 78.39285,
+    "area": "Shaikpet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_shaikpet_main_road",
+    "name": "Shaikpet Main Road",
+    "lat": 17.40948,
+    "lng": 78.39278,
+    "area": "Shaikpet",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_shamshabad",
+    "name": "Shamshabad",
+    "lat": 17.2603,
+    "lng": 78.3969,
+    "area": "Shamshabad",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_shamshabad_interchange",
+    "name": "Shamshabad Interchange",
+    "lat": 17.26058,
+    "lng": 78.39648,
+    "area": "Shamshabad",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_shamshabad_local_stop",
+    "name": "Shamshabad Local Stop",
+    "lat": 17.26075,
+    "lng": 78.39725,
+    "area": "Shamshabad",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_shamshabad_main_road",
+    "name": "Shamshabad Main Road",
+    "lat": 17.25988,
+    "lng": 78.39718,
+    "area": "Shamshabad",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_shapur_nagar",
+    "name": "Shapur Nagar",
+    "lat": 17.5147,
+    "lng": 78.4472,
+    "area": "Shapur Nagar",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_shapur_nagar_local_stop",
+    "name": "Shapur Nagar Local Stop",
+    "lat": 17.51515,
+    "lng": 78.44755,
+    "area": "Shapur Nagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_shapur_nagar_main_road",
+    "name": "Shapur Nagar Main Road",
+    "lat": 17.51428,
+    "lng": 78.44748,
+    "area": "Shapur Nagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_somajiguda",
+    "name": "Somajiguda",
+    "lat": 17.4231,
+    "lng": 78.4586,
+    "area": "Somajiguda",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_somajiguda_local_stop",
+    "name": "Somajiguda Local Stop",
+    "lat": 17.42355,
+    "lng": 78.45895,
+    "area": "Somajiguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_somajiguda_main_road",
+    "name": "Somajiguda Main Road",
+    "lat": 17.42268,
+    "lng": 78.45888,
+    "area": "Somajiguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_sr_nagar",
+    "name": "SR Nagar",
+    "lat": 17.4437,
+    "lng": 78.4481,
+    "area": "SR Nagar",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_sr_nagar_local_stop",
+    "name": "SR Nagar Local Stop",
+    "lat": 17.44415,
+    "lng": 78.44845,
+    "area": "SR Nagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_sr_nagar_main_road",
+    "name": "SR Nagar Main Road",
+    "lat": 17.44328,
+    "lng": 78.44838,
+    "area": "SR Nagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_srinagar_colony",
+    "name": "Srinagar Colony",
+    "lat": 17.4297,
+    "lng": 78.4386,
+    "area": "Srinagar Colony",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_srinagar_colony_local_stop",
+    "name": "Srinagar Colony Local Stop",
+    "lat": 17.43015,
+    "lng": 78.43895,
+    "area": "Srinagar Colony",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_srinagar_colony_main_road",
+    "name": "Srinagar Colony Main Road",
+    "lat": 17.42928,
+    "lng": 78.43888,
+    "area": "Srinagar Colony",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_suchitra",
+    "name": "Suchitra",
+    "lat": 17.4987,
+    "lng": 78.4768,
+    "area": "Suchitra",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_suchitra_local_stop",
+    "name": "Suchitra Local Stop",
+    "lat": 17.49915,
+    "lng": 78.47715,
+    "area": "Suchitra",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_suchitra_main_road",
+    "name": "Suchitra Main Road",
+    "lat": 17.49828,
+    "lng": 78.47708,
+    "area": "Suchitra",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_sultan_bazar",
+    "name": "Sultan Bazar",
+    "lat": 17.3854,
+    "lng": 78.4832,
+    "area": "Koti",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_sultan_bazar_local_stop",
+    "name": "Sultan Bazar Local Stop",
+    "lat": 17.38585,
+    "lng": 78.48355,
+    "area": "Koti",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_sultan_bazar_main_road",
+    "name": "Sultan Bazar Main Road",
+    "lat": 17.38498,
+    "lng": 78.48348,
+    "area": "Koti",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_suraram",
+    "name": "Suraram",
+    "lat": 17.5411,
+    "lng": 78.4364,
+    "area": "Suraram",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_suraram_local_stop",
+    "name": "Suraram Local Stop",
+    "lat": 17.54155,
+    "lng": 78.43675,
+    "area": "Suraram",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_suraram_main_road",
+    "name": "Suraram Main Road",
+    "lat": 17.54068,
+    "lng": 78.43668,
+    "area": "Suraram",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_tank_bund",
+    "name": "Tank Bund",
+    "lat": 17.4208,
+    "lng": 78.4738,
+    "area": "Tank Bund",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_tank_bund_local_stop",
+    "name": "Tank Bund Local Stop",
+    "lat": 17.42125,
+    "lng": 78.47415,
+    "area": "Tank Bund",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_tank_bund_main_road",
+    "name": "Tank Bund Main Road",
+    "lat": 17.42038,
+    "lng": 78.47408,
+    "area": "Tank Bund",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_tarnaka",
+    "name": "Tarnaka",
+    "lat": 17.4276,
+    "lng": 78.5381,
+    "area": "Tarnaka",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_tarnaka_local_stop",
+    "name": "Tarnaka Local Stop",
+    "lat": 17.42805,
+    "lng": 78.53845,
+    "area": "Tarnaka",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_tarnaka_main_road",
+    "name": "Tarnaka Main Road",
+    "lat": 17.42718,
+    "lng": 78.53838,
+    "area": "Tarnaka",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_tirumalagiri",
+    "name": "Tirumalagiri",
+    "lat": 17.4725,
+    "lng": 78.5165,
+    "area": "Tirumalagiri",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_tirumalagiri_local_stop",
+    "name": "Tirumalagiri Local Stop",
+    "lat": 17.47295,
+    "lng": 78.51685,
+    "area": "Tirumalagiri",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_tirumalagiri_main_road",
+    "name": "Tirumalagiri Main Road",
+    "lat": 17.47208,
+    "lng": 78.51678,
+    "area": "Tirumalagiri",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_tolichowki",
+    "name": "Tolichowki",
+    "lat": 17.3984,
+    "lng": 78.4115,
+    "area": "Tolichowki",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_tolichowki_local_stop",
+    "name": "Tolichowki Local Stop",
+    "lat": 17.39885,
+    "lng": 78.41185,
+    "area": "Tolichowki",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_tolichowki_main_road",
+    "name": "Tolichowki Main Road",
+    "lat": 17.39798,
+    "lng": 78.41178,
+    "area": "Tolichowki",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_trimulgherry",
+    "name": "Trimulgherry",
+    "lat": 17.4741,
+    "lng": 78.5169,
+    "area": "Trimulgherry",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_trimulgherry_local_stop",
+    "name": "Trimulgherry Local Stop",
+    "lat": 17.47455,
+    "lng": 78.51725,
+    "area": "Trimulgherry",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_trimulgherry_main_road",
+    "name": "Trimulgherry Main Road",
+    "lat": 17.47368,
+    "lng": 78.51718,
+    "area": "Trimulgherry",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_uppal",
+    "name": "Uppal",
+    "lat": 17.4014,
+    "lng": 78.5597,
+    "area": "Uppal",
+    "is_interchange": true,
+    "importance": 10
+  },
+  {
+    "id": "stop_uppal_depot",
+    "name": "Uppal Depot",
+    "lat": 17.3986,
+    "lng": 78.5616,
+    "area": "Uppal",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_uppal_depot_local_stop",
+    "name": "Uppal Depot Local Stop",
+    "lat": 17.39905,
+    "lng": 78.56195,
+    "area": "Uppal",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_uppal_depot_main_road",
+    "name": "Uppal Depot Main Road",
+    "lat": 17.39818,
+    "lng": 78.56188,
+    "area": "Uppal",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_uppal_interchange",
+    "name": "Uppal Interchange",
+    "lat": 17.40168,
+    "lng": 78.55928,
+    "area": "Uppal",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_uppal_local_stop",
+    "name": "Uppal Local Stop",
+    "lat": 17.40185,
+    "lng": 78.56005,
+    "area": "Uppal",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_uppal_main_road",
+    "name": "Uppal Main Road",
+    "lat": 17.40098,
+    "lng": 78.55998,
+    "area": "Uppal",
+    "is_interchange": false,
+    "importance": 8
+  },
+  {
+    "id": "stop_vanasthalipuram",
+    "name": "Vanasthalipuram",
+    "lat": 17.3276,
+    "lng": 78.575,
+    "area": "Vanasthalipuram",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_vanasthalipuram_local_stop",
+    "name": "Vanasthalipuram Local Stop",
+    "lat": 17.32805,
+    "lng": 78.57535,
+    "area": "Vanasthalipuram",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_vanasthalipuram_main_road",
+    "name": "Vanasthalipuram Main Road",
+    "lat": 17.32718,
+    "lng": 78.57528,
+    "area": "Vanasthalipuram",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_vidyanagar",
+    "name": "Vidyanagar",
+    "lat": 17.4022,
+    "lng": 78.5138,
+    "area": "Vidyanagar",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_vidyanagar_local_stop",
+    "name": "Vidyanagar Local Stop",
+    "lat": 17.40265,
+    "lng": 78.51415,
+    "area": "Vidyanagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_vidyanagar_main_road",
+    "name": "Vidyanagar Main Road",
+    "lat": 17.40178,
+    "lng": 78.51408,
+    "area": "Vidyanagar",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_waverock",
+    "name": "Waverock",
+    "lat": 17.4266,
+    "lng": 78.3314,
+    "area": "Financial District",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_waverock_local_stop",
+    "name": "Waverock Local Stop",
+    "lat": 17.42705,
+    "lng": 78.33175,
+    "area": "Financial District",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_waverock_main_road",
+    "name": "Waverock Main Road",
+    "lat": 17.42618,
+    "lng": 78.33168,
+    "area": "Financial District",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_west_marredpally",
+    "name": "West Marredpally",
+    "lat": 17.4497,
+    "lng": 78.5056,
+    "area": "Marredpally",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_west_marredpally_local_stop",
+    "name": "West Marredpally Local Stop",
+    "lat": 17.45015,
+    "lng": 78.50595,
+    "area": "Marredpally",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_west_marredpally_main_road",
+    "name": "West Marredpally Main Road",
+    "lat": 17.44928,
+    "lng": 78.50588,
+    "area": "Marredpally",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_yousufguda",
+    "name": "Yousufguda",
+    "lat": 17.4361,
+    "lng": 78.4271,
+    "area": "Yousufguda",
+    "is_interchange": false,
+    "importance": 6
+  },
+  {
+    "id": "stop_yousufguda_local_stop",
+    "name": "Yousufguda Local Stop",
+    "lat": 17.43655,
+    "lng": 78.42745,
+    "area": "Yousufguda",
+    "is_interchange": false,
+    "importance": 4
+  },
+  {
+    "id": "stop_yousufguda_main_road",
+    "name": "Yousufguda Main Road",
+    "lat": 17.43568,
+    "lng": 78.42738,
+    "area": "Yousufguda",
+    "is_interchange": false,
+    "importance": 4
+  }
 ]

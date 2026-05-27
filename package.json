@@ -4,7 +4,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host 0.0.0.0",
+    "predev": "npm --prefix route-engine run build",
+    "dev": "node scripts/dev-all.mjs",
+    "dev:web": "vite --host 0.0.0.0",
+    "dev:route": "npm --prefix route-engine run start",
     "build": "vite build",
     "preview": "vite preview --host 0.0.0.0",
     "lint": "eslint src --ext .js,.jsx"

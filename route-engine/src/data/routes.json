@@ -1,58 +1,5973 @@
 [
-  { "route_no": "10H", "stops": ["Miyapur", "KPHB", "Kukatpally", "Moosapet", "Erragadda", "SR Nagar", "Ameerpet", "Begumpet", "Paradise", "Secunderabad"] },
-  { "route_no": "10K", "stops": ["Kukatpally", "Moosapet", "Bharat Nagar", "Erragadda", "Ameerpet", "Begumpet", "Paradise", "Secunderabad"] },
-  { "route_no": "10Y", "stops": ["Miyapur", "JNTU", "KPHB", "Kukatpally", "Moosapet", "Ameerpet", "Punjagutta", "Lakdikapul", "Koti"] },
-  { "route_no": "16A", "stops": ["Secunderabad", "Tarnaka", "Habsiguda", "Uppal", "Nagole", "AS Rao Nagar", "ECIL"] },
-  { "route_no": "16C", "stops": ["Secunderabad", "Jubilee Bus Station", "Malkajgiri", "Neredmet", "AS Rao Nagar", "ECIL"] },
-  { "route_no": "17H", "stops": ["Uppal", "Habsiguda", "Tarnaka", "Secunderabad", "Paradise", "Begumpet", "Ameerpet", "Punjagutta", "Mehdipatnam"] },
-  { "route_no": "17D", "stops": ["Dilsukhnagar", "Malakpet", "Koti", "RTC X Roads", "Secunderabad", "Tarnaka", "Habsiguda", "Uppal"] },
-  { "route_no": "18R", "stops": ["Uppal", "Ramanthapur", "Amberpet", "Vidyanagar", "RTC X Roads", "Koti", "Afzalgunj"] },
-  { "route_no": "24S", "stops": ["Secunderabad", "Jubilee Bus Station", "Tirumalagiri", "Alwal", "Bolarum"] },
-  { "route_no": "25S", "stops": ["Suchitra", "Bowenpally", "Paradise", "Secunderabad", "RTC X Roads", "Koti", "Afzalgunj", "Charminar", "Chandrayangutta"] },
-  { "route_no": "27E", "stops": ["Jubilee Bus Station", "Secunderabad", "Tarnaka", "Habsiguda", "Uppal", "AS Rao Nagar", "ECIL"] },
-  { "route_no": "29B", "stops": ["Secunderabad", "Paradise", "Bowenpally", "Suchitra", "Kompally"] },
-  { "route_no": "31H", "stops": ["JNTU", "KPHB", "Kukatpally", "Moosapet", "Ameerpet", "Begumpet", "Paradise", "Secunderabad"] },
-  { "route_no": "38X", "stops": ["Secunderabad", "Malkajgiri", "Neredmet", "Sainikpuri", "AS Rao Nagar"] },
-  { "route_no": "47L", "stops": ["Secunderabad", "Paradise", "Begumpet", "Ameerpet", "Punjagutta", "Lakdikapul", "Nampally"] },
-  { "route_no": "49", "stops": ["Secunderabad", "RTC X Roads", "Koti", "Afzalgunj"] },
-  { "route_no": "49M", "stops": ["Secunderabad", "Tank Bund", "Liberty", "Abids", "Koti", "MGBS"] },
-  { "route_no": "65", "stops": ["Charminar", "Afzalgunj", "MGBS", "Nampally", "Lakdikapul", "Masab Tank", "Mehdipatnam"] },
-  { "route_no": "65M", "stops": ["Mehdipatnam", "Masab Tank", "Lakdikapul", "Nampally", "Abids", "Koti", "Afzalgunj", "Charminar"] },
-  { "route_no": "70V", "stops": ["Charminar", "Santosh Nagar", "Saidabad", "Dilsukhnagar", "Chaitanyapuri", "LB Nagar", "Vanasthalipuram"] },
-  { "route_no": "72J", "stops": ["Koti", "Chaderghat", "Malakpet", "Dilsukhnagar", "Kothapet", "LB Nagar"] },
-  { "route_no": "83J", "stops": ["Kachiguda", "Narayanaguda", "Himayatnagar", "Liberty", "Tank Bund", "Secunderabad"] },
-  { "route_no": "90L", "stops": ["LB Nagar", "Kothapet", "Dilsukhnagar", "Malakpet", "Koti", "RTC X Roads", "Secunderabad"] },
-  { "route_no": "90U", "stops": ["LB Nagar", "Nagole", "Uppal", "Habsiguda", "Tarnaka", "Secunderabad"] },
-  { "route_no": "92K", "stops": ["Koti", "Malakpet", "Dilsukhnagar", "Chaitanyapuri", "Kothapet", "LB Nagar", "Hayathnagar"] },
-  { "route_no": "100M", "stops": ["Miyapur", "JNTU", "KPHB", "Kukatpally", "Ameerpet", "Punjagutta", "Lakdikapul", "Nampally", "Koti"] },
-  { "route_no": "113M", "stops": ["Uppal", "Habsiguda", "Tarnaka", "Secunderabad", "Paradise", "Begumpet", "Ameerpet", "Kukatpally", "Miyapur", "Lingampally"] },
-  { "route_no": "113K", "stops": ["Koti", "Abids", "Lakdikapul", "Punjagutta", "Ameerpet", "Kukatpally", "KPHB", "JNTU", "Miyapur"] },
-  { "route_no": "119M", "stops": ["Mehdipatnam", "Tolichowki", "Shaikpet", "Raidurg", "Hitech City", "Kondapur"] },
-  { "route_no": "120K", "stops": ["Koti", "Lakdikapul", "Masab Tank", "Mehdipatnam", "Tolichowki", "Gachibowli", "Kondapur"] },
-  { "route_no": "126M", "stops": ["Mehdipatnam", "Masab Tank", "Lakdikapul", "Punjagutta", "Ameerpet", "SR Nagar", "Erragadda", "Kukatpally"] },
-  { "route_no": "127K", "stops": ["Koti", "Abids", "Lakdikapul", "Punjagutta", "Ameerpet", "Jubilee Hills Check Post", "Madhapur", "Hitech City", "Kondapur"] },
-  { "route_no": "127J", "stops": ["Jubilee Hills Check Post", "Banjara Hills", "Masab Tank", "Lakdikapul", "Nampally", "Koti"] },
-  { "route_no": "156H", "stops": ["Hayathnagar", "LB Nagar", "Kothapet", "Dilsukhnagar", "Malakpet", "Koti", "Afzalgunj"] },
-  { "route_no": "171K", "stops": ["Ghatkesar", "Medipally", "Peerzadiguda", "Boduppal", "Uppal", "Habsiguda", "Tarnaka", "Secunderabad"] },
-  { "route_no": "187D", "stops": ["Dilsukhnagar", "Koti", "Lakdikapul", "Masab Tank", "Mehdipatnam", "Langar Houz", "Golconda"] },
-  { "route_no": "188K", "stops": ["Kukatpally", "KPHB", "JNTU", "Miyapur", "Chandanagar", "Lingampally", "BHEL", "Patancheru"] },
-  { "route_no": "195W", "stops": ["Waverock", "Financial District", "Gachibowli", "Raidurg", "Hitech City", "Madhapur", "Kukatpally"] },
-  { "route_no": "216", "stops": ["Secunderabad", "Paradise", "Begumpet", "Ameerpet", "Kukatpally", "Miyapur", "Chandanagar", "Lingampally", "BHEL", "Patancheru"] },
-  { "route_no": "217", "stops": ["Koti", "Lakdikapul", "Ameerpet", "Kukatpally", "Miyapur", "BHEL", "Patancheru"] },
-  { "route_no": "218D", "stops": ["Dilsukhnagar", "Koti", "Lakdikapul", "Ameerpet", "Kukatpally", "Miyapur", "Lingampally", "Patancheru"] },
-  { "route_no": "219", "stops": ["Secunderabad", "Paradise", "Begumpet", "Ameerpet", "Kukatpally", "JNTU", "Miyapur", "Patancheru"] },
-  { "route_no": "222A", "stops": ["Patancheru", "BHEL", "Lingampally", "Miyapur", "KPHB", "Kukatpally", "Ameerpet", "Lakdikapul", "Afzalgunj", "Charminar"] },
-  { "route_no": "225D", "stops": ["Secunderabad", "Paradise", "Bowenpally", "Suchitra", "Jeedimetla", "Shapur Nagar", "Bachupally"] },
-  { "route_no": "229", "stops": ["Secunderabad", "Jubilee Bus Station", "Tirumalagiri", "Alwal", "Kompally", "Medchal"] },
-  { "route_no": "250C", "stops": ["Secunderabad", "Tarnaka", "Habsiguda", "Uppal", "Peerzadiguda", "Ghatkesar"] },
-  { "route_no": "251M", "stops": ["MGBS", "Afzalgunj", "Charminar", "Chandrayangutta", "Aramghar", "Shamshabad"] },
-  { "route_no": "252S", "stops": ["Koti", "Afzalgunj", "Charminar", "Falaknuma", "Chandrayangutta", "Shamshabad"] },
-  { "route_no": "277D", "stops": ["Dilsukhnagar", "LB Nagar", "Vanasthalipuram", "Hayathnagar"] },
-  { "route_no": "288D", "stops": ["Mehdipatnam", "Attapur", "Aramghar", "Rajendranagar", "Shamshabad"] },
-  { "route_no": "300", "stops": ["Uppal", "Nagole", "LB Nagar", "Dilsukhnagar", "Koti", "Lakdikapul", "Mehdipatnam"] },
-  { "route_no": "300L", "stops": ["LB Nagar", "Nagole", "Uppal", "Habsiguda", "Tarnaka", "Secunderabad", "Paradise"] },
-  { "route_no": "400V", "stops": ["Vanasthalipuram", "LB Nagar", "Nagole", "Uppal", "Tarnaka", "Secunderabad"] },
-  { "route_no": "445M", "stops": ["Mehdipatnam", "Tolichowki", "Gachibowli", "Financial District", "Nanakramguda", "Kokapet"] },
-  { "route_no": "470", "stops": ["Koti", "Lakdikapul", "Ameerpet", "Hitech City", "Gachibowli", "Financial District"] },
-  { "route_no": "505", "stops": ["Secunderabad", "Paradise", "Ameerpet", "Jubilee Hills Check Post", "Raidurg", "Gachibowli"] }
+  {
+    "route_no": "10H",
+    "direction": "Miyapur → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 7,
+    "service_type": "city",
+    "stops": [
+      "Miyapur",
+      "JNTU",
+      "KPHB",
+      "Kukatpally",
+      "Moosapet",
+      "Erragadda",
+      "SR Nagar",
+      "Ameerpet",
+      "Begumpet",
+      "Paradise",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "10K",
+    "direction": "Kukatpally → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Kukatpally",
+      "Moosapet",
+      "Bharat Nagar",
+      "Erragadda",
+      "Ameerpet",
+      "Begumpet",
+      "Paradise",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "10Y",
+    "direction": "Miyapur → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Miyapur",
+      "JNTU",
+      "KPHB",
+      "Kukatpally",
+      "Moosapet",
+      "Ameerpet",
+      "Punjagutta",
+      "Lakdikapul",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "16A",
+    "direction": "Secunderabad → ECIL",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 7,
+    "service_type": "city",
+    "stops": [
+      "Secunderabad",
+      "Tarnaka",
+      "Habsiguda",
+      "Uppal",
+      "Nagole",
+      "AS Rao Nagar",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "16C",
+    "direction": "Secunderabad → ECIL via Malkajgiri",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Secunderabad",
+      "Jubilee Bus Station",
+      "Malkajgiri",
+      "Neredmet",
+      "AS Rao Nagar",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "17D",
+    "direction": "Dilsukhnagar → Uppal",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Dilsukhnagar",
+      "Malakpet",
+      "Koti",
+      "RTC X Roads",
+      "Secunderabad",
+      "Tarnaka",
+      "Habsiguda",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "17H",
+    "direction": "Uppal → Mehdipatnam",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 7,
+    "service_type": "city",
+    "stops": [
+      "Uppal",
+      "Habsiguda",
+      "Tarnaka",
+      "Secunderabad",
+      "Paradise",
+      "Begumpet",
+      "Ameerpet",
+      "Punjagutta",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "18R",
+    "direction": "Uppal → Afzalgunj",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Uppal",
+      "Ramanthapur",
+      "Amberpet",
+      "Vidyanagar",
+      "RTC X Roads",
+      "Koti",
+      "Afzalgunj"
+    ]
+  },
+  {
+    "route_no": "24S",
+    "direction": "Secunderabad → Bolarum",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Secunderabad",
+      "Jubilee Bus Station",
+      "Tirumalagiri",
+      "Alwal",
+      "Bolarum"
+    ]
+  },
+  {
+    "route_no": "25S",
+    "direction": "Suchitra → Chandrayangutta",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Suchitra",
+      "Bowenpally",
+      "Paradise",
+      "Secunderabad",
+      "RTC X Roads",
+      "Koti",
+      "Afzalgunj",
+      "Charminar",
+      "Chandrayangutta"
+    ]
+  },
+  {
+    "route_no": "27E",
+    "direction": "JBS → ECIL",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Jubilee Bus Station",
+      "Secunderabad",
+      "Tarnaka",
+      "Habsiguda",
+      "Uppal",
+      "AS Rao Nagar",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "29B",
+    "direction": "Secunderabad → Kompally",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Secunderabad",
+      "Paradise",
+      "Bowenpally",
+      "Suchitra",
+      "Kompally"
+    ]
+  },
+  {
+    "route_no": "31H",
+    "direction": "JNTU → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 7,
+    "service_type": "city",
+    "stops": [
+      "JNTU",
+      "KPHB",
+      "Kukatpally",
+      "Moosapet",
+      "Ameerpet",
+      "Begumpet",
+      "Paradise",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "38X",
+    "direction": "Secunderabad → AS Rao Nagar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Secunderabad",
+      "Malkajgiri",
+      "Neredmet",
+      "Sainikpuri",
+      "AS Rao Nagar"
+    ]
+  },
+  {
+    "route_no": "47L",
+    "direction": "Secunderabad → Nampally",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Secunderabad",
+      "Paradise",
+      "Begumpet",
+      "Ameerpet",
+      "Punjagutta",
+      "Lakdikapul",
+      "Nampally"
+    ]
+  },
+  {
+    "route_no": "49",
+    "direction": "Secunderabad → Afzalgunj",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Secunderabad",
+      "RTC X Roads",
+      "Koti",
+      "Afzalgunj"
+    ]
+  },
+  {
+    "route_no": "65",
+    "direction": "Charminar → Mehdipatnam",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Charminar",
+      "Afzalgunj",
+      "MGBS",
+      "Nampally",
+      "Lakdikapul",
+      "Masab Tank",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "72J",
+    "direction": "Koti → LB Nagar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Koti",
+      "Chaderghat",
+      "Malakpet",
+      "Dilsukhnagar",
+      "Kothapet",
+      "LB Nagar"
+    ]
+  },
+  {
+    "route_no": "83J",
+    "direction": "Kachiguda → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Kachiguda",
+      "Narayanaguda",
+      "Himayatnagar",
+      "Liberty",
+      "Tank Bund",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "90L",
+    "direction": "LB Nagar → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "LB Nagar",
+      "Kothapet",
+      "Dilsukhnagar",
+      "Malakpet",
+      "Koti",
+      "RTC X Roads",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "90U",
+    "direction": "LB Nagar → Secunderabad via Uppal",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "LB Nagar",
+      "Nagole",
+      "Uppal",
+      "Habsiguda",
+      "Tarnaka",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "100M",
+    "direction": "Miyapur → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Miyapur",
+      "JNTU",
+      "KPHB",
+      "Kukatpally",
+      "Ameerpet",
+      "Punjagutta",
+      "Lakdikapul",
+      "Nampally",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "113M",
+    "direction": "Uppal → Lingampally",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Uppal",
+      "Habsiguda",
+      "Tarnaka",
+      "Secunderabad",
+      "Paradise",
+      "Begumpet",
+      "Ameerpet",
+      "Kukatpally",
+      "Miyapur",
+      "Lingampally"
+    ]
+  },
+  {
+    "route_no": "119M",
+    "direction": "Mehdipatnam → Kondapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Mehdipatnam",
+      "Tolichowki",
+      "Shaikpet",
+      "Raidurg",
+      "Hitech City",
+      "Kondapur"
+    ]
+  },
+  {
+    "route_no": "120K",
+    "direction": "Koti → Kondapur",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Koti",
+      "Lakdikapul",
+      "Masab Tank",
+      "Mehdipatnam",
+      "Tolichowki",
+      "Gachibowli",
+      "Kondapur"
+    ]
+  },
+  {
+    "route_no": "126M",
+    "direction": "Mehdipatnam → Kukatpally",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Mehdipatnam",
+      "Masab Tank",
+      "Lakdikapul",
+      "Punjagutta",
+      "Ameerpet",
+      "SR Nagar",
+      "Erragadda",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "127K",
+    "direction": "Koti → Kondapur",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Koti",
+      "Abids",
+      "Lakdikapul",
+      "Punjagutta",
+      "Ameerpet",
+      "Jubilee Hills Check Post",
+      "Madhapur",
+      "Hitech City",
+      "Kondapur"
+    ]
+  },
+  {
+    "route_no": "156H",
+    "direction": "Hayathnagar → Afzalgunj",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 7,
+    "service_type": "city",
+    "stops": [
+      "Hayathnagar",
+      "LB Nagar",
+      "Kothapet",
+      "Dilsukhnagar",
+      "Malakpet",
+      "Koti",
+      "Afzalgunj"
+    ]
+  },
+  {
+    "route_no": "171K",
+    "direction": "Ghatkesar → Secunderabad",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Ghatkesar",
+      "Medipally",
+      "Peerzadiguda",
+      "Boduppal",
+      "Uppal",
+      "Habsiguda",
+      "Tarnaka",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "187D",
+    "direction": "Dilsukhnagar → Golconda",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Dilsukhnagar",
+      "Koti",
+      "Lakdikapul",
+      "Masab Tank",
+      "Mehdipatnam",
+      "Langar Houz",
+      "Golconda"
+    ]
+  },
+  {
+    "route_no": "188K",
+    "direction": "Kukatpally → Patancheru",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Kukatpally",
+      "KPHB",
+      "JNTU",
+      "Miyapur",
+      "Chandanagar",
+      "Lingampally",
+      "BHEL",
+      "Patancheru"
+    ]
+  },
+  {
+    "route_no": "195W",
+    "direction": "Waverock → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Waverock",
+      "Financial District",
+      "Gachibowli",
+      "Raidurg",
+      "Hitech City",
+      "Madhapur",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "216",
+    "direction": "Secunderabad → Patancheru",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Secunderabad",
+      "Paradise",
+      "Begumpet",
+      "Ameerpet",
+      "Kukatpally",
+      "Miyapur",
+      "Chandanagar",
+      "Lingampally",
+      "BHEL",
+      "Patancheru"
+    ]
+  },
+  {
+    "route_no": "217",
+    "direction": "Koti → Patancheru",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Koti",
+      "Lakdikapul",
+      "Ameerpet",
+      "Kukatpally",
+      "Miyapur",
+      "BHEL",
+      "Patancheru"
+    ]
+  },
+  {
+    "route_no": "218D",
+    "direction": "Dilsukhnagar → Patancheru",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Dilsukhnagar",
+      "Koti",
+      "Lakdikapul",
+      "Ameerpet",
+      "Kukatpally",
+      "Miyapur",
+      "Lingampally",
+      "Patancheru"
+    ]
+  },
+  {
+    "route_no": "219",
+    "direction": "Secunderabad → Patancheru",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Secunderabad",
+      "Paradise",
+      "Begumpet",
+      "Ameerpet",
+      "Kukatpally",
+      "JNTU",
+      "Miyapur",
+      "Patancheru"
+    ]
+  },
+  {
+    "route_no": "222A",
+    "direction": "Patancheru → Charminar",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 7,
+    "service_type": "city",
+    "stops": [
+      "Patancheru",
+      "BHEL",
+      "Lingampally",
+      "Miyapur",
+      "KPHB",
+      "Kukatpally",
+      "Ameerpet",
+      "Lakdikapul",
+      "Afzalgunj",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "225D",
+    "direction": "Secunderabad → Bachupally",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Secunderabad",
+      "Paradise",
+      "Bowenpally",
+      "Suchitra",
+      "Jeedimetla",
+      "Shapur Nagar",
+      "Bachupally"
+    ]
+  },
+  {
+    "route_no": "229",
+    "direction": "Secunderabad → Medchal",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Secunderabad",
+      "Jubilee Bus Station",
+      "Tirumalagiri",
+      "Alwal",
+      "Kompally",
+      "Medchal"
+    ]
+  },
+  {
+    "route_no": "250C",
+    "direction": "Secunderabad → Ghatkesar",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Secunderabad",
+      "Tarnaka",
+      "Habsiguda",
+      "Uppal",
+      "Peerzadiguda",
+      "Ghatkesar"
+    ]
+  },
+  {
+    "route_no": "251M",
+    "direction": "MGBS → Shamshabad",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "MGBS",
+      "Afzalgunj",
+      "Charminar",
+      "Chandrayangutta",
+      "Aramghar",
+      "Shamshabad"
+    ]
+  },
+  {
+    "route_no": "252S",
+    "direction": "Koti → Shamshabad",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Koti",
+      "Afzalgunj",
+      "Charminar",
+      "Falaknuma",
+      "Chandrayangutta",
+      "Shamshabad"
+    ]
+  },
+  {
+    "route_no": "277D",
+    "direction": "Dilsukhnagar → Hayathnagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Dilsukhnagar",
+      "LB Nagar",
+      "Vanasthalipuram",
+      "Hayathnagar"
+    ]
+  },
+  {
+    "route_no": "288D",
+    "direction": "Mehdipatnam → Shamshabad",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Mehdipatnam",
+      "Attapur",
+      "Aramghar",
+      "Rajendranagar",
+      "Shamshabad"
+    ]
+  },
+  {
+    "route_no": "300",
+    "direction": "Uppal → Mehdipatnam",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Uppal",
+      "Nagole",
+      "LB Nagar",
+      "Dilsukhnagar",
+      "Koti",
+      "Lakdikapul",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "445M",
+    "direction": "Mehdipatnam → Kokapet",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Mehdipatnam",
+      "Tolichowki",
+      "Gachibowli",
+      "Financial District",
+      "Nanakramguda",
+      "Kokapet"
+    ]
+  },
+  {
+    "route_no": "470",
+    "direction": "Koti → Financial District",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Koti",
+      "Lakdikapul",
+      "Ameerpet",
+      "Hitech City",
+      "Gachibowli",
+      "Financial District"
+    ]
+  },
+  {
+    "route_no": "505",
+    "direction": "Secunderabad → Gachibowli",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Secunderabad",
+      "Paradise",
+      "Ameerpet",
+      "Jubilee Hills Check Post",
+      "Raidurg",
+      "Gachibowli"
+    ]
+  },
+  {
+    "route_no": "700",
+    "direction": "Miyapur → LB Nagar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Miyapur",
+      "Kukatpally",
+      "Ameerpet",
+      "Secunderabad",
+      "Tarnaka",
+      "Uppal",
+      "LB Nagar"
+    ]
+  },
+  {
+    "route_no": "701R",
+    "direction": "LB Nagar → Miyapur",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "LB Nagar",
+      "Uppal",
+      "Tarnaka",
+      "Secunderabad",
+      "Ameerpet",
+      "Kukatpally",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "702",
+    "direction": "Patancheru → Dilsukhnagar",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Patancheru",
+      "BHEL",
+      "Lingampally",
+      "Miyapur",
+      "KPHB",
+      "Ameerpet",
+      "Koti",
+      "Dilsukhnagar"
+    ]
+  },
+  {
+    "route_no": "703R",
+    "direction": "Dilsukhnagar → Patancheru",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Dilsukhnagar",
+      "Koti",
+      "Ameerpet",
+      "KPHB",
+      "Miyapur",
+      "Lingampally",
+      "BHEL",
+      "Patancheru"
+    ]
+  },
+  {
+    "route_no": "704",
+    "direction": "Gachibowli → ECIL",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Gachibowli",
+      "Hitech City",
+      "Jubilee Hills Check Post",
+      "Ameerpet",
+      "Secunderabad",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "705R",
+    "direction": "ECIL → Gachibowli",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "ECIL",
+      "Secunderabad",
+      "Ameerpet",
+      "Jubilee Hills Check Post",
+      "Hitech City",
+      "Gachibowli"
+    ]
+  },
+  {
+    "route_no": "706",
+    "direction": "Mehdipatnam → Hayathnagar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Mehdipatnam",
+      "Lakdikapul",
+      "Koti",
+      "Dilsukhnagar",
+      "LB Nagar",
+      "Hayathnagar"
+    ]
+  },
+  {
+    "route_no": "707R",
+    "direction": "Hayathnagar → Mehdipatnam",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Hayathnagar",
+      "LB Nagar",
+      "Dilsukhnagar",
+      "Koti",
+      "Lakdikapul",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "708",
+    "direction": "Charminar → Kompally",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Charminar",
+      "MGBS",
+      "Koti",
+      "RTC X Roads",
+      "Secunderabad",
+      "Paradise",
+      "Suchitra",
+      "Kompally"
+    ]
+  },
+  {
+    "route_no": "709R",
+    "direction": "Kompally → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Kompally",
+      "Suchitra",
+      "Paradise",
+      "Secunderabad",
+      "RTC X Roads",
+      "Koti",
+      "MGBS",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "710",
+    "direction": "Airport → Secunderabad",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Airport",
+      "Shamshabad",
+      "Aramghar",
+      "Mehdipatnam",
+      "Lakdikapul",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "711R",
+    "direction": "Secunderabad → Airport",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Secunderabad",
+      "Lakdikapul",
+      "Mehdipatnam",
+      "Aramghar",
+      "Shamshabad",
+      "Airport"
+    ]
+  },
+  {
+    "route_no": "712",
+    "direction": "Airport → Secunderabad",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Airport",
+      "Shamshabad",
+      "Aramghar",
+      "MGBS",
+      "Koti",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "713R",
+    "direction": "Secunderabad → Airport",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Secunderabad",
+      "Koti",
+      "MGBS",
+      "Aramghar",
+      "Shamshabad",
+      "Airport"
+    ]
+  },
+  {
+    "route_no": "714",
+    "direction": "Kokapet → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Kokapet",
+      "Financial District",
+      "Gachibowli",
+      "Raidurg",
+      "Hitech City",
+      "Kukatpally",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "715R",
+    "direction": "Miyapur → Kokapet",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Miyapur",
+      "Kukatpally",
+      "Hitech City",
+      "Raidurg",
+      "Gachibowli",
+      "Financial District",
+      "Kokapet"
+    ]
+  },
+  {
+    "route_no": "716",
+    "direction": "Alwal → Chandrayangutta",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Alwal",
+      "Tirumalagiri",
+      "Secunderabad",
+      "Koti",
+      "Charminar",
+      "Chandrayangutta"
+    ]
+  },
+  {
+    "route_no": "717R",
+    "direction": "Chandrayangutta → Alwal",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Chandrayangutta",
+      "Charminar",
+      "Koti",
+      "Secunderabad",
+      "Tirumalagiri",
+      "Alwal"
+    ]
+  },
+  {
+    "route_no": "718",
+    "direction": "Bachupally → Mehdipatnam",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Bachupally",
+      "Nizampet",
+      "JNTU",
+      "KPHB",
+      "Kukatpally",
+      "Ameerpet",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "719R",
+    "direction": "Mehdipatnam → Bachupally",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "city",
+    "stops": [
+      "Mehdipatnam",
+      "Ameerpet",
+      "Kukatpally",
+      "KPHB",
+      "JNTU",
+      "Nizampet",
+      "Bachupally"
+    ]
+  },
+  {
+    "route_no": "F001",
+    "direction": "Miyapur → Kondapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Miyapur",
+      "Miyapur X Roads",
+      "Miyapur Metro Station",
+      "Allwyn X Roads",
+      "Madinaguda",
+      "Deepthisri Nagar",
+      "Hafeezpet",
+      "Kondapur"
+    ]
+  },
+  {
+    "route_no": "F002",
+    "direction": "Kondapur → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Kondapur",
+      "Hafeezpet",
+      "Deepthisri Nagar",
+      "Madinaguda",
+      "Allwyn X Roads",
+      "Miyapur Metro Station",
+      "Miyapur X Roads",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "F003",
+    "direction": "KPHB → Fatehnagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "KPHB",
+      "KPHB 6th Phase",
+      "JNTU",
+      "Kukatpally",
+      "Kukatpally Y Junction",
+      "Moosapet",
+      "Balanagar",
+      "Fatehnagar"
+    ]
+  },
+  {
+    "route_no": "F004",
+    "direction": "Fatehnagar → KPHB",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Fatehnagar",
+      "Balanagar",
+      "Moosapet",
+      "Kukatpally Y Junction",
+      "Kukatpally",
+      "JNTU",
+      "KPHB 6th Phase",
+      "KPHB"
+    ]
+  },
+  {
+    "route_no": "F005",
+    "direction": "Secunderabad → Bolarum",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Secunderabad",
+      "Clock Tower Secunderabad",
+      "Picket",
+      "Karkhana",
+      "Tirumalagiri",
+      "Lothkunta",
+      "Alwal",
+      "Bolarum"
+    ]
+  },
+  {
+    "route_no": "F006",
+    "direction": "Bolarum → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Bolarum",
+      "Alwal",
+      "Lothkunta",
+      "Tirumalagiri",
+      "Karkhana",
+      "Picket",
+      "Clock Tower Secunderabad",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "F007",
+    "direction": "ECIL → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "ECIL",
+      "Kushaiguda",
+      "Cherlapally",
+      "Mallapur",
+      "Nacharam",
+      "Habsiguda",
+      "Tarnaka",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "F008",
+    "direction": "Secunderabad → ECIL",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Secunderabad",
+      "Tarnaka",
+      "Habsiguda",
+      "Nacharam",
+      "Mallapur",
+      "Cherlapally",
+      "Kushaiguda",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "F009",
+    "direction": "Koti → LB Nagar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Koti",
+      "Sultan Bazar",
+      "Chaderghat",
+      "Malakpet",
+      "Moosarambagh",
+      "Dilsukhnagar",
+      "Chaitanyapuri",
+      "Kothapet",
+      "LB Nagar"
+    ]
+  },
+  {
+    "route_no": "F010",
+    "direction": "LB Nagar → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "LB Nagar",
+      "Kothapet",
+      "Chaitanyapuri",
+      "Dilsukhnagar",
+      "Moosarambagh",
+      "Malakpet",
+      "Chaderghat",
+      "Sultan Bazar",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "F011",
+    "direction": "Charminar → Mehdipatnam",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Charminar",
+      "Pathergatti",
+      "Madina",
+      "Afzalgunj",
+      "MGBS",
+      "Nampally",
+      "Lakdikapul",
+      "Masab Tank",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "F012",
+    "direction": "Mehdipatnam → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Mehdipatnam",
+      "Masab Tank",
+      "Lakdikapul",
+      "Nampally",
+      "MGBS",
+      "Afzalgunj",
+      "Madina",
+      "Pathergatti",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "F013",
+    "direction": "Mehdipatnam → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Mehdipatnam",
+      "Tolichowki",
+      "Salarjung Colony",
+      "Shaikpet",
+      "OU Colony Shaikpet",
+      "Raidurg",
+      "Mindspace",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "F014",
+    "direction": "Hitech City → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Hitech City",
+      "Mindspace",
+      "Raidurg",
+      "OU Colony Shaikpet",
+      "Shaikpet",
+      "Salarjung Colony",
+      "Tolichowki",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "F015",
+    "direction": "Hitech City → Financial District",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Hitech City",
+      "Madhapur",
+      "Image Gardens",
+      "Kothaguda",
+      "Botanical Garden",
+      "Kondapur",
+      "Gachibowli",
+      "Financial District"
+    ]
+  },
+  {
+    "route_no": "F016",
+    "direction": "Financial District → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Financial District",
+      "Gachibowli",
+      "Kondapur",
+      "Botanical Garden",
+      "Kothaguda",
+      "Image Gardens",
+      "Madhapur",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "F017",
+    "direction": "Gachibowli → Manikonda",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Gachibowli",
+      "Indira Nagar Gachibowli",
+      "Nanakramguda",
+      "Waverock",
+      "Financial District",
+      "Kokapet",
+      "Narsingi",
+      "Manikonda"
+    ]
+  },
+  {
+    "route_no": "F018",
+    "direction": "Manikonda → Gachibowli",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Manikonda",
+      "Narsingi",
+      "Kokapet",
+      "Financial District",
+      "Waverock",
+      "Nanakramguda",
+      "Indira Nagar Gachibowli",
+      "Gachibowli"
+    ]
+  },
+  {
+    "route_no": "F019",
+    "direction": "Jubilee Hills Check Post → Punjagutta",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Jubilee Hills Check Post",
+      "Peddamma Temple",
+      "Jubilee Hills Road 36",
+      "Film Nagar",
+      "Banjara Hills Road 12",
+      "Banjara Hills",
+      "Care Hospital",
+      "Punjagutta"
+    ]
+  },
+  {
+    "route_no": "F020",
+    "direction": "Punjagutta → Jubilee Hills Check Post",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Punjagutta",
+      "Care Hospital",
+      "Banjara Hills",
+      "Banjara Hills Road 12",
+      "Film Nagar",
+      "Jubilee Hills Road 36",
+      "Peddamma Temple",
+      "Jubilee Hills Check Post"
+    ]
+  },
+  {
+    "route_no": "F021",
+    "direction": "LB Nagar → Hayathnagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "LB Nagar",
+      "Auto Nagar",
+      "Vanasthalipuram",
+      "Hayathnagar"
+    ]
+  },
+  {
+    "route_no": "F022",
+    "direction": "Hayathnagar → LB Nagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Hayathnagar",
+      "Vanasthalipuram",
+      "Auto Nagar",
+      "LB Nagar"
+    ]
+  },
+  {
+    "route_no": "F023",
+    "direction": "Uppal → Ghatkesar",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Uppal",
+      "Boduppal",
+      "Peerzadiguda",
+      "Medipally",
+      "Ghatkesar"
+    ]
+  },
+  {
+    "route_no": "F024",
+    "direction": "Ghatkesar → Uppal",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Ghatkesar",
+      "Medipally",
+      "Peerzadiguda",
+      "Boduppal",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "F025",
+    "direction": "Paradise → Suraram",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Paradise",
+      "Bowenpally",
+      "Suchitra",
+      "Quthbullapur",
+      "Jeedimetla",
+      "Shapur Nagar",
+      "Suraram"
+    ]
+  },
+  {
+    "route_no": "F026",
+    "direction": "Suraram → Paradise",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Suraram",
+      "Shapur Nagar",
+      "Jeedimetla",
+      "Quthbullapur",
+      "Suchitra",
+      "Bowenpally",
+      "Paradise"
+    ]
+  },
+  {
+    "route_no": "F027",
+    "direction": "Patancheru → Miyapur",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Patancheru",
+      "Isnapur",
+      "Beeramguda",
+      "RC Puram",
+      "BHEL",
+      "Lingampally",
+      "Chandanagar",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "F028",
+    "direction": "Miyapur → Patancheru",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Miyapur",
+      "Chandanagar",
+      "Lingampally",
+      "BHEL",
+      "RC Puram",
+      "Beeramguda",
+      "Isnapur",
+      "Patancheru"
+    ]
+  },
+  {
+    "route_no": "F029",
+    "direction": "Koti → Tarnaka",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Koti",
+      "Himayatnagar",
+      "Narayanaguda",
+      "Kachiguda",
+      "Vidyanagar",
+      "Osmania University",
+      "Tarnaka"
+    ]
+  },
+  {
+    "route_no": "F030",
+    "direction": "Tarnaka → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Tarnaka",
+      "Osmania University",
+      "Vidyanagar",
+      "Kachiguda",
+      "Narayanaguda",
+      "Himayatnagar",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "F031",
+    "direction": "Secunderabad → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Secunderabad",
+      "Gandhi Hospital",
+      "Musheerabad",
+      "RTC X Roads",
+      "Himayatnagar",
+      "Liberty",
+      "Abids",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "F032",
+    "direction": "Koti → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Koti",
+      "Abids",
+      "Liberty",
+      "Himayatnagar",
+      "RTC X Roads",
+      "Musheerabad",
+      "Gandhi Hospital",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "F033",
+    "direction": "MGBS → Airport",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "MGBS",
+      "Aramghar",
+      "Gaganpahad",
+      "Shamshabad",
+      "Airport"
+    ]
+  },
+  {
+    "route_no": "F034",
+    "direction": "Airport → MGBS",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Airport",
+      "Shamshabad",
+      "Gaganpahad",
+      "Aramghar",
+      "MGBS"
+    ]
+  },
+  {
+    "route_no": "F035",
+    "direction": "Mehdipatnam → Airport",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Mehdipatnam",
+      "Attapur",
+      "Aramghar",
+      "Rajendranagar",
+      "Shamshabad",
+      "Airport"
+    ]
+  },
+  {
+    "route_no": "F036",
+    "direction": "Airport → Mehdipatnam",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "feeder",
+    "stops": [
+      "Airport",
+      "Shamshabad",
+      "Rajendranagar",
+      "Aramghar",
+      "Attapur",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S037",
+    "direction": "Miyapur Local Stop → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Miyapur Local Stop",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S038",
+    "direction": "Miyapur Main Road → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Miyapur Main Road",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S039",
+    "direction": "Miyapur Interchange → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Miyapur Interchange",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S040",
+    "direction": "Miyapur X Roads Local Stop → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Miyapur X Roads Local Stop",
+      "Miyapur X Roads",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S041",
+    "direction": "Miyapur X Roads Main Road → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Miyapur X Roads Main Road",
+      "Miyapur X Roads",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S042",
+    "direction": "Miyapur Metro Station Local Stop → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Miyapur Metro Station Local Stop",
+      "Miyapur Metro Station",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S043",
+    "direction": "Miyapur Metro Station Main Road → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Miyapur Metro Station Main Road",
+      "Miyapur Metro Station",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S044",
+    "direction": "Allwyn X Roads Local Stop → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Allwyn X Roads Local Stop",
+      "Allwyn X Roads",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S045",
+    "direction": "Allwyn X Roads Main Road → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Allwyn X Roads Main Road",
+      "Allwyn X Roads",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S046",
+    "direction": "Madinaguda Local Stop → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Madinaguda Local Stop",
+      "Madinaguda",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S047",
+    "direction": "Madinaguda Main Road → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Madinaguda Main Road",
+      "Madinaguda",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S048",
+    "direction": "Deepthisri Nagar Local Stop → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Deepthisri Nagar Local Stop",
+      "Deepthisri Nagar",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S049",
+    "direction": "Deepthisri Nagar Main Road → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Deepthisri Nagar Main Road",
+      "Deepthisri Nagar",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S050",
+    "direction": "Nizampet Local Stop → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Nizampet Local Stop",
+      "Nizampet",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S051",
+    "direction": "Nizampet Main Road → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Nizampet Main Road",
+      "Nizampet",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S052",
+    "direction": "Bachupally Local Stop → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Bachupally Local Stop",
+      "Bachupally",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S053",
+    "direction": "Bachupally Main Road → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Bachupally Main Road",
+      "Bachupally",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S054",
+    "direction": "Pragathi Nagar Local Stop → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Pragathi Nagar Local Stop",
+      "Pragathi Nagar",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S055",
+    "direction": "Pragathi Nagar Main Road → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Pragathi Nagar Main Road",
+      "Pragathi Nagar",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S056",
+    "direction": "Hafeezpet Local Stop → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Hafeezpet Local Stop",
+      "Hafeezpet",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S057",
+    "direction": "Hafeezpet Main Road → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Hafeezpet Main Road",
+      "Hafeezpet",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S058",
+    "direction": "Chandanagar Local Stop → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Chandanagar Local Stop",
+      "Chandanagar",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S059",
+    "direction": "Chandanagar Main Road → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Chandanagar Main Road",
+      "Chandanagar",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S060",
+    "direction": "Lingampally Local Stop → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Lingampally Local Stop",
+      "Lingampally",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S061",
+    "direction": "Lingampally Main Road → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Lingampally Main Road",
+      "Lingampally",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S062",
+    "direction": "Lingampally Interchange → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Lingampally Interchange",
+      "Lingampally",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S063",
+    "direction": "BHEL Local Stop → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "BHEL Local Stop",
+      "BHEL",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S064",
+    "direction": "BHEL Main Road → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "BHEL Main Road",
+      "BHEL",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S065",
+    "direction": "BHEL Interchange → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "BHEL Interchange",
+      "BHEL",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S066",
+    "direction": "RC Puram Local Stop → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "RC Puram Local Stop",
+      "RC Puram",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S067",
+    "direction": "RC Puram Main Road → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "RC Puram Main Road",
+      "RC Puram",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S068",
+    "direction": "Patancheru Local Stop → Miyapur",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Patancheru Local Stop",
+      "Patancheru",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S069",
+    "direction": "Patancheru Main Road → Miyapur",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Patancheru Main Road",
+      "Patancheru",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S070",
+    "direction": "Patancheru Interchange → Miyapur",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Patancheru Interchange",
+      "Patancheru",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S071",
+    "direction": "Isnapur Local Stop → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Isnapur Local Stop",
+      "Isnapur",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S072",
+    "direction": "Isnapur Main Road → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Isnapur Main Road",
+      "Isnapur",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S073",
+    "direction": "Beeramguda Local Stop → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Beeramguda Local Stop",
+      "Beeramguda",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S074",
+    "direction": "Beeramguda Main Road → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Beeramguda Main Road",
+      "Beeramguda",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S075",
+    "direction": "Ashok Nagar BHEL Local Stop → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Ashok Nagar BHEL Local Stop",
+      "Ashok Nagar BHEL",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S076",
+    "direction": "Ashok Nagar BHEL Main Road → Miyapur",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Ashok Nagar BHEL Main Road",
+      "Ashok Nagar BHEL",
+      "Miyapur"
+    ]
+  },
+  {
+    "route_no": "S077",
+    "direction": "JNTU Local Stop → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "JNTU Local Stop",
+      "JNTU",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S078",
+    "direction": "JNTU Main Road → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "JNTU Main Road",
+      "JNTU",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S079",
+    "direction": "JNTU Interchange → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "JNTU Interchange",
+      "JNTU",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S080",
+    "direction": "KPHB Local Stop → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "KPHB Local Stop",
+      "KPHB",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S081",
+    "direction": "KPHB Main Road → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "KPHB Main Road",
+      "KPHB",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S082",
+    "direction": "KPHB Interchange → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "KPHB Interchange",
+      "KPHB",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S083",
+    "direction": "KPHB 6th Phase Local Stop → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "KPHB 6th Phase Local Stop",
+      "KPHB 6th Phase",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S084",
+    "direction": "KPHB 6th Phase Main Road → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "KPHB 6th Phase Main Road",
+      "KPHB 6th Phase",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S085",
+    "direction": "Kukatpally Local Stop → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Kukatpally Local Stop",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S086",
+    "direction": "Kukatpally Main Road → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Kukatpally Main Road",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S087",
+    "direction": "Kukatpally Interchange → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Kukatpally Interchange",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S088",
+    "direction": "Kukatpally Y Junction Local Stop → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Kukatpally Y Junction Local Stop",
+      "Kukatpally Y Junction",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S089",
+    "direction": "Kukatpally Y Junction Main Road → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Kukatpally Y Junction Main Road",
+      "Kukatpally Y Junction",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S090",
+    "direction": "Moosapet Local Stop → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Moosapet Local Stop",
+      "Moosapet",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S091",
+    "direction": "Moosapet Main Road → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Moosapet Main Road",
+      "Moosapet",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S092",
+    "direction": "Balanagar Local Stop → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Balanagar Local Stop",
+      "Balanagar",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S093",
+    "direction": "Balanagar Main Road → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Balanagar Main Road",
+      "Balanagar",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S094",
+    "direction": "Fatehnagar Local Stop → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Fatehnagar Local Stop",
+      "Fatehnagar",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S095",
+    "direction": "Fatehnagar Main Road → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Fatehnagar Main Road",
+      "Fatehnagar",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S096",
+    "direction": "Bharat Nagar Local Stop → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Bharat Nagar Local Stop",
+      "Bharat Nagar",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S097",
+    "direction": "Bharat Nagar Main Road → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Bharat Nagar Main Road",
+      "Bharat Nagar",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S098",
+    "direction": "Erragadda Local Stop → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Erragadda Local Stop",
+      "Erragadda",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S099",
+    "direction": "Erragadda Main Road → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Erragadda Main Road",
+      "Erragadda",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S100",
+    "direction": "ESI Hospital Local Stop → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "ESI Hospital Local Stop",
+      "ESI Hospital",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S101",
+    "direction": "ESI Hospital Main Road → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "ESI Hospital Main Road",
+      "ESI Hospital",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S102",
+    "direction": "SR Nagar Local Stop → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "SR Nagar Local Stop",
+      "SR Nagar",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S103",
+    "direction": "SR Nagar Main Road → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "SR Nagar Main Road",
+      "SR Nagar",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S104",
+    "direction": "Ameerpet Local Stop → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Ameerpet Local Stop",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S105",
+    "direction": "Ameerpet Main Road → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Ameerpet Main Road",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S106",
+    "direction": "Ameerpet Interchange → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Ameerpet Interchange",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S107",
+    "direction": "Mytrivanam Local Stop → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Mytrivanam Local Stop",
+      "Mytrivanam",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S108",
+    "direction": "Mytrivanam Main Road → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Mytrivanam Main Road",
+      "Mytrivanam",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S109",
+    "direction": "Punjagutta Local Stop → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Punjagutta Local Stop",
+      "Punjagutta",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S110",
+    "direction": "Punjagutta Main Road → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Punjagutta Main Road",
+      "Punjagutta",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S111",
+    "direction": "Somajiguda Local Stop → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Somajiguda Local Stop",
+      "Somajiguda",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S112",
+    "direction": "Somajiguda Main Road → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Somajiguda Main Road",
+      "Somajiguda",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S113",
+    "direction": "Khairatabad Local Stop → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Khairatabad Local Stop",
+      "Khairatabad",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S114",
+    "direction": "Khairatabad Main Road → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Khairatabad Main Road",
+      "Khairatabad",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S115",
+    "direction": "Lakdikapul Local Stop → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Lakdikapul Local Stop",
+      "Lakdikapul",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S116",
+    "direction": "Lakdikapul Main Road → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Lakdikapul Main Road",
+      "Lakdikapul",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S117",
+    "direction": "Assembly Local Stop → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Assembly Local Stop",
+      "Assembly",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S118",
+    "direction": "Assembly Main Road → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Assembly Main Road",
+      "Assembly",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S119",
+    "direction": "Nampally Local Stop → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Nampally Local Stop",
+      "Nampally",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S120",
+    "direction": "Nampally Main Road → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Nampally Main Road",
+      "Nampally",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S121",
+    "direction": "Abids Local Stop → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Abids Local Stop",
+      "Abids",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S122",
+    "direction": "Abids Main Road → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Abids Main Road",
+      "Abids",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S123",
+    "direction": "Koti Local Stop → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Koti Local Stop",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S124",
+    "direction": "Koti Main Road → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Koti Main Road",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S125",
+    "direction": "Koti Interchange → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Koti Interchange",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S126",
+    "direction": "Sultan Bazar Local Stop → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Sultan Bazar Local Stop",
+      "Sultan Bazar",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S127",
+    "direction": "Sultan Bazar Main Road → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Sultan Bazar Main Road",
+      "Sultan Bazar",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S128",
+    "direction": "Chaderghat Local Stop → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Chaderghat Local Stop",
+      "Chaderghat",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S129",
+    "direction": "Chaderghat Main Road → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Chaderghat Main Road",
+      "Chaderghat",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S130",
+    "direction": "Malakpet Local Stop → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Malakpet Local Stop",
+      "Malakpet",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S131",
+    "direction": "Malakpet Main Road → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Malakpet Main Road",
+      "Malakpet",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S132",
+    "direction": "Moosarambagh Local Stop → Dilsukhnagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Moosarambagh Local Stop",
+      "Moosarambagh",
+      "Dilsukhnagar"
+    ]
+  },
+  {
+    "route_no": "S133",
+    "direction": "Moosarambagh Main Road → Dilsukhnagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Moosarambagh Main Road",
+      "Moosarambagh",
+      "Dilsukhnagar"
+    ]
+  },
+  {
+    "route_no": "S134",
+    "direction": "Dilsukhnagar Local Stop → Dilsukhnagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Dilsukhnagar Local Stop",
+      "Dilsukhnagar"
+    ]
+  },
+  {
+    "route_no": "S135",
+    "direction": "Dilsukhnagar Main Road → Dilsukhnagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Dilsukhnagar Main Road",
+      "Dilsukhnagar"
+    ]
+  },
+  {
+    "route_no": "S136",
+    "direction": "Dilsukhnagar Interchange → Dilsukhnagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Dilsukhnagar Interchange",
+      "Dilsukhnagar"
+    ]
+  },
+  {
+    "route_no": "S137",
+    "direction": "Chaitanyapuri Local Stop → Dilsukhnagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Chaitanyapuri Local Stop",
+      "Chaitanyapuri",
+      "Dilsukhnagar"
+    ]
+  },
+  {
+    "route_no": "S138",
+    "direction": "Chaitanyapuri Main Road → Dilsukhnagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Chaitanyapuri Main Road",
+      "Chaitanyapuri",
+      "Dilsukhnagar"
+    ]
+  },
+  {
+    "route_no": "S139",
+    "direction": "Kothapet Local Stop → Dilsukhnagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Kothapet Local Stop",
+      "Kothapet",
+      "Dilsukhnagar"
+    ]
+  },
+  {
+    "route_no": "S140",
+    "direction": "Kothapet Main Road → Dilsukhnagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Kothapet Main Road",
+      "Kothapet",
+      "Dilsukhnagar"
+    ]
+  },
+  {
+    "route_no": "S141",
+    "direction": "LB Nagar Local Stop → LB Nagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "LB Nagar Local Stop",
+      "LB Nagar"
+    ]
+  },
+  {
+    "route_no": "S142",
+    "direction": "LB Nagar Main Road → LB Nagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "LB Nagar Main Road",
+      "LB Nagar"
+    ]
+  },
+  {
+    "route_no": "S143",
+    "direction": "LB Nagar Interchange → LB Nagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "LB Nagar Interchange",
+      "LB Nagar"
+    ]
+  },
+  {
+    "route_no": "S144",
+    "direction": "Saroornagar Local Stop → Dilsukhnagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Saroornagar Local Stop",
+      "Saroornagar",
+      "Dilsukhnagar"
+    ]
+  },
+  {
+    "route_no": "S145",
+    "direction": "Saroornagar Main Road → Dilsukhnagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Saroornagar Main Road",
+      "Saroornagar",
+      "Dilsukhnagar"
+    ]
+  },
+  {
+    "route_no": "S146",
+    "direction": "Vanasthalipuram Local Stop → LB Nagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Vanasthalipuram Local Stop",
+      "Vanasthalipuram",
+      "LB Nagar"
+    ]
+  },
+  {
+    "route_no": "S147",
+    "direction": "Vanasthalipuram Main Road → LB Nagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Vanasthalipuram Main Road",
+      "Vanasthalipuram",
+      "LB Nagar"
+    ]
+  },
+  {
+    "route_no": "S148",
+    "direction": "Hayathnagar Local Stop → LB Nagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Hayathnagar Local Stop",
+      "Hayathnagar",
+      "LB Nagar"
+    ]
+  },
+  {
+    "route_no": "S149",
+    "direction": "Hayathnagar Main Road → LB Nagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Hayathnagar Main Road",
+      "Hayathnagar",
+      "LB Nagar"
+    ]
+  },
+  {
+    "route_no": "S150",
+    "direction": "Hayathnagar Interchange → LB Nagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Hayathnagar Interchange",
+      "Hayathnagar",
+      "LB Nagar"
+    ]
+  },
+  {
+    "route_no": "S151",
+    "direction": "Auto Nagar Local Stop → LB Nagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Auto Nagar Local Stop",
+      "Auto Nagar",
+      "LB Nagar"
+    ]
+  },
+  {
+    "route_no": "S152",
+    "direction": "Auto Nagar Main Road → LB Nagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Auto Nagar Main Road",
+      "Auto Nagar",
+      "LB Nagar"
+    ]
+  },
+  {
+    "route_no": "S153",
+    "direction": "Nagole Local Stop → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Nagole Local Stop",
+      "Nagole",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S154",
+    "direction": "Nagole Main Road → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Nagole Main Road",
+      "Nagole",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S155",
+    "direction": "Uppal Local Stop → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Uppal Local Stop",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S156",
+    "direction": "Uppal Main Road → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Uppal Main Road",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S157",
+    "direction": "Uppal Interchange → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Uppal Interchange",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S158",
+    "direction": "Uppal Depot Local Stop → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Uppal Depot Local Stop",
+      "Uppal Depot",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S159",
+    "direction": "Uppal Depot Main Road → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Uppal Depot Main Road",
+      "Uppal Depot",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S160",
+    "direction": "Habsiguda Local Stop → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Habsiguda Local Stop",
+      "Habsiguda",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S161",
+    "direction": "Habsiguda Main Road → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Habsiguda Main Road",
+      "Habsiguda",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S162",
+    "direction": "Tarnaka Local Stop → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Tarnaka Local Stop",
+      "Tarnaka",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S163",
+    "direction": "Tarnaka Main Road → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Tarnaka Main Road",
+      "Tarnaka",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S164",
+    "direction": "Mettuguda Local Stop → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Mettuguda Local Stop",
+      "Mettuguda",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S165",
+    "direction": "Mettuguda Main Road → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Mettuguda Main Road",
+      "Mettuguda",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S166",
+    "direction": "Secunderabad Local Stop → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Secunderabad Local Stop",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S167",
+    "direction": "Secunderabad Main Road → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Secunderabad Main Road",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S168",
+    "direction": "Secunderabad Interchange → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Secunderabad Interchange",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S169",
+    "direction": "Jubilee Bus Station Local Stop → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Jubilee Bus Station Local Stop",
+      "Jubilee Bus Station",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S170",
+    "direction": "Jubilee Bus Station Main Road → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Jubilee Bus Station Main Road",
+      "Jubilee Bus Station",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S171",
+    "direction": "Jubilee Bus Station Interchange → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Jubilee Bus Station Interchange",
+      "Jubilee Bus Station",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S172",
+    "direction": "Paradise Local Stop → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Paradise Local Stop",
+      "Paradise",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S173",
+    "direction": "Paradise Main Road → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Paradise Main Road",
+      "Paradise",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S174",
+    "direction": "Paradise Interchange → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Paradise Interchange",
+      "Paradise",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S175",
+    "direction": "Rasoolpura Local Stop → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Rasoolpura Local Stop",
+      "Rasoolpura",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S176",
+    "direction": "Rasoolpura Main Road → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Rasoolpura Main Road",
+      "Rasoolpura",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S177",
+    "direction": "Begumpet Local Stop → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Begumpet Local Stop",
+      "Begumpet",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S178",
+    "direction": "Begumpet Main Road → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Begumpet Main Road",
+      "Begumpet",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S179",
+    "direction": "Prakash Nagar Local Stop → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Prakash Nagar Local Stop",
+      "Prakash Nagar",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S180",
+    "direction": "Prakash Nagar Main Road → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Prakash Nagar Main Road",
+      "Prakash Nagar",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S181",
+    "direction": "Bowenpally Local Stop → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Bowenpally Local Stop",
+      "Bowenpally",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S182",
+    "direction": "Bowenpally Main Road → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Bowenpally Main Road",
+      "Bowenpally",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S183",
+    "direction": "Suchitra Local Stop → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Suchitra Local Stop",
+      "Suchitra",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S184",
+    "direction": "Suchitra Main Road → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Suchitra Main Road",
+      "Suchitra",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S185",
+    "direction": "Kompally Local Stop → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Kompally Local Stop",
+      "Kompally",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S186",
+    "direction": "Kompally Main Road → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Kompally Main Road",
+      "Kompally",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S187",
+    "direction": "Medchal Local Stop → Kukatpally",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Medchal Local Stop",
+      "Medchal",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S188",
+    "direction": "Medchal Main Road → Kukatpally",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Medchal Main Road",
+      "Medchal",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S189",
+    "direction": "Jeedimetla Local Stop → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Jeedimetla Local Stop",
+      "Jeedimetla",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S190",
+    "direction": "Jeedimetla Main Road → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Jeedimetla Main Road",
+      "Jeedimetla",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S191",
+    "direction": "Shapur Nagar Local Stop → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Shapur Nagar Local Stop",
+      "Shapur Nagar",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S192",
+    "direction": "Shapur Nagar Main Road → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Shapur Nagar Main Road",
+      "Shapur Nagar",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S193",
+    "direction": "Suraram Local Stop → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Suraram Local Stop",
+      "Suraram",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S194",
+    "direction": "Suraram Main Road → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Suraram Main Road",
+      "Suraram",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S195",
+    "direction": "Quthbullapur Local Stop → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Quthbullapur Local Stop",
+      "Quthbullapur",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S196",
+    "direction": "Quthbullapur Main Road → Kukatpally",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Quthbullapur Main Road",
+      "Quthbullapur",
+      "Kukatpally"
+    ]
+  },
+  {
+    "route_no": "S197",
+    "direction": "Tirumalagiri Local Stop → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Tirumalagiri Local Stop",
+      "Tirumalagiri",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S198",
+    "direction": "Tirumalagiri Main Road → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Tirumalagiri Main Road",
+      "Tirumalagiri",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S199",
+    "direction": "Alwal Local Stop → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Alwal Local Stop",
+      "Alwal",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S200",
+    "direction": "Alwal Main Road → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Alwal Main Road",
+      "Alwal",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S201",
+    "direction": "Bolarum Local Stop → ECIL",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Bolarum Local Stop",
+      "Bolarum",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S202",
+    "direction": "Bolarum Main Road → ECIL",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Bolarum Main Road",
+      "Bolarum",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S203",
+    "direction": "Lothkunta Local Stop → ECIL",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Lothkunta Local Stop",
+      "Lothkunta",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S204",
+    "direction": "Lothkunta Main Road → ECIL",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Lothkunta Main Road",
+      "Lothkunta",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S205",
+    "direction": "Malkajgiri Local Stop → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Malkajgiri Local Stop",
+      "Malkajgiri",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S206",
+    "direction": "Malkajgiri Main Road → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Malkajgiri Main Road",
+      "Malkajgiri",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S207",
+    "direction": "Safilguda Local Stop → ECIL",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Safilguda Local Stop",
+      "Safilguda",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S208",
+    "direction": "Safilguda Main Road → ECIL",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Safilguda Main Road",
+      "Safilguda",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S209",
+    "direction": "Neredmet Local Stop → ECIL",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Neredmet Local Stop",
+      "Neredmet",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S210",
+    "direction": "Neredmet Main Road → ECIL",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Neredmet Main Road",
+      "Neredmet",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S211",
+    "direction": "Sainikpuri Local Stop → ECIL",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Sainikpuri Local Stop",
+      "Sainikpuri",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S212",
+    "direction": "Sainikpuri Main Road → ECIL",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Sainikpuri Main Road",
+      "Sainikpuri",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S213",
+    "direction": "AS Rao Nagar Local Stop → ECIL",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "AS Rao Nagar Local Stop",
+      "AS Rao Nagar",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S214",
+    "direction": "AS Rao Nagar Main Road → ECIL",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "AS Rao Nagar Main Road",
+      "AS Rao Nagar",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S215",
+    "direction": "ECIL Local Stop → ECIL",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "ECIL Local Stop",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S216",
+    "direction": "ECIL Main Road → ECIL",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "ECIL Main Road",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S217",
+    "direction": "ECIL Interchange → ECIL",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "ECIL Interchange",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S218",
+    "direction": "Kushaiguda Local Stop → ECIL",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Kushaiguda Local Stop",
+      "Kushaiguda",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S219",
+    "direction": "Kushaiguda Main Road → ECIL",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Kushaiguda Main Road",
+      "Kushaiguda",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S220",
+    "direction": "Cherlapally Local Stop → ECIL",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Cherlapally Local Stop",
+      "Cherlapally",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S221",
+    "direction": "Cherlapally Main Road → ECIL",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Cherlapally Main Road",
+      "Cherlapally",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S222",
+    "direction": "Nacharam Local Stop → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Nacharam Local Stop",
+      "Nacharam",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S223",
+    "direction": "Nacharam Main Road → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Nacharam Main Road",
+      "Nacharam",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S224",
+    "direction": "Mallapur Local Stop → ECIL",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Mallapur Local Stop",
+      "Mallapur",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S225",
+    "direction": "Mallapur Main Road → ECIL",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Mallapur Main Road",
+      "Mallapur",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S226",
+    "direction": "Boduppal Local Stop → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Boduppal Local Stop",
+      "Boduppal",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S227",
+    "direction": "Boduppal Main Road → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Boduppal Main Road",
+      "Boduppal",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S228",
+    "direction": "Peerzadiguda Local Stop → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Peerzadiguda Local Stop",
+      "Peerzadiguda",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S229",
+    "direction": "Peerzadiguda Main Road → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Peerzadiguda Main Road",
+      "Peerzadiguda",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S230",
+    "direction": "Medipally Local Stop → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Medipally Local Stop",
+      "Medipally",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S231",
+    "direction": "Medipally Main Road → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Medipally Main Road",
+      "Medipally",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S232",
+    "direction": "Ghatkesar Local Stop → ECIL",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Ghatkesar Local Stop",
+      "Ghatkesar",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S233",
+    "direction": "Ghatkesar Main Road → ECIL",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Ghatkesar Main Road",
+      "Ghatkesar",
+      "ECIL"
+    ]
+  },
+  {
+    "route_no": "S234",
+    "direction": "Ramanthapur Local Stop → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Ramanthapur Local Stop",
+      "Ramanthapur",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S235",
+    "direction": "Ramanthapur Main Road → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Ramanthapur Main Road",
+      "Ramanthapur",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S236",
+    "direction": "Amberpet Local Stop → Dilsukhnagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Amberpet Local Stop",
+      "Amberpet",
+      "Dilsukhnagar"
+    ]
+  },
+  {
+    "route_no": "S237",
+    "direction": "Amberpet Main Road → Dilsukhnagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Amberpet Main Road",
+      "Amberpet",
+      "Dilsukhnagar"
+    ]
+  },
+  {
+    "route_no": "S238",
+    "direction": "Osmania University Local Stop → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Osmania University Local Stop",
+      "Osmania University",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S239",
+    "direction": "Osmania University Main Road → Uppal",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Osmania University Main Road",
+      "Osmania University",
+      "Uppal"
+    ]
+  },
+  {
+    "route_no": "S240",
+    "direction": "Vidyanagar Local Stop → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Vidyanagar Local Stop",
+      "Vidyanagar",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S241",
+    "direction": "Vidyanagar Main Road → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Vidyanagar Main Road",
+      "Vidyanagar",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S242",
+    "direction": "RTC X Roads Local Stop → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "RTC X Roads Local Stop",
+      "RTC X Roads",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S243",
+    "direction": "RTC X Roads Main Road → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "RTC X Roads Main Road",
+      "RTC X Roads",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S244",
+    "direction": "Musheerabad Local Stop → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Musheerabad Local Stop",
+      "Musheerabad",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S245",
+    "direction": "Musheerabad Main Road → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Musheerabad Main Road",
+      "Musheerabad",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S246",
+    "direction": "Gandhi Hospital Local Stop → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Gandhi Hospital Local Stop",
+      "Gandhi Hospital",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S247",
+    "direction": "Gandhi Hospital Main Road → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Gandhi Hospital Main Road",
+      "Gandhi Hospital",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S248",
+    "direction": "Tank Bund Local Stop → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Tank Bund Local Stop",
+      "Tank Bund",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S249",
+    "direction": "Tank Bund Main Road → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Tank Bund Main Road",
+      "Tank Bund",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S250",
+    "direction": "Liberty Local Stop → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Liberty Local Stop",
+      "Liberty",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S251",
+    "direction": "Liberty Main Road → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Liberty Main Road",
+      "Liberty",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S252",
+    "direction": "Himayatnagar Local Stop → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Himayatnagar Local Stop",
+      "Himayatnagar",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S253",
+    "direction": "Himayatnagar Main Road → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Himayatnagar Main Road",
+      "Himayatnagar",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S254",
+    "direction": "Narayanaguda Local Stop → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Narayanaguda Local Stop",
+      "Narayanaguda",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S255",
+    "direction": "Narayanaguda Main Road → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Narayanaguda Main Road",
+      "Narayanaguda",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S256",
+    "direction": "Kachiguda Local Stop → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Kachiguda Local Stop",
+      "Kachiguda",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S257",
+    "direction": "Kachiguda Main Road → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Kachiguda Main Road",
+      "Kachiguda",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S258",
+    "direction": "MGBS Local Stop → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "MGBS Local Stop",
+      "MGBS",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S259",
+    "direction": "MGBS Main Road → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "MGBS Main Road",
+      "MGBS",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S260",
+    "direction": "MGBS Interchange → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "MGBS Interchange",
+      "MGBS",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S261",
+    "direction": "Imlibun Local Stop → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Imlibun Local Stop",
+      "Imlibun",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S262",
+    "direction": "Imlibun Main Road → Koti",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Imlibun Main Road",
+      "Imlibun",
+      "Koti"
+    ]
+  },
+  {
+    "route_no": "S263",
+    "direction": "Afzalgunj Local Stop → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Afzalgunj Local Stop",
+      "Afzalgunj",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S264",
+    "direction": "Afzalgunj Main Road → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Afzalgunj Main Road",
+      "Afzalgunj",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S265",
+    "direction": "Osmania Hospital Local Stop → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Osmania Hospital Local Stop",
+      "Osmania Hospital",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S266",
+    "direction": "Osmania Hospital Main Road → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Osmania Hospital Main Road",
+      "Osmania Hospital",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S267",
+    "direction": "Charminar Local Stop → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Charminar Local Stop",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S268",
+    "direction": "Charminar Main Road → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Charminar Main Road",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S269",
+    "direction": "Charminar Interchange → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Charminar Interchange",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S270",
+    "direction": "Madina Local Stop → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Madina Local Stop",
+      "Madina",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S271",
+    "direction": "Madina Main Road → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Madina Main Road",
+      "Madina",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S272",
+    "direction": "Pathergatti Local Stop → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Pathergatti Local Stop",
+      "Pathergatti",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S273",
+    "direction": "Pathergatti Main Road → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Pathergatti Main Road",
+      "Pathergatti",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S274",
+    "direction": "Shah Ali Banda Local Stop → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Shah Ali Banda Local Stop",
+      "Shah Ali Banda",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S275",
+    "direction": "Shah Ali Banda Main Road → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Shah Ali Banda Main Road",
+      "Shah Ali Banda",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S276",
+    "direction": "Falaknuma Local Stop → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Falaknuma Local Stop",
+      "Falaknuma",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S277",
+    "direction": "Falaknuma Main Road → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Falaknuma Main Road",
+      "Falaknuma",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S278",
+    "direction": "Chandrayangutta Local Stop → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Chandrayangutta Local Stop",
+      "Chandrayangutta",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S279",
+    "direction": "Chandrayangutta Main Road → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Chandrayangutta Main Road",
+      "Chandrayangutta",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S280",
+    "direction": "Santosh Nagar Local Stop → Dilsukhnagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Santosh Nagar Local Stop",
+      "Santosh Nagar",
+      "Dilsukhnagar"
+    ]
+  },
+  {
+    "route_no": "S281",
+    "direction": "Santosh Nagar Main Road → Dilsukhnagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Santosh Nagar Main Road",
+      "Santosh Nagar",
+      "Dilsukhnagar"
+    ]
+  },
+  {
+    "route_no": "S282",
+    "direction": "Saidabad Local Stop → Dilsukhnagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Saidabad Local Stop",
+      "Saidabad",
+      "Dilsukhnagar"
+    ]
+  },
+  {
+    "route_no": "S283",
+    "direction": "Saidabad Main Road → Dilsukhnagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Saidabad Main Road",
+      "Saidabad",
+      "Dilsukhnagar"
+    ]
+  },
+  {
+    "route_no": "S284",
+    "direction": "IS Sadan Local Stop → Dilsukhnagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "IS Sadan Local Stop",
+      "IS Sadan",
+      "Dilsukhnagar"
+    ]
+  },
+  {
+    "route_no": "S285",
+    "direction": "IS Sadan Main Road → Dilsukhnagar",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "IS Sadan Main Road",
+      "IS Sadan",
+      "Dilsukhnagar"
+    ]
+  },
+  {
+    "route_no": "S286",
+    "direction": "Aramghar Local Stop → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Aramghar Local Stop",
+      "Aramghar",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S287",
+    "direction": "Aramghar Main Road → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Aramghar Main Road",
+      "Aramghar",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S288",
+    "direction": "Attapur Local Stop → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Attapur Local Stop",
+      "Attapur",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S289",
+    "direction": "Attapur Main Road → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Attapur Main Road",
+      "Attapur",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S290",
+    "direction": "Rajendranagar Local Stop → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Rajendranagar Local Stop",
+      "Rajendranagar",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S291",
+    "direction": "Rajendranagar Main Road → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Rajendranagar Main Road",
+      "Rajendranagar",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S292",
+    "direction": "Shamshabad Local Stop → Charminar",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Shamshabad Local Stop",
+      "Shamshabad",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S293",
+    "direction": "Shamshabad Main Road → Charminar",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Shamshabad Main Road",
+      "Shamshabad",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S294",
+    "direction": "Shamshabad Interchange → Charminar",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Shamshabad Interchange",
+      "Shamshabad",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S295",
+    "direction": "Airport Local Stop → Charminar",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Airport Local Stop",
+      "Airport",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S296",
+    "direction": "Airport Main Road → Charminar",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Airport Main Road",
+      "Airport",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S297",
+    "direction": "Airport Interchange → Charminar",
+    "avg_speed_kmph": 28,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Airport Interchange",
+      "Airport",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S298",
+    "direction": "Gaganpahad Local Stop → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Gaganpahad Local Stop",
+      "Gaganpahad",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S299",
+    "direction": "Gaganpahad Main Road → Charminar",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Gaganpahad Main Road",
+      "Gaganpahad",
+      "Charminar"
+    ]
+  },
+  {
+    "route_no": "S300",
+    "direction": "Mehdipatnam Local Stop → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Mehdipatnam Local Stop",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S301",
+    "direction": "Mehdipatnam Main Road → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Mehdipatnam Main Road",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S302",
+    "direction": "Mehdipatnam Interchange → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Mehdipatnam Interchange",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S303",
+    "direction": "Masab Tank Local Stop → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Masab Tank Local Stop",
+      "Masab Tank",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S304",
+    "direction": "Masab Tank Main Road → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Masab Tank Main Road",
+      "Masab Tank",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S305",
+    "direction": "NMDC Local Stop → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "NMDC Local Stop",
+      "NMDC",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S306",
+    "direction": "NMDC Main Road → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "NMDC Main Road",
+      "NMDC",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S307",
+    "direction": "Tolichowki Local Stop → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Tolichowki Local Stop",
+      "Tolichowki",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S308",
+    "direction": "Tolichowki Main Road → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Tolichowki Main Road",
+      "Tolichowki",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S309",
+    "direction": "Salarjung Colony Local Stop → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Salarjung Colony Local Stop",
+      "Salarjung Colony",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S310",
+    "direction": "Salarjung Colony Main Road → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Salarjung Colony Main Road",
+      "Salarjung Colony",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S311",
+    "direction": "Langar Houz Local Stop → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Langar Houz Local Stop",
+      "Langar Houz",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S312",
+    "direction": "Langar Houz Main Road → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Langar Houz Main Road",
+      "Langar Houz",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S313",
+    "direction": "Golconda Local Stop → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Golconda Local Stop",
+      "Golconda",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S314",
+    "direction": "Golconda Main Road → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Golconda Main Road",
+      "Golconda",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S315",
+    "direction": "Shaikpet Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Shaikpet Local Stop",
+      "Shaikpet",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S316",
+    "direction": "Shaikpet Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Shaikpet Main Road",
+      "Shaikpet",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S317",
+    "direction": "OU Colony Shaikpet Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "OU Colony Shaikpet Local Stop",
+      "OU Colony Shaikpet",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S318",
+    "direction": "OU Colony Shaikpet Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "OU Colony Shaikpet Main Road",
+      "OU Colony Shaikpet",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S319",
+    "direction": "Raidurg Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Raidurg Local Stop",
+      "Raidurg",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S320",
+    "direction": "Raidurg Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Raidurg Main Road",
+      "Raidurg",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S321",
+    "direction": "Raidurg Interchange → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Raidurg Interchange",
+      "Raidurg",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S322",
+    "direction": "Mindspace Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Mindspace Local Stop",
+      "Mindspace",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S323",
+    "direction": "Mindspace Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Mindspace Main Road",
+      "Mindspace",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S324",
+    "direction": "Hitech City Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Hitech City Local Stop",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S325",
+    "direction": "Hitech City Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Hitech City Main Road",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S326",
+    "direction": "Hitech City Interchange → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Hitech City Interchange",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S327",
+    "direction": "HITEC City Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "HITEC City Local Stop",
+      "HITEC City",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S328",
+    "direction": "HITEC City Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "HITEC City Main Road",
+      "HITEC City",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S329",
+    "direction": "Hi Tech City Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Hi Tech City Local Stop",
+      "Hi Tech City",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S330",
+    "direction": "Hi Tech City Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Hi Tech City Main Road",
+      "Hi Tech City",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S331",
+    "direction": "Madhapur Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Madhapur Local Stop",
+      "Madhapur",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S332",
+    "direction": "Madhapur Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Madhapur Main Road",
+      "Madhapur",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S333",
+    "direction": "Image Gardens Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Image Gardens Local Stop",
+      "Image Gardens",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S334",
+    "direction": "Image Gardens Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Image Gardens Main Road",
+      "Image Gardens",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S335",
+    "direction": "Kondapur Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Kondapur Local Stop",
+      "Kondapur",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S336",
+    "direction": "Kondapur Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Kondapur Main Road",
+      "Kondapur",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S337",
+    "direction": "Kothaguda Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Kothaguda Local Stop",
+      "Kothaguda",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S338",
+    "direction": "Kothaguda Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Kothaguda Main Road",
+      "Kothaguda",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S339",
+    "direction": "Botanical Garden Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Botanical Garden Local Stop",
+      "Botanical Garden",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S340",
+    "direction": "Botanical Garden Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Botanical Garden Main Road",
+      "Botanical Garden",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S341",
+    "direction": "Gachibowli Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Gachibowli Local Stop",
+      "Gachibowli",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S342",
+    "direction": "Gachibowli Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Gachibowli Main Road",
+      "Gachibowli",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S343",
+    "direction": "Gachibowli Interchange → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Gachibowli Interchange",
+      "Gachibowli",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S344",
+    "direction": "Indira Nagar Gachibowli Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Indira Nagar Gachibowli Local Stop",
+      "Indira Nagar Gachibowli",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S345",
+    "direction": "Indira Nagar Gachibowli Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Indira Nagar Gachibowli Main Road",
+      "Indira Nagar Gachibowli",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S346",
+    "direction": "Nanakramguda Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Nanakramguda Local Stop",
+      "Nanakramguda",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S347",
+    "direction": "Nanakramguda Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Nanakramguda Main Road",
+      "Nanakramguda",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S348",
+    "direction": "Financial District Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Financial District Local Stop",
+      "Financial District",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S349",
+    "direction": "Financial District Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Financial District Main Road",
+      "Financial District",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S350",
+    "direction": "Waverock Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Waverock Local Stop",
+      "Waverock",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S351",
+    "direction": "Waverock Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Waverock Main Road",
+      "Waverock",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S352",
+    "direction": "Kokapet Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Kokapet Local Stop",
+      "Kokapet",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S353",
+    "direction": "Kokapet Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Kokapet Main Road",
+      "Kokapet",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S354",
+    "direction": "Narsingi Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Narsingi Local Stop",
+      "Narsingi",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S355",
+    "direction": "Narsingi Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Narsingi Main Road",
+      "Narsingi",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S356",
+    "direction": "Manikonda Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Manikonda Local Stop",
+      "Manikonda",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S357",
+    "direction": "Manikonda Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Manikonda Main Road",
+      "Manikonda",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S358",
+    "direction": "Puppalaguda Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Puppalaguda Local Stop",
+      "Puppalaguda",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S359",
+    "direction": "Puppalaguda Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Puppalaguda Main Road",
+      "Puppalaguda",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S360",
+    "direction": "Jubilee Hills Check Post Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Jubilee Hills Check Post Local Stop",
+      "Jubilee Hills Check Post",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S361",
+    "direction": "Jubilee Hills Check Post Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Jubilee Hills Check Post Main Road",
+      "Jubilee Hills Check Post",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S362",
+    "direction": "Jubilee Hills Road 36 Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Jubilee Hills Road 36 Local Stop",
+      "Jubilee Hills Road 36",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S363",
+    "direction": "Jubilee Hills Road 36 Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Jubilee Hills Road 36 Main Road",
+      "Jubilee Hills Road 36",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S364",
+    "direction": "Peddamma Temple Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Peddamma Temple Local Stop",
+      "Peddamma Temple",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S365",
+    "direction": "Peddamma Temple Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Peddamma Temple Main Road",
+      "Peddamma Temple",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S366",
+    "direction": "Film Nagar Local Stop → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Film Nagar Local Stop",
+      "Film Nagar",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S367",
+    "direction": "Film Nagar Main Road → Hitech City",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Film Nagar Main Road",
+      "Film Nagar",
+      "Hitech City"
+    ]
+  },
+  {
+    "route_no": "S368",
+    "direction": "Banjara Hills Local Stop → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Banjara Hills Local Stop",
+      "Banjara Hills",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S369",
+    "direction": "Banjara Hills Main Road → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Banjara Hills Main Road",
+      "Banjara Hills",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S370",
+    "direction": "Banjara Hills Road 12 Local Stop → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Banjara Hills Road 12 Local Stop",
+      "Banjara Hills Road 12",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S371",
+    "direction": "Banjara Hills Road 12 Main Road → Mehdipatnam",
+    "avg_speed_kmph": 22,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Banjara Hills Road 12 Main Road",
+      "Banjara Hills Road 12",
+      "Mehdipatnam"
+    ]
+  },
+  {
+    "route_no": "S372",
+    "direction": "Care Hospital Local Stop → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Care Hospital Local Stop",
+      "Care Hospital",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S373",
+    "direction": "Care Hospital Main Road → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Care Hospital Main Road",
+      "Care Hospital",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S374",
+    "direction": "Yousufguda Local Stop → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Yousufguda Local Stop",
+      "Yousufguda",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S375",
+    "direction": "Yousufguda Main Road → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Yousufguda Main Road",
+      "Yousufguda",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S376",
+    "direction": "Madhura Nagar Local Stop → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Madhura Nagar Local Stop",
+      "Madhura Nagar",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S377",
+    "direction": "Madhura Nagar Main Road → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Madhura Nagar Main Road",
+      "Madhura Nagar",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S378",
+    "direction": "Krishna Nagar Local Stop → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Krishna Nagar Local Stop",
+      "Krishna Nagar",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S379",
+    "direction": "Krishna Nagar Main Road → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Krishna Nagar Main Road",
+      "Krishna Nagar",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S380",
+    "direction": "Srinagar Colony Local Stop → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Srinagar Colony Local Stop",
+      "Srinagar Colony",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S381",
+    "direction": "Srinagar Colony Main Road → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Srinagar Colony Main Road",
+      "Srinagar Colony",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S382",
+    "direction": "Karkhana Local Stop → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Karkhana Local Stop",
+      "Karkhana",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S383",
+    "direction": "Karkhana Main Road → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Karkhana Main Road",
+      "Karkhana",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S384",
+    "direction": "Marredpally Local Stop → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Marredpally Local Stop",
+      "Marredpally",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S385",
+    "direction": "Marredpally Main Road → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Marredpally Main Road",
+      "Marredpally",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S386",
+    "direction": "West Marredpally Local Stop → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "West Marredpally Local Stop",
+      "West Marredpally",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S387",
+    "direction": "West Marredpally Main Road → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "West Marredpally Main Road",
+      "West Marredpally",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S388",
+    "direction": "Trimulgherry Local Stop → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Trimulgherry Local Stop",
+      "Trimulgherry",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S389",
+    "direction": "Trimulgherry Main Road → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Trimulgherry Main Road",
+      "Trimulgherry",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S390",
+    "direction": "Hasmathpet Local Stop → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Hasmathpet Local Stop",
+      "Hasmathpet",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S391",
+    "direction": "Hasmathpet Main Road → Ameerpet",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Hasmathpet Main Road",
+      "Hasmathpet",
+      "Ameerpet"
+    ]
+  },
+  {
+    "route_no": "S392",
+    "direction": "Old Bowenpally Local Stop → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Old Bowenpally Local Stop",
+      "Old Bowenpally",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S393",
+    "direction": "Old Bowenpally Main Road → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Old Bowenpally Main Road",
+      "Old Bowenpally",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S394",
+    "direction": "Picket Local Stop → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Picket Local Stop",
+      "Picket",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S395",
+    "direction": "Picket Main Road → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Picket Main Road",
+      "Picket",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S396",
+    "direction": "Clock Tower Secunderabad Local Stop → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Clock Tower Secunderabad Local Stop",
+      "Clock Tower Secunderabad",
+      "Secunderabad"
+    ]
+  },
+  {
+    "route_no": "S397",
+    "direction": "Clock Tower Secunderabad Main Road → Secunderabad",
+    "avg_speed_kmph": 20,
+    "avg_wait_min": 9,
+    "service_type": "local",
+    "stops": [
+      "Clock Tower Secunderabad Main Road",
+      "Clock Tower Secunderabad",
+      "Secunderabad"
+    ]
+  }
 ]

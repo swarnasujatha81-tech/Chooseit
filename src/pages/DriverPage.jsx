@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import toast from 'react-hot-toast';
 import {
-  AlertTriangle, Camera, CheckCircle2, ChevronDown, Eye, EyeOff, Gauge,
+  AlertTriangle, CheckCircle2, ChevronDown, Eye, EyeOff, Gauge,
   MapPin, Navigation, Phone, Power, PowerOff, Send, TrendingUp, User, Users,
 } from 'lucide-react';
 import { backend } from '@/api/firebaseBackend';
@@ -266,12 +266,16 @@ export default function DriverPage() {
           </div>
         )}
         <div className="traffic-alert"><AlertTriangle size={24} /> Stuck in traffic detected</div>
-        <h3>CAMERA OPTIONS</h3>
-        <AICamScanner busId={busId} onCrowdUpdate={handleCrowd} maxCapacity={50} />
-        <div className="external-camera-card">
-          <div><Camera size={30} /></div>
-          <span><b>External Camera</b><small>USB | Bluetooth</small></span>
-        </div>
+        {tracking && (
+          <AICamScanner
+            busId={busId}
+            onCrowdUpdate={handleCrowd}
+            maxCapacity={50}
+            autoStart
+            compact
+            scanIntervalMs={12000}
+          />
+        )}
         <h3>Manual Crowd Override</h3>
         <div className="driver-crowd-grid">
           {Object.entries(crowdMeta).map(([key, meta]) => (

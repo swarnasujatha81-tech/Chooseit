@@ -1322,6 +1322,39 @@ button:disabled { opacity: .45; cursor: not-allowed; }
   border-radius: 18px;
   font-size: 18px;
 }
+.driver-dashboard-flow .driver-auto-camera {
+  max-width: 460px;
+  overflow: hidden;
+}
+.driver-dashboard-flow .driver-auto-camera .panel-head {
+  min-height: 58px;
+  padding: 0 18px;
+}
+.driver-dashboard-flow .driver-auto-camera .camera-box {
+  aspect-ratio: 16 / 9;
+}
+.driver-dashboard-flow .driver-auto-camera .result-row {
+  min-height: 58px;
+  padding: 10px 18px;
+  font-size: 15px;
+}
+.ai-photo-result {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 18px 0;
+  color: #94a3b8;
+  font-size: 14px;
+  font-weight: 800;
+}
+.ai-photo-result img {
+  width: 92px;
+  aspect-ratio: 16 / 10;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 1px solid rgba(148, 163, 184, .28);
+}
 .external-camera-card {
   min-height: 118px;
   border: 1px solid rgba(71, 85, 105, .82);

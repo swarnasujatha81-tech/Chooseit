@@ -3,6 +3,7 @@ import { AlertCircle, CheckCircle2, MapPin, RefreshCw, Route, X } from 'lucide-r
 import { haversine, STOPS } from '@/data';
 
 const DEFAULT_ORIGIN = { lat: 17.4937, lng: 78.3934 };
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080';
 
 const getNearest = (point) => STOPS
   .map((stop) => ({ ...stop, distance: haversine(point.lat, point.lng, stop.lat, stop.lng) }))
@@ -113,7 +114,7 @@ const normalizeJourneyPlan = (data, activeBusCount) => {
 
 const getApiErrorMessage = (error) => {
   if (error?.name === 'AbortError') return '';
-  return 'Route engine is not reachable. Start the backend on localhost:8080 and retry.';
+  return `Route engine is not reachable. Start the backend on ${API_BASE_URL} and retry.`;
 };
 
 export default function JourneyPlanner({ buses = [], userLocation, destinationPin, pinMode, onEnablePinMode, onClose }) {
@@ -134,10 +135,18 @@ export default function JourneyPlanner({ buses = [], userLocation, destinationPi
   const [retryNonce, setRetryNonce] = useState(0);
 
   useEffect(() => {
+    const intervalId = window.setInterval(() => {
+      setHealthNonce((value) => value + 1);
+    }, 5000);
+
+    return () => window.clearInterval(intervalId);
+  }, []);
+
+  useEffect(() => {
     const controller = new AbortController();
     setBackendStatus('checking');
 
-    fetch(`${import.meta.env.VITE_API_URL}/health`, { signal: controller.signal })
+    fetch(`${API_BASE_URL}/health`, { signal: controller.signal })
       .then((response) => {
         if (!response.ok) throw new Error(`Health check failed with ${response.status}`);
         return response.json();
@@ -170,7 +179,7 @@ export default function JourneyPlanner({ buses = [], userLocation, destinationPi
     setError('');
     setPlan(null);
 
-    fetch(`${import.meta.env.VITE_API_URL}/plan-journey`, {
+    fetch(`${API_BASE_URL}/plan-journey`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
