@@ -93,6 +93,8 @@ export default function DriverPage() {
   const [crowdLevel, setCrowdLevel] = useState('empty');
   const [passengerCount, setPassengerCount] = useState(0);
   const [routeOpen, setRouteOpen] = useState(false);
+  const [cameraAllowed, setCameraAllowed] = useState(false);
+  const [cameraPanelOpen, setCameraPanelOpen] = useState(false);
 
   useEffect(() => {
     const session = loadJson(SESSION_KEY, null);
@@ -205,6 +207,36 @@ export default function DriverPage() {
     }
   };
 
+  const requestCameraPermission = async () => {
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+      toast.error('Camera not supported on this device.');
+      return false;
+    }
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ video: true, audio: false });
+      stream.getTracks().forEach((t) => t.stop());
+      setCameraAllowed(true);
+      return true;
+    } catch (e) {
+      setCameraAllowed(false);
+      toast.error('Camera permission required to start GPS tracking.');
+      return false;
+    }
+  };
+
+  const openCameraPanel = () => {
+    setCameraPanelOpen(true);
+  };
+
+  const handleStartClick = async () => {
+    // ensure camera permission before starting GPS tracking
+    if (!cameraAllowed) {
+      const ok = await requestCameraPermission();
+      if (!ok) return;
+    }
+    await startTracking();
+  };
+
   const stopTracking = async () => {
     if (watchId.current) navigator.geolocation.clearWatch(watchId.current);
     clearInterval(heartbeat.current);
@@ -265,17 +297,29 @@ export default function DriverPage() {
             <span>{coords.latitude.toFixed(5)}, {coords.longitude.toFixed(5)}</span>
           </div>
         )}
-        <div className="traffic-alert"><AlertTriangle size={24} /> Stuck in traffic detected</div>
-        {tracking && (
+        <button className="primary-btn wide" onClick={openCameraPanel} disabled={tracking}>
+          {cameraAllowed ? 'Camera Ready' : 'Open Camera'}
+        </button>
+        {cameraPanelOpen && (
           <AICamScanner
             busId={busId}
             onCrowdUpdate={handleCrowd}
+            onCameraReady={() => setCameraAllowed(true)}
+            onCameraError={() => setCameraAllowed(false)}
             maxCapacity={50}
             autoStart
             compact
-            scanIntervalMs={12000}
+            scanIntervalMs={10000}
           />
         )}
+        <div className="driver-location-card">
+          <Users size={30} />
+          <div>
+            <span>People found in photo</span>
+            <strong>{passengerCount}</strong>
+          </div>
+        </div>
+        <div className="traffic-alert"><AlertTriangle size={24} /> Stuck in traffic detected</div>
         <h3>Manual Crowd Override</h3>
         <div className="driver-crowd-grid">
           {Object.entries(crowdMeta).map(([key, meta]) => (
@@ -284,7 +328,7 @@ export default function DriverPage() {
             </button>
           ))}
         </div>
-        <button className={tracking ? 'driver-stop-btn' : 'driver-start-btn'} onClick={tracking ? stopTracking : startTracking}>
+        <button className={tracking ? 'driver-stop-btn' : 'driver-start-btn'} onClick={tracking ? stopTracking : handleStartClick} disabled={!tracking && !cameraAllowed}>
           {tracking ? <PowerOff size={34} /> : <Power size={34} />}
           {tracking ? 'Stop GPS Tracking' : 'Start GPS Tracking'}
         </button>

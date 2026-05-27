@@ -9,6 +9,8 @@ export default function AICamScanner({
   busId,
   maxCapacity = 50,
   onCrowdUpdate,
+  onCameraReady,
+  onCameraError,
   autoEnabled = true,
   autoStart = false,
   compact = false,
@@ -20,12 +22,15 @@ export default function AICamScanner({
   const scanTimerRef = useRef(null);
   const countTimerRef = useRef(null);
   const autoStartAttemptedRef = useRef(false);
+  const modelRef = useRef(null);
+  const modelLoadedRef = useRef(false);
   const [active, setActive] = useState(false);
   const [scanning, setScanning] = useState(false);
   const [countdown, setCountdown] = useState(Math.round(scanIntervalMs / 1000));
   const [lastResult, setLastResult] = useState(null);
-  const [lastPhoto, setLastPhoto] = useState('');
   const [error, setError] = useState('');
+
+  const [modelLoading, setModelLoading] = useState(false);
 
   const captureDataUrl = async () => {
     const video = videoRef.current;
@@ -37,19 +42,53 @@ export default function AICamScanner({
     return canvas.toDataURL('image/jpeg', 0.82);
   };
 
+  const loadLocalModel = useCallback(async () => {
+    if (modelLoadedRef.current) return;
+    setModelLoading(true);
+    try {
+      await import('@tensorflow/tfjs');
+      const coco = await import('@tensorflow-models/coco-ssd');
+      // load the model (uses WebGL backend if available)
+      modelRef.current = await coco.load({ base: 'lite_mobilenet_v2' });
+      modelLoadedRef.current = true;
+    } catch (e) {
+      console.warn('Local model load failed:', e);
+      setError('Local model load failed. Falling back to server analysis.');
+    } finally {
+      setModelLoading(false);
+    }
+  }, []);
+
   const captureAndAnalyze = useCallback(async () => {
     if (scanning) return;
     setScanning(true);
     setError('');
     try {
-      const imageDataUrl = await captureDataUrl();
-      if (!imageDataUrl) throw new Error('Camera is not ready yet.');
-      const result = await backend.ai.analyzePassengerImage({ imageDataUrl, maxCapacity });
-      const count = Math.max(0, Number(result?.count || 0));
-      const crowdLevel = result?.crowd_level || crowdFromCount(count, maxCapacity);
+      const video = videoRef.current;
+      const canvas = canvasRef.current;
+      if (!video || !canvas || video.readyState < 2) throw new Error('Camera is not ready yet.');
+      // draw current frame
+      canvas.width = video.videoWidth || 640;
+      canvas.height = video.videoHeight || 480;
+      const ctx = canvas.getContext('2d');
+      ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+      let count = 0;
+      // run local model if available
+      if (modelRef.current) {
+        const predictions = await modelRef.current.detect(canvas);
+        const people = predictions.filter((p) => p.class === 'person' && p.score > 0.5);
+        count = people.length;
+      } else {
+        // fallback to server-side analysis without storing the photo locally
+        const imageDataUrl = canvas.toDataURL('image/jpeg', 0.82);
+        const result = await backend.ai.analyzePassengerImage({ imageDataUrl, maxCapacity });
+        count = Math.max(0, Number(result?.count || 0));
+      }
+
+      const crowdLevel = crowdFromCount(count, maxCapacity);
       const meta = crowdMeta[crowdLevel] || crowdMeta.available;
-      setLastPhoto(imageDataUrl);
-      setLastResult({ count, relevant: result?.relevant !== false, crowdLevel, meta });
+      setLastResult({ count, relevant: true, crowdLevel, meta });
       setCountdown(Math.round(scanIntervalMs / 1000));
       if (busId) {
         await backend.entities.Bus.update(busId, { passenger_count: count, crowd_level: crowdLevel });
@@ -60,7 +99,7 @@ export default function AICamScanner({
     } finally {
       setScanning(false);
     }
-  }, [busId, maxCapacity, onCrowdUpdate, scanIntervalMs, scanning]);
+  }, [busId, maxCapacity, onCrowdUpdate, scanIntervalMs, scanning, loadLocalModel]);
 
   const startCamera = useCallback(async () => {
     try {
@@ -73,8 +112,12 @@ export default function AICamScanner({
       videoRef.current.srcObject = stream;
       await videoRef.current.play();
       setActive(true);
+      onCameraReady?.();
+      // start loading local model in background for on-device counting
+      loadLocalModel().catch(() => {});
     } catch {
       setError('Camera access denied. Please allow camera permission.');
+      onCameraError?.();
     }
   }, []);
 
@@ -128,12 +171,7 @@ export default function AICamScanner({
         {scanning && <div className="scan-flash" />}
         {active && <span className="count-chip">{scanning ? 'Scanning...' : `Next scan ${countdown}s`}</span>}
       </div>
-      {lastPhoto && (
-        <div className="ai-photo-result">
-          <img src={lastPhoto} alt="Latest passenger count capture" />
-          <span>Latest photo</span>
-        </div>
-      )}
+      {modelLoading && <div className="ai-photo-result"><span>Loading model…</span></div>}
       <div className="result-row">
         {error && <span className="error-text"><AlertCircle size={15} /> {error}</span>}
         {!error && lastResult && (

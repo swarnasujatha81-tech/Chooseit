@@ -4,6 +4,7 @@ import { haversine, STOPS } from '@/data';
 
 const DEFAULT_ORIGIN = { lat: 17.4937, lng: 78.3934 };
 const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080';
+const DEFAULT_BACKEND_PORTS = [8080, 8081, 8082, 8083, 8084, 8085];
 
 const getNearest = (point) => STOPS
   .map((stop) => ({ ...stop, distance: haversine(point.lat, point.lng, stop.lat, stop.lng) }))
@@ -112,9 +113,9 @@ const normalizeJourneyPlan = (data, activeBusCount) => {
   };
 };
 
-const getApiErrorMessage = (error) => {
+const getApiErrorMessage = (error, baseUrl = API_BASE_URL) => {
   if (error?.name === 'AbortError') return '';
-  return `Route engine is not reachable. Start the backend on ${API_BASE_URL} and retry.`;
+  return `Route engine is not reachable. Start the backend on ${baseUrl} and retry.`;
 };
 
 export default function JourneyPlanner({ buses = [], userLocation, destinationPin, pinMode, onEnablePinMode, onClose }) {
@@ -131,6 +132,7 @@ export default function JourneyPlanner({ buses = [], userLocation, destinationPi
   const [error, setError] = useState('');
   const [backendConnected, setBackendConnected] = useState(false);
   const [backendStatus, setBackendStatus] = useState('checking');
+  const [apiBase, setApiBase] = useState(API_BASE_URL);
   const [healthNonce, setHealthNonce] = useState(0);
   const [retryNonce, setRetryNonce] = useState(0);
 
@@ -143,28 +145,36 @@ export default function JourneyPlanner({ buses = [], userLocation, destinationPi
   }, []);
 
   useEffect(() => {
-    const controller = new AbortController();
-    setBackendStatus('checking');
+    let aborted = false;
+    (async () => {
+      setBackendStatus('checking');
+      // candidate URLs: configured VITE_API_URL first, then localhost ports
+      const candidates = [];
+      if (import.meta.env.VITE_API_URL) candidates.push(import.meta.env.VITE_API_URL.replace(/\/$/, ''));
+      DEFAULT_BACKEND_PORTS.forEach((p) => candidates.push(`http://localhost:${p}`));
 
-    fetch(`${API_BASE_URL}/health`, { signal: controller.signal })
-      .then((response) => {
-        if (!response.ok) throw new Error(`Health check failed with ${response.status}`);
-        return response.json();
-      })
-      .then(() => {
-        setBackendConnected(true);
-        setBackendStatus('connected');
-      })
-      .catch((healthError) => {
-        if (healthError.name === 'AbortError') return;
-        console.error('Journey API Health Error:', healthError);
-        setBackendConnected(false);
-        setBackendStatus('disconnected');
-      });
+      for (const base of candidates) {
+        if (aborted) return;
+        try {
+          const controller = new AbortController();
+          const timer = setTimeout(() => controller.abort(), 2000);
+          const res = await fetch(`${base}/health`, { signal: controller.signal });
+          clearTimeout(timer);
+          if (res.ok) {
+            setApiBase(base);
+            setBackendConnected(true);
+            setBackendStatus('connected');
+            return;
+          }
+        } catch (e) {
+          // try next
+        }
+      }
+      setBackendConnected(false);
+      setBackendStatus('disconnected');
+    })();
 
-    return () => {
-      controller.abort();
-    };
+    return () => { aborted = true; };
   }, [healthNonce]);
 
   useEffect(() => {
@@ -174,12 +184,20 @@ export default function JourneyPlanner({ buses = [], userLocation, destinationPi
       return undefined;
     }
 
+    // If origin and destination's nearest major stop are the same, avoid calling backend
+    if (endStop && startStop && endStop.name === startStop.name) {
+      setPlan(null);
+      setLoading(false);
+      setError('Destination is the same as your origin. Drop a destination marker farther away or choose a different stop.');
+      return undefined;
+    }
+
     const controller = new AbortController();
     setLoading(true);
     setError('');
     setPlan(null);
 
-    fetch(`${API_BASE_URL}/plan-journey`, {
+    fetch(`${apiBase}/plan-journey`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -210,7 +228,7 @@ export default function JourneyPlanner({ buses = [], userLocation, destinationPi
         console.error('Journey API Error:', apiError);
         setBackendConnected(false);
         setBackendStatus('disconnected');
-        setError(getApiErrorMessage(apiError));
+        setError(getApiErrorMessage(apiError, apiBase));
       })
       .finally(() => {
         if (!controller.signal.aborted) setLoading(false);

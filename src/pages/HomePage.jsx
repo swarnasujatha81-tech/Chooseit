@@ -64,8 +64,10 @@ export default function HomePage() {
   };
 
   const dropDestinationPin = (pin) => {
+    // Set both the map marker (`destinationPin`) so it appears immediately,
+    // and the planner destination (`journeyDestination`) used by JourneyPlanner.
     setJourneyDestination(pin);
-    setDestinationPin(null);
+    setDestinationPin(pin);
     setPinMode(false);
     setShowJourney(true);
   };
